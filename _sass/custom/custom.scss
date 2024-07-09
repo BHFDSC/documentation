@@ -1,0 +1,72 @@
+.side-bar {
+  color: #EEE8FF;
+  background-color: #EEE8FF;
+  background-image: none;
+  transition: none; 
+ }
+
+
+.side-bar a {
+}
+
+.side-bar a:hover {
+  background-color: none;
+    background-image: none;
+  transition: none; 
+}
+
+.a.site-title.lh-tight {
+  color: #A0003C !important;
+}
+
+.a.site-title.lh-tight:hover {
+  background-color: none !important;
+}
+
+a.site-title.lh-tight {
+  color: #A0003C !important;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+  background-color: none;
+  background-image: none;
+  transition: none; 
+}
+
+
+a.nav-list-link active{
+  background-image:linear-gradient(-90deg, #E5DCFE 0%, #E5DCFE 80%, #E5DCFE 100%);
+  min-height: 2rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.a.nav-list-link active{
+  background-image:linear-gradient(-90deg, #E5DCFE 0%, #E5DCFE 80%, #E5DCFE 100%);
+  min-height: 2rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active{
+  background-image:linear-gradient(-90deg, #E5DCFE 0%, #E5DCFE 80%, #E5DCFE 100%);
+  min-height: 2rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+  
+.nav-list .nav-list-item .nav-list-link{
+  min-height: 2rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+}
