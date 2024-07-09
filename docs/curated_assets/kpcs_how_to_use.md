@@ -52,7 +52,7 @@ demographics_table = spark.table(f'{dsa}.hds_curated_assets__demographics_2024_0
 
 # Available Versions
 
-Note that on occassions where not all underlying data sources are available as at the most recent archived_on_date, we fall back to the next most recent version, e.g. GDPPR, Deaths and Vaccine Status were not provisioned as at 2024-06-04 so their versions as at 2024-05-28 are used instead.
+Note that on occassions where not all underlying data sources are available as at the most recent archived_on_date, we fall back to the next most recent version, e.g. GDPPR, Deaths and Vaccine Status were not provisioned as at 2024-06-04 so their versions as at 2024-05-28 are used in the batch provisioned as at June 2024.
 
 | Month Year       | archived_on_date | Version |
 | :------------ | :-------------- | :----- |
