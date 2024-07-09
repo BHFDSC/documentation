@@ -70,3 +70,14 @@ a.nav-list-link active{
   padding-left: 0.5rem;
   margin-left: 1.5rem;
 }
+
+
+
+nav-list-expander btn-reset{
+  background-image:linear-gradient(-90deg, #E5DCFE 0%, #E5DCFE 80%, #E5DCFE 100%);
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover{
+  background-image:linear-gradient(-90deg, #E5DCFE 0%, #E5DCFE 80%, #E5DCFE 100%);
+}
+  
