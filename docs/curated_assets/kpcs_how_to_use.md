@@ -53,7 +53,7 @@ demographics_table = spark.table(f'{dsa}.hds_curated_assets__demographics_2024_0
 # Available Versions
 
 | Month Year       | archived_on_date | Version |
-|:-----------------------|:--------------------|
+|:-----------------------|:--------------------| :--------------------|
 | June 2024  | 2024-06-04                   | Stable
 | May 2024   | 2024-05-28                  | Stable
 | April 2024 | 2024-04-25                  | Beta
