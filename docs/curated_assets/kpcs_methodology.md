@@ -33,6 +33,7 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 
 * Date of Birth is only ever accurate to month and year and imputed with Day = 01
 * For HES OP, HES AE and SSNAP, an imputation algorithm is applied to derive Date of Birth from Age. Age represents completed years therefore, an upward adjustment of 0.5 years has been applied to approximate fractional ages.
+* LSOA is sourced from LSOA as at 2011. Please note that we do not currently clean LSOA's that are not LSOA 2011. If the demographics table includes LSOAs from the 2001 census, these are derived from the original data sources. We are developing a version that will align 2001 LSOAs with their 2011 equivalents, ensuring that discrepancies in 2001 LSOA data within the 2011 columns are addressed and cleaned up.
 
 {: .new}
 GDPPR is derived from a JOURNALS (coded data) and PATIENTS (demographic) table whereby the latter contains the most up-to-date view of a patient’s demographics. Thus, demographics in GDPPR are not record specific. Using the latest batch of the extract will include the characteristic only as at its most recent recording but accessing all batches allows a person’s full history to be captured. 
