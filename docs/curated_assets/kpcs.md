@@ -52,3 +52,4 @@ The curated assets have the following characteristics of interest:
 | Death                  |                     |                   | ✔                  |
 |   - Date of Death      |                     |                   | ✔                  |
 | In GDPPR               |                     |                   | ✔                  |
+|   - GDPPR min date     |                     |                   | ✔                  |
