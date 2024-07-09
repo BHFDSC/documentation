@@ -48,3 +48,13 @@ dsa = f'dsa_391419_j3w9t_collab'
 demographics_table = spark.table(f'{dsa}.hds_curated_assets__demographics_2024_04_25')
 ```
 {% endhighlight %}
+
+
+# Available Versions
+
+| Month Year       | archived_on_date | Version |
+|------------------------|---------------------|
+| June 2024  | 2024-06-04                   | Stable
+| May 2024   | 2024-05-28                  | Stable
+| April 2024 | 2024-04-25                  | Beta
+| March 2024 | 2024-03-27                  | Beta
