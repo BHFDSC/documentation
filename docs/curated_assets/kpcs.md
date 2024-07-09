@@ -35,8 +35,7 @@ The above functions are run at a population wide level which is a lot of compute
 * **Individual tables** - curated for each patient characteristic as at each provisioning month. It is curated from the multisource table by applying a HDS selection algorithm. The algorithm selects one record per characteristic per person (one row per person).
 
 * **Demographics table** - brings together the individual tables that were curated for each characteristic into one demographics table. 
-
-CHANGE 
+ 
 ## Characteristics of Interest
 
 The curated assets have the following characteristics of interest:
