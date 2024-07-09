@@ -6,7 +6,6 @@ permalink: /
 ---
 
 # Welcome 👋
-# All hail king fionna- breaker of chains
 
 
 ## Meet the Team
