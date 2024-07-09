@@ -13,7 +13,7 @@ Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) gui
 
 ## Motivation
 
-The key patient characteristic (kpc) tables are **[monthly]({% link resources/kpcs_how_to_use.md %}#available-versions)** curated assets that have been developed to meet the need for a standardised demographics table that is accessible and usable by all projects. You may want to use these assets as part of your project pipeline or for exploratory data analyses purposes.
+The key patient characteristic (kpc) tables are **[monthly]({% link curated_assets/kpcs_how_to_use.md %}#available-versions)** curated assets that have been developed to meet the need for a standardised demographics table that is accessible and usable by all projects. You may want to use these assets as part of your project pipeline or for exploratory data analyses purposes.
 
  
 Previously, kpc's could be curated using:
