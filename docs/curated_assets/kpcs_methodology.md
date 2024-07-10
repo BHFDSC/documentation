@@ -9,9 +9,7 @@ permalink: /curated_assets/kpcs/methodology
 
 # Methodology
 
-[View code on GitHub](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
-[Code Repo for KPCs]: [https://github.com/BHFDSC](https://github.com/BHFDSC)
+<a href="https://github.com/BHFDSC" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
 
 
 ---
