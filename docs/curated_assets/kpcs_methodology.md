@@ -121,11 +121,11 @@ We remove row 9 because the Record Date is NULL.
 
 **Data Resctictions** <span class="label label-purple">Available as function arguments</span>
 
-* Filter out data sources from the multisource table that are not used in the HDS selection algorithm. The data sources in the multisource table will grow over time. Our selection algorithm will **only use GDPPR, HES APC, HES OP and HES AE**.
-
 * Record date must be ≥ 1900-01-01 
 
 * Record date must be ≤ most recent archived_on date (the max archived_on date for each data source is considered)
+
+* We apply no data source restrictions. That is we consider all data sources that are in the multisource table. You may choose to use these functions and filter for a subset of data sources.
 
 ### Example
 
