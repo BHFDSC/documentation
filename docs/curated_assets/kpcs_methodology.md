@@ -11,7 +11,8 @@ permalink: /curated_assets/kpcs/methodology
 
 [View code on GitHub](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-[Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
+[Code Repo for KPCs]: [https://github.com/BHFDSC](https://github.com/BHFDSC)
+
 
 ---
 
@@ -125,25 +126,18 @@ We remove row 9 because the Record Date is NULL.
 
 * Record date must be ≤ most recent archived_on date (the max archived_on date for each data source is considered)
 
-* We apply no data source restrictions. That is we consider all data sources that are in the multisource table. You may choose to use these functions and filter for a subset of data sources.
 
 ### Example
 
 | ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
 |---------|-----------|---------------|-------------|-------------|
 | 5       | B         | 1980-10-01    | 2024-05-09  | GDPPR       |
-| 16      | A         | 1975-12-01    | 2023-06-01  | SSNAP       |
-| 17      | A         | 1975-12-12    | 2023-06-12  | SSNAP       |
-| 18      | A         | 1976-03-03    | 2023-09-03  | SSNAP       |
-| 19      | A         | 1976-06-01    | 2023-12-01  | SSNAP       |
-| 20      | A         | 1975-09-01    | 2022-01-01  | Vaccine Status       |
 
 We remove row 5 because the Record Date is ≥ archived_on date of 2024-04-25.
 
-We remove row 16-20 because we only use GDPPR, HES APC, HES OP and HES AE in our selection algorithm.
 
 {: .note }
-Want to use our selection algorithm but include more data sources or define your own minimum record date? Use our functions!
+Want to use our selection algorithm but include only a subset of data sources or define your own minimum record date? Use our functions!
 
 
 **Selection Algorithm**
@@ -152,12 +146,12 @@ Finally, we apply a selection algorithm to pick one record per person.
 
 Depending on the characteristic, recency or data source is prioritised over the other for this selection. Time variant characteristics are selected differently to time invariant.
 
-| Demographic data | Data sources used, ordered by priority levels | Priority |
+| Demographic data | Data sources priority levels | Priority |
 |------------------|----------------------------------------------|----------|
-| Date of Birth    | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 | Data source > Recency |
-| Sex              | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 | Data source > Recency |
-| Ethnicity        | GDPPR SNOMED = 1<br>GDPPR = 2<br>HES APC = 3<br>HES OP = HES AE = 4 | Data source > Recency |
-| LSOA             | GDPPR = HES APC = HES OP = HES AE = 1  | Most recent record (all data sources have the same priority index) |
+| Date of Birth    | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 <br> Remaining data sources = 4| Data source > Recency |
+| Sex              | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 <br> Remaining data sources = 4| Data source > Recency |
+| Ethnicity        | GDPPR SNOMED = 1<br>GDPPR = 2<br>HES APC = 3<br>HES OP = HES AE = 4 <br> Remaining data sources = 5 | Data source > Recency |
+| LSOA             | GDPPR = HES APC = HES OP = HES AE = SSNP = Vaccine Status = ... = 1  | Most recent record (all data sources have the same priority index) |
 
 * For Date of Birth, Sex and Ethnicity we prioritise primary care over secondary care. We also prioritise HES APC before HES OP and HES AE. Within data sources, we prioritise receny. Prioritising data source > recency means that we do not necessarily pick the most recent record available for each person. Instead, we pick the most recent record available in GDPPR and if there are no records in GDPPR we pick the most recent in HES APC and so on.
 
@@ -184,6 +178,11 @@ We apply our selection algorithm to the records remaining below:
 | 13      | B         | 1981-03-09    | 2023-09-09  | HES AE      |
 | 14      | A         | 1977-03-01    | 2010-09-01  | HES OP      |
 | 15      | B         | 1982-05-02    | 2004-11-02  | HES OP      |
+| 16      | A         | 1975-12-01    | 2023-06-01  | SSNAP       |
+| 17      | A         | 1975-12-12    | 2023-06-12  | SSNAP       |
+| 18      | A         | 1976-03-03    | 2023-09-03  | SSNAP       |
+| 19      | A         | 1976-06-01    | 2023-12-01  | SSNAP       |
+| 20      | A         | 1975-09-01    | 2022-01-01  | Vaccine Status       |
 
 
 For date of birth we prioritise data source > receny thus our final individual table for date of birth is **hds_curated_assets__date_of_birth_individual_2024_04_25**:
