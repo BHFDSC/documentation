@@ -11,7 +11,7 @@ d fgdfgdfg
 JF: My commit
 TB: test
 JN: GGTTH! :) 
-
+LLMs! EveryWhere LLM'S! 
 ## Meet the Team
 
 <div style="display: flex; gap: 7px;">
