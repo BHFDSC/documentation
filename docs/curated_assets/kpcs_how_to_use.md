@@ -56,6 +56,7 @@ Note that on occassions where not all underlying data sources are available as a
 
 | Month Year       | archived_on_date | Version |
 | :------------ | :-------------- | :----- |
+| July 2024  | 2024-07-23                   | Stable
 | June 2024  | 2024-06-04                   | Stable
 | May 2024   | 2024-05-28                  | Stable
 | April 2024 | 2024-04-25                  | Beta
