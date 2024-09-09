@@ -4,7 +4,7 @@ title: Dataset Summary Table
 parent: Data Management
 nav_order: 3
 has_children: true
-permalink: /data_management/dataset_summary
+permalink: /data_management/dataset_summary_table
 ---
 
 
