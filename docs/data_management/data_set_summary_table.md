@@ -8,8 +8,10 @@ permalink: /data_management/dataset_summary_table
 ---
 
 
+| Dataset (Short Name) | "Start Date  |
+| --- | --- |
+| (Earliest Effective Coverage)" | End Date | Data Lag | Update Frequency | Key notes |
 | Primary care | GDPPR | * | To present | ~2 months | Monthly | Includes individuals alive and registered as of 1/11/2019. Does not have full code coverage or lookback. |
-| --- | --- | --- | --- | --- | --- | --- |
 | Secondary care | HES APC | 1997-04 | To present | ~3 months* | Monthly |  |
 |  | HES APC Other |  |  |  |  |  |
 |  | HES APC ACP |  |  |  |  |  |
@@ -72,4 +74,3 @@ permalink: /data_management/dataset_summary_table
 |  | MSDS - Labour Activities | 2019-04 |  |  |  |  |
 |  | MSDS - Maternity Care Plan | 2019-04 |  |  |  |  |
 |  | MHSDS | - | - | ? |
-  
