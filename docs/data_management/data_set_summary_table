@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dataset Summary
+title: Dataset Summary Table
 parent: Data Management
 nav_order: 3
 has_children: true
