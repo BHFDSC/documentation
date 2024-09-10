@@ -7,3 +7,7 @@ has_children: true
 permalink: /data_management/dataset_summary_table_v2
 ---
 
+<embed src="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" width="500" height="375" 
+ type="application/pdf">
+
+
