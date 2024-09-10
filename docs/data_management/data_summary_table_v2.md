@@ -7,10 +7,13 @@ has_children: true
 permalink: /data_management/dataset_summary_table_v2
 ---
 
+# Primary Care
+
 | Dataset | Start Date | End Date | Data Lag  | Update Frequency | Key notes                                                                                                |
 | ------- | ---------- | -------- | --------- | ---------------- | -------------------------------------------------------------------------------------------------------- |
 | GDPPR   | \*         | \-       | ~2 months | Monthly          | Includes individuals alive and registered as of 1/11/2019. Does not have full code coverage or lookback. |
 
+# Secondary Care
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
@@ -30,6 +33,7 @@ permalink: /data_management/dataset_summary_table_v2
 | Uncurated Low Latency OP | 2018-10 | - | ~3 months | Monthly |  |
 | ECDS | 2018-10 | - | ~3 months | Monthly |
 
+# COVID-19 lab tests
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
@@ -37,19 +41,27 @@ permalink: /data_management/dataset_summary_table_v2
 | Pillar 2 | 2020-01 | 2024-02 | NA | No longer updated |  |
 | Pillar 3 | 2020-09 | 2023-03 | NA | No longer updated |
 
+# COVID-19 vaccination
+
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
 | COVID-19 Vaccination | 2020-03 | - | ~2 months | Monthly |  |
 | COVID-19 Vaccination AR | 2020-03 | - | ~2 months | Monthly |
 
+# Deaths
+
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
 | Deaths | 1993-01 | - | ~3 months | Monthly | Change in way provosioned from 2022-02 which removed duplicate records historically. Some duplicate records still remain but extrent reduced significantly. |
+
+# ITU
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
 | ICNARC COVID | 2019-10 | - | ? | Monthly | First batch included high number of duplicate records that were cleaned for subsequent batches. |
 | COVID-19 SARI-Watch | 2019-11 | - | ~5 months? | Monthly | Formerly CHESS |
+
+# Prescribing/Dispensing
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
@@ -61,6 +73,8 @@ permalink: /data_management/dataset_summary_table_v2
 | EPMA Prescription DMD | 2019-01 | 2023-08 | NA | No longer updated |  |
 | EPMA Prescription Dosage | 2019-01 | 2023-08 | NA | No longer updated |  |
 | EPMA Prescription Chemical | 2019-01 | 2023-08 | NA | No longer updated |
+
+# Disease Registries
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
@@ -74,6 +88,8 @@ permalink: /data_management/dataset_summary_table_v2
 | NICOR PCI | 2017-01 | 2023-08 | NA | No longer updated |  |
 | NICOR TAVI | 2018-01 | 2023-08 | NA | No longer updated |  |
 | SSNAP | 2018-01 | - | ~1 month | Monthly | Data quality issue July 2023 |
+
+# Other
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
