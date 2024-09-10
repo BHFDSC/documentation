@@ -3,7 +3,7 @@ layout: default
 title: Dataset Summary Table V3
 parent: Data Management
 nav_order: 5
-has_children: true
+
 permalink: /data_management/dataset_summary_table_v3
 ---
 
@@ -11,3 +11,4 @@ permalink: /data_management/dataset_summary_table_v3
  type="application/pdf">
 
 
+[View Documentation PDF](https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf)
