@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dataset Summary Table
+title: Dataset Summary Table V2
 parent: Data Management
 nav_order: 4
 has_children: true
@@ -12,45 +12,48 @@ permalink: /data_management/dataset_summary_table_v2
 | GDPPR   | \*         | \-       | ~2 months | Monthly          | Includes individuals alive and registered as of 1/11/2019. Does not have full code coverage or lookback. |
 
 
-| HES APC                   | 1997-04 | \-      | ~3 months | Monthly           |  |
-| ------------------------- | ------- | ------- | --------- | ----------------- |  |
-| HES APC Other             | 1997-04 | \-      | ~3 months | Monthly           |  |
-| HES APC ACP               | 1997-04 | \-      | ~3 months | Monthly           |  |
-| HES APC Maternity         | 1997-04 | \-      | ~3 months | Monthly           |  |
-| HES AE                    | 2007-04 | \-      | ~3 months | Monthly           |  |
-| HES AE Other              | 2007-04 | \-      | ~3 months | Monthly           |  |
-| HES CC                    | 2008-01 | \-      | ~3 months | Monthly           |  |
-| HES CC Other              | 2008-01 | \-      | ~3 months | Monthly           |  |
-| HES OP                    | 2003-04 | \-      | ~3 months | Monthly           |  |
-| HES OP Other              | 2003-04 | \-      | ~3 months | Monthly           |
-| SUS                       | 2019-12 | 2022-09 | NA        | No longer updated |  |
-| Uncurated Low Latency APC | 2017-01 | \-      | ~3 months | Monthly           |  |
-| Uncurated Low Latency CC  | 2017-10 | \-      | ~3 months | Monthly           |  |
-| Uncurated Low Latency OP  | 2018-10 | \-      | ~3 months | Monthly           |  |
-| ECDS                      | 2018-10 | \-      | ~3 months | Monthly           |  |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
+| --- | --- | --- | --- | --- | --- |
+| HES APC | 1997-04 | - | ~3 months | Monthly |  |
+| HES APC Other | 1997-04 | - | ~3 months | Monthly |  |
+| HES APC ACP | 1997-04 | - | ~3 months | Monthly |  |
+| HES APC Maternity | 1997-04 | - | ~3 months | Monthly |  |
+| HES AE | 2007-04 | - | ~3 months | Monthly |  |
+| HES AE Other | 2007-04 | - | ~3 months | Monthly |  |
+| HES CC | 2008-01 | - | ~3 months | Monthly |  |
+| HES CC Other | 2008-01 | - | ~3 months | Monthly |  |
+| HES OP | 2003-04 | - | ~3 months | Monthly |  |
+| HES OP Other | 2003-04 | - | ~3 months | Monthly |  |
+| SUS | 2019-12 | 2022-09 | NA | No longer updated |  |
+| Uncurated Low Latency APC | 2017-01 | - | ~3 months | Monthly |  |
+| Uncurated Low Latency CC | 2017-10 | - | ~3 months | Monthly |  |
+| Uncurated Low Latency OP | 2018-10 | - | ~3 months | Monthly |  |
+| ECDS | 2018-10 | - | ~3 months | Monthly |
 
 
-| SGSS     | 2020-01 | 2024-03 | NA | No longer updated |  |
-| -------- | ------- | ------- | -- | ----------------- |  |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
+| --- | --- | --- | --- | --- | --- |
+| SGSS | 2020-01 | 2024-03 | NA | No longer updated |  |
 | Pillar 2 | 2020-01 | 2024-02 | NA | No longer updated |  |
-| Pillar 3 | 2020-09 | 2023-03 | NA | No longer updated |  |
+| Pillar 3 | 2020-09 | 2023-03 | NA | No longer updated |
 
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
+| --- | --- | --- | --- | --- | --- |
+| COVID-19 Vaccination | 2020-03 | - | ~2 months | Monthly |  |
+| COVID-19 Vaccination AR | 2020-03 | - | ~2 months | Monthly |
 
-| COVID-19 Vaccination    | 2020-03 | \- | ~2 months | Monthly |  |
-| ----------------------- | ------- | -- | --------- | ------- |  |
-| COVID-19 Vaccination AR | 2020-03 | \- | ~2 months | Monthly |  |
-
-
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
+| --- | --- | --- | --- | --- | --- |
 | Deaths | 1993-01 | - | ~3 months | Monthly | Change in way provosioned from 2022-02 which removed duplicate records historically. Some duplicate records still remain but extrent reduced significantly. |
-| --- | --- | --- | --- | --- | --- |
 
-| ICNARC COVID | 2019-10 | - | ? | Monthly | First batch included high number of duplicate records that were cleaned for subsequent batches. |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
+| ICNARC COVID | 2019-10 | - | ? | Monthly | First batch included high number of duplicate records that were cleaned for subsequent batches. |
 | COVID-19 SARI-Watch | 2019-11 | - | ~5 months? | Monthly | Formerly CHESS |
 
-
-| PMEDS | 2018-04 | - |  | Monthly |  |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
+| PMEDS | 2018-04 | - |  | Monthly |  |
 | EPMA Administration | 2019-01 | 2023-08 | NA | No longer updated | Includes data for 28 NHS hospital trusts, which captures around 15% of secondary care prescribing. Data coverage and quality varies by NHS hospital trust. |
 | EPMA Administration DMD | 2019-01 | 2023-08 | NA | No longer updated |  |
 | EPMA Administration Dosage | 2019-01 | 2023-08 | NA | No longer updated |  |
@@ -59,9 +62,9 @@ permalink: /data_management/dataset_summary_table_v2
 | EPMA Prescription Dosage | 2019-01 | 2023-08 | NA | No longer updated |  |
 | EPMA Prescription Chemical | 2019-01 | 2023-08 | NA | No longer updated |
 
-
-| NICOR MINAP | 2017-01 | 2023-12 | NA | No longer updated |  |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
+| NICOR MINAP | 2017-01 | 2023-12 | NA | No longer updated |  |
 | NICOR NACRM EPS | 2018-01 | 2023-08 | NA | No longer updated |  |
 | NICOR NACRM PMICD | 2018-01 | 2023-08 | NA | No longer updated |  |
 | NICOR NACSA | 2013-01 | 2023-08 | NA | No longer updated |  |
@@ -72,9 +75,9 @@ permalink: /data_management/dataset_summary_table_v2
 | NICOR TAVI | 2018-01 | 2023-08 | NA | No longer updated |  |
 | SSNAP | 2018-01 | - | ~1 month | Monthly | Data quality issue July 2023 |
 
-
-| IAPT Care Activities | 2020-09 | - | ~2 months | Monthly |  |
+| Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
+| IAPT Care Activities | 2020-09 | - | ~2 months | Monthly |  |
 | IAPT Care Cluster | 2010-11 | - | ~2 months | Monthly |  |
 | IAPT Coded Scored Assessments | 2020-09 | - | ~2 months | Monthly |  |
 | IAPT Demographics & Referral | 2009-05 | - | ~2 months | Monthly |  |
@@ -95,5 +98,7 @@ permalink: /data_management/dataset_summary_table_v2
 | MSDS - Labour Activities | 2019-04 | - | ~2 months | Monthly |  |
 | MSDS - Maternity Care Plan | 2019-04 | - | ~2 months | Monthly |  |
 | MHSDS | - | - | ? |
+
+
 
 
