@@ -6,6 +6,9 @@ nav_order: 4
 permalink: /data_management/dataset_summary_table_v2
 ---
 
+<a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">View Dataset Summary Table</a>
+
+
 # Primary Care
 
 | Dataset | Start Date | End Date | Data Lag  | Update Frequency | Key notes                                                                                                |
