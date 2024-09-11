@@ -3,7 +3,6 @@ layout: default
 title: Dataset Summary Table V1
 parent: Data Management
 nav_order: 3
-has_children: true
 permalink: /data_management/dataset_summary_table_v1
 ---
 
