@@ -3,7 +3,6 @@ layout: default
 title: Dataset Summary Table V3
 parent: Data Management
 nav_order: 5
-
 permalink: /data_management/dataset_summary_table_v3
 ---
 
@@ -14,7 +13,4 @@ permalink: /data_management/dataset_summary_table_v3
 [View Dataset Summary Table](https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf)
 
 
-<iframe src="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" width="100%" height="500px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf">Download PDF</a>.
-</iframe>
+<a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" target="_blank">Open PDF in a new tab</a>
