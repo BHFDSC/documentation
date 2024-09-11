@@ -13,4 +13,4 @@ permalink: /data_management/dataset_summary_table_v3
 [View Dataset Summary Table](https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf)
 
 
-<a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" target="_blank">Open PDF in a new tab</a>
+<a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" target="_blank">View Dataset Summary Table</a>
