@@ -46,12 +46,3 @@ permalink: /
         <td>Zach Welshman, Health Data Scientist.</td>    
   </tr>
 </table>
-
-   
-
-
-
-    <td><img src="https://example.com/mountain.jpg" alt="Mountain" width="150"/></td>
-    <td>A majestic mountain view.</td>
-  </tr>
-</table>
