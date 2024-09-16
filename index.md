@@ -34,10 +34,6 @@ permalink: /
         <td>Lars Murdock, Health Data Scientist.</td>
  </tr>
   <tr>
-        <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/lars_murdock.png" alt="Lars Murdock" style="width: 90px; height: 90px; object-fit: cover;"/></td>
-        <td>Lars Murdock, Health Data Scientist.</td>
- </tr>
-  <tr>
         <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 90px; height: 90px; object-fit: cover;"/></td>
         <td>John Nolan, Senior Health Data Scientist.</td>
  </tr>
