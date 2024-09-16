@@ -10,8 +10,8 @@ permalink: /
 ## Meet the Team
 
 <div style="display: flex; gap: 7px;">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 90px; height: 90px; object-fit: cover;"> Tom Bolton, Senior Health Data Scientist
-    
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton, Senior Health Data Scientist" style="width: 90px; height: 90px; object-fit: cover;"> 
+    </p>
     <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 90px; height: 90px; object-fit: cover;"> John Nolan, Senior Health Data Scientist
     
     <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 90px; height: 90px; object-fit: cover;"> Mehrdad Mizani, Health Data Scientist
