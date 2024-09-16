@@ -10,7 +10,7 @@ permalink: /
 ## Meet the Team
 <table>
     <tr>
-        <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 90px; height: 90px; object-fit: cover;"/></td>
+        <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 100px; height: 100px; object-fit: cover;"/></td>
         <td>Tom Bolton, Senior Health Data Scientist.</td>
         </tr>
   <tr>
