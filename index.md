@@ -12,6 +12,18 @@ permalink: /
     <tr>
         <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 90px; height: 90px; object-fit: cover;"/></td>
         <td>Tom Bolton, Senior Health Data Scientist.</td>
+        </tr>
+  <tr>
+   <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 90px; height: 90px; object-fit: cover;"/></td>
+        <td>John Nolan, Senior Health Data Scientist.</td>
+        </tr>
+        <tr>
+         <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 90px; height: 90px; object-fit: cover;"/></td>Merhdad Mizani, Health Data Scientist.</td>
+        </tr>
+        <tr>
+        <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 90px; height: 90px; object-fit: cover;"/></td>Zach Welshman, Health Data Scientist, Health Data Scientist.</td>
+        </tr>
+        <tr>
         
   </a>
     <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 90px; height: 90px; object-fit: cover;">
@@ -33,12 +45,7 @@ permalink: /
 </div>
 
 
-<table>
-  <tr>
-    <td><img src="https://example.com/sunset.jpg" alt="Sunset" width="150"/></td>
-    <td>This is a beautiful sunset.</td>
-  </tr>
-  <tr>
+
     <td><img src="https://example.com/mountain.jpg" alt="Mountain" width="150"/></td>
     <td>A majestic mountain view.</td>
   </tr>
