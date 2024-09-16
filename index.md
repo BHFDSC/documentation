@@ -8,7 +8,7 @@ permalink: /
 # Welcome 
 
 ## Placeholder text
-Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for tools, guides, and resources related to the work we do in the NHS England Secure Data Environment.
+Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation to the work we do in the NHS England Secure Data Environment.
 
 
 ## Meet the Team
