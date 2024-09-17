@@ -6,4 +6,4 @@ has_children: true
 permalink: /data_management
 ---
 
-# Datasets
+# Data Management
