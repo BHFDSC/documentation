@@ -101,7 +101,7 @@ See Data Insight Notebooks:
 ## Registration Data
 GDPPR does not include individual registration information (i.e., coverage start and end date). As mentioned above, GDPPR includes most (98%), but not all, practices in England, and without registration information it is not possible to censor patients who do not have continuous coverage (e.g., patients who may have moved from/to a non-participating practice, patients who may have moved in/out of the country, patients with multiple NHS_NUMBER_DEID).
 
-## Type 1 opst outs
+## Type 1 opt outs
 Whilst some patients who have opted out (type 1 opt outs) may be excluded (e.g., those who opted out before the first batch of the GDPPR dataset was provisioned in the NHS Digital TRE, those who opted out before joining a participating practice or before having a SNOMED-CT code in the GDPPR cluster reference set), we can see, by comparing the monthly batch updates for the GDPPR dataset, that, as a rule, NHS_NUMBER_DEID are never excluded from subsequent batches (see Data Insight notebook: “GDPPR – Comparison of Patient IDs across Batches”). The GPES team have also confirmed that when a patient opts out, their historical records are not excluded (to prevent identification of opts out through the comparison of monthly batch updates), rather any subsequent records for that patient stop flowing and would therefore not be included in later batches. Obviously, this may potentially introduce bias as the patients who have opted out after GDPPR was first provisioned may appear to be healthy from the point that they opted out without any subsequent consultations appearing in the dataset.
 
 ## GDPPR versus GP registered population
