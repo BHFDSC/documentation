@@ -6,4 +6,4 @@ nav_order: 5
 permalink: /docs/curated_data/ECDS
 ---
 
-# HES APC Operations
+# Emergency Care Dataset (ECDS)
