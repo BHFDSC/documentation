@@ -137,8 +137,6 @@ On the contrary, not every member of the population will be registered with a GP
   <a href="https://commonslibrary.parliament.uk/population-estimates-gp-registers-why-the-difference/" class="btn" target="_blank">Parliament UK - population estimates & GP registers: Why the difference?</a>
 </span>
 
-useful link: https://commonslibrary.parliament.uk/population-estimates-gp-registers-why-the-difference/
-
 ## Patient Characteristics
 The following variables, including patient characteristics, are unique at the NHS_NUMBER_DEID and PRACTICE level:
 
