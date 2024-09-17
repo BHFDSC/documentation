@@ -30,7 +30,7 @@ GDPPR = General Practice Extraction Service (GPES) Data for Pandemic Planning an
 > .gdppr__archive
 
 
-## Data Summary Notebook in the SDE
+## Data Summary Notebook in the SDE:
 
 Workspaces\\DATA_RESOURCES\DATA_SUMMARY\GDPPR Summary-Notebook
 
@@ -38,9 +38,9 @@ Workspaces\\DATA_RESOURCES\DATA_SUMMARY\GDPPR Summary-Notebook
 > Need to Know
 >
 > Includes patients:
-* alive on or after 1 November 2019
-* from participating practices in England (98%)
-* with SNOMED-CT codes relevant to pandemic planning and research
+ - alive on or after 1 November 2019
+ - from participating practices in England (98%)
+ - with SNOMED-CT codes relevant to pandemic planning and research
 >
 > Includes SNOMED-CT codes deemed applicable for COVID-19 research (~36,000 out of >900,000)
 >
