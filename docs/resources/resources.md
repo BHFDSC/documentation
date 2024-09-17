@@ -8,4 +8,4 @@ permalink: /resources
 
 # Resources
 
-We have developed a suite of tools to support researchers and analysts working with electronic health records. Use these to streamline your research process and utilise health data effectively.
+We have developed a suite of tools to support researchers and analysts working with electronic health records within the NHS England SDE. Use these to streamline your research process and utilise the data effectively.
