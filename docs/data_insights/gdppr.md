@@ -67,19 +67,19 @@ Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\GDPPR Summary-Noteb
 - Small number of SNOMED-CT codes in GDPPR not matching to the GDPPR reference set
 
 
-**Inclusion criteria**
+## Inclusion criteria
+
 The GDPPR extract only includes patients with active, current registrations at participating practices (98%) and deceased patients with a date of death on or after 1 November 2019.
 
-**Code cluster**
+## Code cluster
+
 The GDPPR extract only includes a subset of the available SNOMED-CT codes i.e., those included in the GDPPR cluster reference set that were deemed applicable for COVID-19 research. The reference table listing the available codes can be downloaded from the link below and is also available in the dss_corporate workspace (with prefix “gpdata_snomed”) within the TRE.
 
-https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data#code-clusters-and-content 
+<span class="fs-3">
+  <a href="https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data#code-clusters-and-content" class="btn" target="_blank">NHS Digital - Code clusters and content</a>
+</span>
 
-https://digital.nhs.uk/binaries/content/assets/website-assets/coronavirus/gpes-data-for-planning-and-research/gdppr_cluster_refset_1000230_20211221.zip
-
-Further details around which codes have been included are provided in “Supplementary Table 7: Summary of codes included in the primary care dataset” of the BMJ paper.
-
-https://www.bmj.com/content/373/bmj.n826
+Further details around which codes have been included are provided in “Supplementary Table 7: Summary of codes included in the primary care dataset” of the <a href="https://www.bmj.com/content/373/bmj.n826#_blank" target="_blank">BMJ paper</a>.
 
 **Data coerage varies according to SNOMED-CT Code Cluster**
 In the project proposal it is mentioned that "numeric values (e.g. BP, laboratory test results) only go back two years".
@@ -107,7 +107,9 @@ Whilst some patients who have opted out (type 1 opt outs) may be excluded (e.g.,
 **GDPPR versus GP registered population**
 As at 2022-05-30, the GDPPR dataset within the NHS Digital TRE for England included 62.2m unique NHS_NUMBER_DEID. However, this is also includes patients who have died since 1 Nov 2019. Removing deceased patients results in 60.9m unique NHS_NUMBER_DEID. As at 2022-06-01, the GP registered population was reported to be 61.7m patients.
 
-https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/june-2022 
+<span class="fs-3">
+  <a href="https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/june-2022" class="btn" target="_blank">NHS Digital - patients registered at a gp practice</a>
+</span>
 
 Note: The GP registered population refers to the number of unique patients registered at each practice, therefore patients who are registered at multiple practices are counted more than once. It is not possible to precisely replicate this number using the GDPPR dataset, due to the lack of registration information. As at 2022-05-30, the GDPPR dataset included 71.1m unique NHS_NUMBER_DEID and PRACTICE. 
 
@@ -118,7 +120,10 @@ Data Insight Notebooks:
 
 **GDPPR/GP registered population versus ONS population estimates**
 The ONS England mid-year population estimate was 56.6m in 2020:
-https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/timeseries/enpop/pop
+
+<span class="fs-3">
+  <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/timeseries/enpop/pop" class="btn" target="_blank">Office for National Statistics - England population mid-year estimate</a>
+</span>
 
 There are many reasons why GDPPR / GP registered population may differ to the ONS population estimate.
 
@@ -127,6 +132,11 @@ GDPPR / GP registered population will include non-residents i.e., overseas, stud
 ONS population estimates may also be under-estimates. It is known that uncertainty in the estimates increases the longer the time since the census was taken. The census for England and Wales was conducted in 2011 and 2021, so ONS estimates in 2020 may have been prone to error.
 
 On the contrary, not every member of the population will be registered with a GP and therefore will not be included in GDPPR.
+
+<span class="fs-3">
+  <a href="https://commonslibrary.parliament.uk/population-estimates-gp-registers-why-the-difference/" class="btn" target="_blank">Parliament UK - population estimates & GP registers: Why the difference?</a>
+</span>
+
 useful link: https://commonslibrary.parliament.uk/population-estimates-gp-registers-why-the-difference/
 
 **Patient Characteristics**
@@ -160,7 +170,10 @@ Note: f.year(YEAR_MONTH_OF_BIRTH) == YEAR_OF_BIRTH  for all rows.
 
 **Number of GP appointments/consultations**
 The GP Extraction Service (GPES) team have advised that it is not possible to infer the number of GP appointments from GDPPR and match Official Statistics.
-https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice
+
+<span class="fs-3">
+  <a href="https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice" class="btn" target="_blank">NHS Digital - Appointments in General Practice</a>
+</span>
 
 Appointments are not flagged in GDPPR, so it is not clear whether a RECORD_DATE relates to a consultation or simply the date that the CODE was recorded on the system. 
 
