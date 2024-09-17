@@ -81,7 +81,7 @@ The GDPPR extract only includes a subset of the available SNOMED-CT codes i.e., 
 
 Further details around which codes have been included are provided in “Supplementary Table 7: Summary of codes included in the primary care dataset” of the <a href="https://www.bmj.com/content/373/bmj.n826#_blank" target="_blank">BMJ paper</a>.
 
-**Data coerage varies according to SNOMED-CT Code Cluster**
+## Data coverage varies according to SNOMED-CT Code Cluster
 In the project proposal it is mentioned that "numeric values (e.g. BP, laboratory test results) only go back two years".
 
 There are two specific GDPPR code clusters (in addition, to separate prescription and vaccine code clusters):
@@ -98,13 +98,13 @@ See Data Insight Notebooks:
 - Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_INSIGHT\GDPPR\GDPPR - Records and Patients by Code Cluster Category
 - TBC
 
-**Registration Data**
+## Registration Data
 GDPPR does not include individual registration information (i.e., coverage start and end date). As mentioned above, GDPPR includes most (98%), but not all, practices in England, and without registration information it is not possible to censor patients who do not have continuous coverage (e.g., patients who may have moved from/to a non-participating practice, patients who may have moved in/out of the country, patients with multiple NHS_NUMBER_DEID).
 
-**Type 1 opst outs**
+## Type 1 opst outs
 Whilst some patients who have opted out (type 1 opt outs) may be excluded (e.g., those who opted out before the first batch of the GDPPR dataset was provisioned in the NHS Digital TRE, those who opted out before joining a participating practice or before having a SNOMED-CT code in the GDPPR cluster reference set), we can see, by comparing the monthly batch updates for the GDPPR dataset, that, as a rule, NHS_NUMBER_DEID are never excluded from subsequent batches (see Data Insight notebook: “GDPPR – Comparison of Patient IDs across Batches”). The GPES team have also confirmed that when a patient opts out, their historical records are not excluded (to prevent identification of opts out through the comparison of monthly batch updates), rather any subsequent records for that patient stop flowing and would therefore not be included in later batches. Obviously, this may potentially introduce bias as the patients who have opted out after GDPPR was first provisioned may appear to be healthy from the point that they opted out without any subsequent consultations appearing in the dataset.
 
-**GDPPR versus GP registered population**
+## GDPPR versus GP registered population
 As at 2022-05-30, the GDPPR dataset within the NHS Digital TRE for England included 62.2m unique NHS_NUMBER_DEID. However, this is also includes patients who have died since 1 Nov 2019. Removing deceased patients results in 60.9m unique NHS_NUMBER_DEID. As at 2022-06-01, the GP registered population was reported to be 61.7m patients.
 
 <span class="fs-3">
@@ -118,7 +118,7 @@ Note: The GDPPR dataset represents a large subset of the GP registered populatio
 Data Insight Notebooks:
 - Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_INSIGHT\GDPPR\GDPPR - Comparison to Published GP List Size
 
-**GDPPR/GP registered population versus ONS population estimates**
+## GDPPR/GP registered population versus ONS population estimates
 The ONS England mid-year population estimate was 56.6m in 2020:
 
 <span class="fs-3">
@@ -139,7 +139,7 @@ On the contrary, not every member of the population will be registered with a GP
 
 useful link: https://commonslibrary.parliament.uk/population-estimates-gp-registers-why-the-difference/
 
-**Patient Characteristics**
+## Patient Characteristics
 The following variables, including patient characteristics, are unique at the NHS_NUMBER_DEID and PRACTICE level:
 
 - GP_SYSTEM_SUPPLIER
@@ -158,17 +158,17 @@ Data Insight Notebook(s):
 
 - Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_INSIGHT\GDPPR\GDPPR - Patient characteristics
 
-**Ethnic**
+## Ethnic
 Note: There is also ethnicity information contained within the CODE variable via SNOMED-CT codes. See the code cluster: ETHNALL_COD “Active and inactive ethnicity codes”. These codes are extracted and harmonised with the primary codes in ETHNIC in the cur_skinny code (using the SNOMED-CT to primary code mapping file provided by NHS Digital in dss_corporate.gdppr_ethnicity_mappings). See CCU037_01 manuscript for a detailed description of ethnicity within GDPPR (link to be added when available).
 
 Data Insight Notebook(s):
 
 - TBC
 
-**YEAR_OF_BIRTH versus YEAR_MONTH_OF_BIRTH**
+## YEAR_OF_BIRTH versus YEAR_MONTH_OF_BIRTH
 Note: f.year(YEAR_MONTH_OF_BIRTH) == YEAR_OF_BIRTH  for all rows.
 
-**Number of GP appointments/consultations**
+## Number of GP appointments/consultations
 The GP Extraction Service (GPES) team have advised that it is not possible to infer the number of GP appointments from GDPPR and match Official Statistics.
 
 <span class="fs-3">
@@ -187,7 +187,7 @@ Data Insight Notebook(s):
 
 where distinct NHS_NUMBER_DEID and RECORD_DATE were compared to Official Statistics
 
-**CODE not matching to the GDPPR refset**
+## CODE not matching to the GDPPR refset
 There are codes within GDPPR that do not match to the GDPPR reference set available within dss_corporate in the SDE. 
 
 The most frequent codes relate to influenza vaccination e.g., 822851000000102 - Seasonal influenza vaccination (procedure).
