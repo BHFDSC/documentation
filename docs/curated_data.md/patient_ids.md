@@ -32,6 +32,10 @@ An in-depth guide from NHS Digital on how the PERSON_ID field is derived is prov
 
 There are ~ 109M distinct IDs across the datasets that make up the skinny patient table (GDPPR, HES APC/Outpatients/A&E and Deaths). From the UpSet plot below we can see that there are 12M IDs that are unique to HES Outpatients, and similarly 9M and 7M IDs unique to HES APC and HES A&E respectively. To what extent these volumes are driven by MPS_IDs and One-time-use IDs is not currently known, and we cannot calculate this based on the data as it stands in our TRE. For this reason, we advise users to limit their study cohorts to IDs that appear in the GDPPR dataset (where feasible for their analysis). This will ensure that only IDs that are actually linkable will be included.
 
+
+    <img src="https://github.com/BHFDSC/documentation/blob/main/assets/images/patient_id_graph.png" alt="Tom Bolton" style="width: 90px; height: 90px; object-fit: cover;">
+  
+
 ## Future:
 
 In future NHS Digital aim to provide flags to indicate which IDs within a PERSON_ID_DEID dataset are NHS_NUMBER, MPS_ID and One-time-use IDs. This will allow us to quantify the impact of MPS_IDs and One-time_use IDs on all datasets that use PERSON_ID_DEID. It would also allow users to exclude these IDs from cohort selection stages of research projects.
