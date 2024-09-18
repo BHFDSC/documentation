@@ -40,3 +40,24 @@ Workspaces\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
 
 ## Data Insight Notebook:
 Workspace\Shared\DATA_INSIGHT\HES CC to HES APC linkage
+
+{: .note-title }
+> Need to Know
+>
+ - Data completeness and row counts depend on CCPERTYPE:
+   - CCPERTYPE = "01" (adult facilities, patients >= 19 years old on admission predominate)
+       - One row per critical care period (i.e. distinct ID and datetime) per HES-APC linkage (via SUSRECID)
+       - Exclusive columns: support days (*SUPDAYS), critical care level days (CCLEV*DAYS), organ support maximum (ORGSUPMAX)
+
+  - CCPERTYPE = "02" (paediatric; children and young people facilities, patients ≥ 29 days to <19 years predominate) & CCPERTYPE = "03" (neonatal facilities, patients <29 days on admission predominate)
+      - One row per critical care period (i.e. distinct ID and datetime) per critical care activity day (CCACTIVDATE) per HES-APC linkage (via SUSRECID)
+      - Exclusive columns: Critical Care Activity Code (CCACTCODE*), High Cost Drugs Code (HCDCODE*)
+
+  - BESTMATCH can be used to limit the data to one row per critical care period
+    - although ~0.2% of distinct critical care periods will be missed with a further ~0.2% having duplicate rows. Consider directly filtering for distinct ID and datetime.
+    - **not** appropriate for analysing daily paediatric and neonatal critical care activity as the best match flag will only flag a single (typically the first) critical care activity date
+
+  - Support day columns (*SUPDAYS), critical care level days (CCLEV*DAYS) contain the following integer flags which require cleaning:
+    - 998: 998 or more days of neurological support
+    - 999: Support occurred but number of days not known
+
