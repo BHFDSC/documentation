@@ -23,6 +23,24 @@ The data comprise prescriptions for medicines dispensed or supplied by community
   <a href="https://web.www.healthdatagateway.org/dataset/f201b68f-d995-4a70-a9ee-aa3510232777" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
+{: .highlight-title }
+> Table Names
+>
+> &nbsp;
+> **Live table**
+> >
+> .primar_care_meds_
+>
+> **Archived table**
+> >
+> .primary_care_meds__archive
+
+
+## Data Summary Notebook in the SDE:
+
+Workspaces\\DATA_RESOURCES\DATA_SUMMARY\Primary Care Meds Summary-Notebook
+
+
 
 {: .note-title }
 > Need to Know
