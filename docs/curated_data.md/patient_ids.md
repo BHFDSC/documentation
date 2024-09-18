@@ -26,7 +26,7 @@ Therefore PERSON_ID_DEID is a tokenized ID comprised of 3 different ID types, wi
 2. MPS_ID: linkable to other datasets with PERSON_ID_DEID
 3. One-time-use ID: not linkable within or across datasets
 
-An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/The%20Person_ID%20handbook%20for%20HES%20users%20V1.0.0.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">here</a>
+An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/The%20Person_ID%20handbook%20for%20HES%20users%20V1.0.0.pdf" target="_blank">here</a>
 
 ## Current position:
 
