@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ECDS
-parent: Patient IDs
+title: Patient IDs
+parent: curated_data
 nav_order: 5
 permalink: /docs/curated_data/patient_ids
 ---
