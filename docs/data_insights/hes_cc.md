@@ -23,3 +23,20 @@ Hospital Episode Statistics (HES) contains records of all admissions, appointmen
   <a href="https://web.www.healthdatagateway.org/dataset/80564a6b-1458-41de-a131-772eb93c0509" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
+{: .highlight-title }
+> Table Names
+>
+> &nbsp;
+> **Live table**
+> >
+> dars_nic_391419_j3w9t.hes_cc_all_years
+>
+> **Archived table**
+> >
+> dars_nic_391419_j3w9t_collab.hes_cc_all_years_archive
+
+## Data Summary Notebook:
+Workspaces\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
+
+## Data Insight Notebook:
+Workspace\Shared\DATA_INSIGHT\HES CC to HES APC linkage
