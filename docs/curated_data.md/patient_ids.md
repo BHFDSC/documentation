@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Patient IDs
-parent: curated_data
+parent: Curated Data
 nav_order: 5
 permalink: /docs/curated_data/patient_ids
 ---
