@@ -24,6 +24,18 @@ The ICNARC (Intensive Care National Audit and Research Centre) Case Mix Programm
   <a href="https://web.www.healthdatagateway.org/dataset/0e6aaabb-0efc-4a69-a9a7-aa98888c04bd" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
+{: .highlight-title }
+> Table Names
+>
+> &nbsp;
+> **Live table**
+> >
+> dars_nic_391419_j3w9t.icnarc_dars_nic_391419_j3w9t
+>
+> **Archived table**
+> >
+> dars_nic_391419_j3w9t_collab.icnarc_dars_nic_391419_j3w9t_archive
+
 
 ## Data Summary Notebook:
 Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\ICNARC Summary-Notebook
