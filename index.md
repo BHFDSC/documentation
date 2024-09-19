@@ -13,6 +13,11 @@ Welcome to the BHF Data Science Centre Health Data Science documentation website
 
 For any enquiries, or if you have any resources you would like to contribute to our pages, please email us at: bhfdsc_hds@hdruk.ac.uk
 
+# Popular pages
+- [Dataset Summary Dashboard]({% link docs/resources/dataset_summary_dashboard.md %})
+- [Key Patient Characteristics]({% link docs/curated_assets/kpcs.md %})
+  
+
 ## Meet the Team
 <table>
     <tr>
