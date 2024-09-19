@@ -6,8 +6,7 @@ nav_order: 1
 permalink: /data_management/dataset_summary
 ---
 
-<a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
-
+<a href="https://github.io/documentation/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
 
 # Primary Care
 
