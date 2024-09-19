@@ -32,7 +32,7 @@ For any enquiries please email us at: bhfdsc_hds@hdruk.ac.uk
  </tr>
   <tr>
         <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 120px; height: 120px; object-fit: cover;"/></td>
-        <td>Mehrdad Mizani, Senior Health Data Scientist</td>
+        <td>Mehrdad Mizani, Health Data Scientist</td>
  </tr>
   <tr>
    <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/lars_murdock.png" alt="Lars Murdock" style="width: 120px; height: 120px; object-fit: cover;"/></td>
