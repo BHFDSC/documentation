@@ -5,10 +5,6 @@ nav_order: 1
 permalink: /
 ---
 
-<a>
-    <img src="https://github.com/BHFDSC/documentation/blob/main/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo"; object-fit: cover;">
-  </a>
-
 
 [![BHF DSC logo](https://github.com/BHFDSC/documentation/blob/main/assets/images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
 
