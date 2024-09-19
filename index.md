@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <a>
-    <img src="https://github.com/BHFDSC/documentation/blob/main/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" style="width: 90px; height: 90px; object-fit: cover;">
+    <img src="https://github.com/BHFDSC/documentation/blob/main/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo"; object-fit: cover;">
   </a>
 
 
