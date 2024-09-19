@@ -6,6 +6,11 @@ permalink: /
 ---
 
 
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 90px; height: 90px; object-fit: cover;">
+
+
+
+
 [![BHF DSC logo](https://github.com/BHFDSC/documentation/blob/main/assets/images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
 
 \***This website is currently under construction\***
