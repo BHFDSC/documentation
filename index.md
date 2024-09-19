@@ -7,10 +7,11 @@ permalink: /
 
 # Welcome 
 
-### Placeholder text
-Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation to the work we do in the NHS England Secure Data Environment.
+**This website is currently under construction**
 
-For any enquiries please email us at: bhfdsc_hds@hdruk.ac.uk
+Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation to the work we do in the NHS England Secure Data Environment, the SAIL Databank in Wales and the National Safe Haven in Scotland.
+
+For any enquiries, or if you have any resources you would like to add to our pages, please email us at: bhfdsc_hds@hdruk.ac.uk
 
 ## Meet the Team
 <table>
