@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 permalink: /
 ---
-[![BHF DSC logo](https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo)](https://bhfdatasciencecentre.org/)
+[![BHF DSC logo](https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
 
 \***This website is currently under construction\***
 
