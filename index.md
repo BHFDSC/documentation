@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 
-<img src="https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" style="width: 600px; height: 150px" />
+<img src="https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" style="width: 600px; height: 200px" />
 
 \***This website is currently under construction\***
 
