@@ -35,6 +35,8 @@ There are ~ 109M distinct IDs across the datasets that make up the skinny patien
 
 <img src="https://github.io/documentation/assets/images/patient_id_graph.png" alt="Patient ID graph">
 
+[![Patient ID graph](https://bhfdsc.github.io/documentation/assets/images/patient_id_graph.png)]
+
 ## Future:
 
 In future NHS Digital aim to provide flags to indicate which IDs within a PERSON_ID_DEID dataset are NHS_NUMBER, MPS_ID and One-time-use IDs. This will allow us to quantify the impact of MPS_IDs and One-time_use IDs on all datasets that use PERSON_ID_DEID. It would also allow users to exclude these IDs from cohort selection stages of research projects.
