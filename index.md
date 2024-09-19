@@ -6,7 +6,7 @@ permalink: /
 ---
 
 
-[![BHF DSC logo](https://github.io/BHFDSC/documentation/main/assets/images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
+[![BHF DSC logo](images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
 
 \***This website is currently under construction\***
 
