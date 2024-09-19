@@ -4,9 +4,7 @@ title: Home
 nav_order: 1
 permalink: /
 ---
-
-
-[![BHF DSC logo](images/bhf_dsc_logo.png)](https://bhfdatasciencecentre.org/)
+[![BHF DSC logo](https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo)](https://bhfdatasciencecentre.org/)
 
 \***This website is currently under construction\***
 
@@ -15,6 +13,7 @@ permalink: /
 Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation to the work we do in the NHS England Secure Data Environment, the SAIL Databank in Wales and the National Safe Haven in Scotland.
 
 For any enquiries, or if you have any resources you would like to contribute to our pages, please email us at: bhfdsc_hds@hdruk.ac.uk
+
 
 ## Popular pages
 - [Dataset Summary Dashboard]({% link docs/resources/dataset_summary_dashboard.md %})
