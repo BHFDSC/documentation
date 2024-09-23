@@ -10,6 +10,7 @@ permalink: /docs/resources/code_terminology
 
 <br>
 
+## Lookup Tables
 
 | System | Lookup files (Box) | Documentation | Source |
 | --- | --- | --- | --- |
