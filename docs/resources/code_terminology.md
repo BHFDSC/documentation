@@ -8,6 +8,8 @@ permalink: /docs/resources/code_terminology
 
 # Code Terminology Resource
 
+<br>
+
 
 | System | Lookup files (Box) | Documentation | Source |
 | --- | --- | --- | --- |
