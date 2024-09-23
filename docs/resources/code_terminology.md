@@ -11,3 +11,4 @@ permalink: /docs/resources/code_terminology
 
 <br>
 
+The Code Terminology Resource provides a collection of resources for frequently used terminologies. 
