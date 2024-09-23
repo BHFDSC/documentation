@@ -16,12 +16,12 @@ Our dataset summary dashboard provides an overview and interactive summaries of 
  
 The dashboard can be used to explore the data dictionaries, data coverage and data completeness for each of the datasets provisioned in England, Scotland, and Wales. The datasets include those from primary and secondary care, COVID lab tests and vaccinations, deaths, critical care, prescribing/dispensing, cardiovascular and stroke audits, maternity services and mental health.
 
-**Click below to visit the dashboard!**
+**Click below to visit the dashboard**
 
 <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">
   <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard.png" alt="Dashboard">
 </a>
 
-**Find out more about the dashboard and how it was built!**
+**Find out more about the dashboard and how it was built**
 
 <iframe width="736" height="410" src="https://www.youtube.com/embed/JpSkY9zMx3w?start=538" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
