@@ -24,7 +24,7 @@ permalink: /data_management/dataset_summary
 | HES APC Maternity | 1997-04 | - | ~3 months | Monthly |  |
 | HES AE | 2007-04 | - | ~3 months | Monthly |  |
 | HES AE Other | 2007-04 | - | ~3 months | Monthly |  |
-| HES CC | 2008-01 | - | ~3 months | Monthly |  |
+| [HES CC]({% link docs/data_insights/hes_cc.md %}) | 2008-01 | - | ~3 months | Monthly |  |
 | HES CC Other | 2008-01 | - | ~3 months | Monthly |  |
 | HES OP | 2003-04 | - | ~3 months | Monthly |  |
 | HES OP Other | 2003-04 | - | ~3 months | Monthly |  |
@@ -32,7 +32,7 @@ permalink: /data_management/dataset_summary
 | Uncurated Low Latency APC | 2017-01 | - | ~3 months | Monthly |  |
 | Uncurated Low Latency CC | 2017-10 | - | ~3 months | Monthly |  |
 | Uncurated Low Latency OP | 2018-10 | - | ~3 months | Monthly |  |
-| ECDS | 2018-10 | - | ~3 months | Monthly |
+| [ECDS]({% link docs/data_insights/ecds.md %}) | 2018-10 | - | ~3 months | Monthly |
 
 # COVID-19 lab tests
 
@@ -59,7 +59,7 @@ permalink: /data_management/dataset_summary
 
 | Dataset | Start Date  | End Date | Data Lag | Update Frequency | Key notes |
 | --- | --- | --- | --- | --- | --- |
-| ICNARC COVID | 2019-10 | - | ? | Monthly | First batch included high number of duplicate records that were cleaned for subsequent batches. |
+| [ICNARC]({% link docs/data_insights/icnarc.md %}) | 2019-10 | - | ? | Monthly | First batch included high number of duplicate records that were cleaned for subsequent batches. |
 | COVID-19 SARI-Watch | 2019-11 | - | ~5 months? | Monthly | Formerly CHESS |
 
 # Prescribing/Dispensing
@@ -87,7 +87,7 @@ permalink: /data_management/dataset_summary
 | NICOR NHFA v4 | 2017-03 | 2023-08 | NA | No longer updated | Combine NICOR NHFA v4 and v5 for full date coverage.  |
 | NICOR NHFA v5 | 2019-12 | 2023-08 | NA | No longer updated |  |
 | NICOR PCI | 2017-01 | 2023-08 | NA | No longer updated |  |
-| NICOR TAVI | 2018-01 | 2023-08 | NA | No longer updated |  |
+| [NICOR TAVI]({% link docs/data_insights/nicor_tavi.md %}) | 2018-01 | 2023-08 | NA | No longer updated |  |
 | SSNAP | 2018-01 | - | ~1 month | Monthly | Data quality issue July 2023 |
 
 # Other
