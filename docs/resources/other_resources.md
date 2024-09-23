@@ -29,3 +29,4 @@ An R package which provides tools for building local and remote databases from s
 
 - <a href="https://confluence.ihtsdotools.org/display/DOCEXTPG/4.4.1+National+Editions#Figure-depiction-of-uk-edition" target="_blank">4.4.1 National Editions - Extensions Practical Guide - SNOMED Confluence</a>
 
+![Code terminology resource image](https://bhfdsc.github.io/documentation/assets/images/code_terminology_resource_image.png)
