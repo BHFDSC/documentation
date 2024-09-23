@@ -12,7 +12,7 @@ permalink: /data_management/dataset_summary
 
 | Dataset | Start Date | End Date | Data Lag  | Update Frequency | Key notes                                                                                                |
 | ------- | ---------- | -------- | --------- | ---------------- | -------------------------------------------------------------------------------------------------------- |
-| GDPPR   | \*         | \-       | ~2 months | Monthly          | Includes individuals alive and registered as of 1/11/2019. Does not have full code coverage or lookback. |
+| [GDPPR]({% link docs/data_insights/gdppr.md %})   | \*         | \-       | ~2 months | Monthly          | Includes individuals alive and registered as of 1/11/2019. Does not have full code coverage or lookback. |
 
 # Secondary Care
 
