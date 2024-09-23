@@ -25,5 +25,5 @@ permalink: /resources/code_terminology/gdppr_snomed_subset_analysis
 
 ## Coverage between datasets
 
-
+![Coverage between datasets](https://bhfdsc.github.io/documentation/assets/images/coverage_between_datasets.png)
 
