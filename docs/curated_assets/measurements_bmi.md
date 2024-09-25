@@ -8,6 +8,7 @@ permalink: /docs/curated_assets/measurements_bmi
 
 # BMI
 
-
+Coming soon
+{: .label .label-yellow }
 
 ---
