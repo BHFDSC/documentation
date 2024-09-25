@@ -13,7 +13,7 @@ There are currently 2 distinct types of Patient IDs provided in our datasets pro
 - **NHS_NUMBER_DEID**:
   - This is a tokenized (de-identified) version of the patient NHS Number. 
 - **PERSON_ID_DEID**:
-  - This is a tokenized version of Person_ID, which is comprised of three levels:
+  - This is a tokenized version of Person_ID, which is comprised of three levels
  
 | --- | --- |
 | **1) NHS number**:  From Personal Demographic Service (PDS) records - the collection of all NHS numbers and patients’ demographic information. | <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_all_tables.png" alt="linkable" style="width: 900px; height: auto;"> |
