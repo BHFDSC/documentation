@@ -9,5 +9,6 @@ permalink: /docs/curated_assets/quality_assurance
 # Quality Assurance
 
 
-
+Coming soon
+{: .label .label-yellow }
 ---
