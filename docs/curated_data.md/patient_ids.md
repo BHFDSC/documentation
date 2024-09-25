@@ -15,7 +15,9 @@ There are currently 2 distinct types of Patient IDs provided in our datasets pro
 - **PERSON_ID_DEID**:
   - This is a tokenized version of Person_ID, which is comprised of three levels:
     1) *NHS number*:  From Personal Demographic Service (PDS) records - the collection of all NHS numbers and patients’ demographic information ![linkable](https://bhfdsc.github.io/documentation/assets/images/linkable_all_tables.png)
-    2) *Master Person Service (MPS) ID*:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket. ![half linkable](https://bhfdsc.github.io/documentation/assets/images/linkeable_personid_tables.png)
+       <br>
+    2) *Master Person Service (MPS) ID*:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket. ![half linkable](https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png)
+       <br>
     3) *One-time-use ID*: IF neither an NHS number or an MPS ID could be assigned. ![not linkable](https://bhfdsc.github.io/documentation/assets/images/not_linkable.png)
 
 
