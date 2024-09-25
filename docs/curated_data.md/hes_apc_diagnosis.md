@@ -7,3 +7,5 @@ permalink: /docs/curated_data/hes_apc_diagnosis
 ---
 
 # HES APC Diagnosis
+Coming soon
+{: .label .label-yellow }
