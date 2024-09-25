@@ -27,6 +27,12 @@ Where a perfect match of NHS number and date of birth cannot be found between a 
 
 An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/The%20Person_ID%20handbook%20for%20HES%20users%20V1.0.0.pdf" target="_blank">here</a>
 
+## Example of Data Linkage Behaviour
+
+![Example of Data Linkage Behaviour](https://bhfdsc.github.io/documentation/assets/images/example_data_linkage.png)
+
+
+
 ## Current position:
 
 There are ~ 109M distinct IDs across the datasets that make up the skinny patient table (GDPPR, HES APC/Outpatients/A&E and Deaths). From the UpSet plot below we can see that there are 12M IDs that are unique to HES Outpatients, and similarly 9M and 7M IDs unique to HES APC and HES A&E respectively. To what extent these volumes are driven by MPS_IDs and One-time-use IDs is not currently known, and we cannot calculate this based on the data as it stands in our TRE. For this reason, we advise users to limit their study cohorts to IDs that appear in the GDPPR dataset (where feasible for their analysis). This will ensure that only IDs that are actually linkable will be included.
