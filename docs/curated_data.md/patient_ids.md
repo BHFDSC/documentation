@@ -25,7 +25,7 @@ MPS takes certain demographic information contained in a person’s health and c
 
 Where a perfect match of NHS number and date of birth cannot be found between a record of interest and any of the PDS records, more complex algorithms are used to compare partial demographic information to identify the most likely PDS record corresponding to the query record. These algorithms are referred to as alphanumeric and algorithmic trace, but in HES only the latter is used. In the algorithmic trace step, the single queried record is compared to all records in PDS. The comparisons involve some demographic information (date of birth, name, gender and postcode) and are scored based on similarity. If the similarity is deemed acceptable, the matched record is returned. Otherwise, the algorithm proceeds to look for similarities of the record of interest with some previously unmatched records, stored in the MPS record bucket, a separate data set. If no match is found in the MPS record bucket then a “One-time-use ID” is provided.
 
-An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook#:~:text=This%20handbook%20aims%20to%20provide,and%20how%20to%20interpret%20the" target="_blank">here</a>
+An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook#:~:text=This%20handbook%20aims%20to%20provide,and%20how%20to%20interpret%20the" target="_blank">here.</a>
 
 ## Example of Data Linkage Behaviour
 
