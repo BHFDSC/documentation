@@ -9,5 +9,6 @@ permalink: /docs/curated_data/covid_trajectories
 # COVID-19
 
 
-
+Coming soon
+{: .label .label-yellow }
 ---
