@@ -30,6 +30,14 @@ There are currently 2 distinct types of Patient IDs provided in our datasets pro
   <img src="https://bhfdsc.github.io/documentation/assets/images/not_linkable.png" alt="Image" style="width: 45%; margin-right: 20px;">
 </div>
 
+
+
+| 1) *NHS number*:  From Personal Demographic Service (PDS) records - the collection of all NHS numbers and patients’ demographic information. | ![linkable](https://bhfdsc.github.io/documentation/assets/images/linkable_all_tables.png) |
+| --- | --- |
+| 2) *Master Person Service (MPS) ID*:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket. | ![semi-linkable](https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png) |
+| 3) *One-time-use ID*: IF neither an NHS number or an MPS ID could be assigned. | ![unlinkable](https://bhfdsc.github.io/documentation/assets/images/not_linkable.png) |
+
+
 MPS takes certain demographic information contained in a person’s health and care records and matches it to their unique NHS number to confirm their identity. The collection of all NHS numbers and patients’ demographic information is contained in the Personal Demographics Service (PDS) data set.
 
 Where a perfect match of NHS number and date of birth cannot be found between a record of interest and any of the PDS records, more complex algorithms are used to compare partial demographic information to identify the most likely PDS record corresponding to the query record. These algorithms are referred to as alphanumeric and algorithmic trace, but in HES only the latter is used. In the algorithmic trace step, the single queried record is compared to all records in PDS. The comparisons involve some demographic information (date of birth, name, gender and postcode) and are scored based on similarity. If the similarity is deemed acceptable, the matched record is returned. Otherwise, the algorithm proceeds to look for similarities of the record of interest with some previously unmatched records, stored in the MPS record bucket, a separate data set. If no match is found in the MPS record bucket then a “One-time-use ID” is provided.
