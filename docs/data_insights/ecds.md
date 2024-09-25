@@ -28,6 +28,18 @@ The Emergency Care Data Set (ECDS) collects information about why people attend 
   <a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds/ecds-guidance" class="btn" target="_blank">ECDS User Guide and Enhanced Technical Output Specification</a>
 </span>
 
+{: .highlight-title }
+> Table Names
+>
+> &nbsp;
+> **Live table**
+> >
+> dars_nic_391419_j3w9t.lowlat_ecds_all_years
+>
+> **Archived table**
+> >
+> dars_nic_391419_j3w9t_collab.lowlat_ecds_all_years_archive
+
 
 {: .note-title }
 > Need to Know
