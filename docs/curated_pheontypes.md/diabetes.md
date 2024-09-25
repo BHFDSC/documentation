@@ -8,6 +8,7 @@ permalink: /docs/curated_data/diabetes
 
 # Diabetes
 
-
+Coming soon
+{: .label .label-yellow }
 
 ---
