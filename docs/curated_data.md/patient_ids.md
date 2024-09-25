@@ -22,12 +22,12 @@ There are currently 2 distinct types of Patient IDs provided in our datasets pro
 
 <div style="display: flex; align-items: center;">
    <p style="flex: 1;"> 2) *Master Person Service (MPS) ID*:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket.</p>
-  <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png" alt="Image" style="width: 50%; margin-right: 20px;">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png" alt="Image" style="width: 45%; margin-right: 20px;">
 </div>
 
 <div style="display: flex; align-items: center;">
    <p style="flex: 1;">   3) *One-time-use ID*: IF neither an NHS number or an MPS ID could be assigned.</p>
-  <img src="https://bhfdsc.github.io/documentation/assets/images/not_linkable.png" alt="Image" style="width: 50%; margin-right: 20px;">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/not_linkable.png" alt="Image" style="width: 45%; margin-right: 20px;">
 </div>
 
 MPS takes certain demographic information contained in a person’s health and care records and matches it to their unique NHS number to confirm their identity. The collection of all NHS numbers and patients’ demographic information is contained in the Personal Demographics Service (PDS) data set.
