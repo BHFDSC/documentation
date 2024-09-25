@@ -9,5 +9,6 @@ permalink: /docs/curated_assets/measurements_hba1c
 # HbA1c
 
 
-
+Coming soon
+{: .label .label-yellow }
 ---
