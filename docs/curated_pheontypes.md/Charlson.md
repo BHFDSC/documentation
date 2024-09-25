@@ -8,6 +8,7 @@ permalink: /docs/curated_data/charlson
 
 # Charlson Comorbidity Index
 
-
+Coming soon
+{: .label .label-yellow }
 
 ---
