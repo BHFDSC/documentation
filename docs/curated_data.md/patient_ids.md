@@ -13,12 +13,12 @@ There are currently 2 distinct types of Patient IDs provided in our datasets pro
 - **NHS_NUMBER_DEID**:
   - This is a tokenized (de-identified) version of the patient NHS Number. 
 - **PERSON_ID_DEID**:
-  - This is a tokenized version of Person_ID, which is comprised of three levels:
+  - This is a tokenized version of Person_ID, which is comprised of three levels
  
 | --- | --- |
 | **1) NHS number**:  From Personal Demographic Service (PDS) records - the collection of all NHS numbers and patients’ demographic information. | <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_all_tables.png" alt="linkable" style="width: 900px; height: auto;"> |
-| **2) Master Person Service (MPS) ID**:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket. | <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png" alt="linkable" style="width: 1100px; height: auto;"> |
-| **3) One-time-use ID**: IF neither an NHS number or an MPS ID could be assigned. | <img src="https://bhfdsc.github.io/documentation/assets/images/not_linkable.png" alt="linkable" style="width: 1100px; height: auto;"> |
+| **2) Master Person Service (MPS) ID**:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket. | <img src="https://bhfdsc.github.io/documentation/assets/images/linkable_personid_tables.png" alt="linkable" style="width: 1300px; height: auto;"> |
+| **3) One-time-use ID**: IF neither an NHS number or an MPS ID could be assigned. | <img src="https://bhfdsc.github.io/documentation/assets/images/not_linkable.png" alt="linkable" style="width: 1300px; height: auto;"> |
 
 
 MPS takes certain demographic information contained in a person’s health and care records and matches it to their unique NHS number to confirm their identity. The collection of all NHS numbers and patients’ demographic information is contained in the Personal Demographics Service (PDS) data set.
