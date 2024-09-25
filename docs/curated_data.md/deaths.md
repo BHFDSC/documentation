@@ -7,3 +7,6 @@ permalink: /docs/curated_data/deaths
 ---
 
 # Deaths
+
+Coming soon
+{: .label .label-yellow }
