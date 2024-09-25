@@ -38,7 +38,7 @@ An in-depth guide from NHS Digital on how the PERSON_ID field is derived is prov
 **Documentation**:
 The token_pseudo_id_lookup table provides indicator columns for the type of pseudonymised identifier.
 
-This table determines whether the pseudonymised identifier corresponds to a valid NHS number, Master Person Service (MPS) ID, or a one-time-use ID. Please refer to the NHS England Person_ID handbook for further information about these types of Person_ID.
+This table determines whether the pseudonymised identifier corresponds to a valid NHS number, Master Person Service (MPS) ID, or a one-time-use ID. Please refer to the <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/The%20Person_ID%20handbook%20for%20HES%20users%20V1.0.0.pdf" target="_blank">NHS England Person_ID handbook</a> for further information about these types of Person_ID.
 
 The table covers all pseudonymised identifiers (e.g., NHS_NUMBER_DEID, PERSON_ID_DEID) that feature in the data sharing agreement.
 
