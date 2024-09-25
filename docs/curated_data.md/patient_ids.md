@@ -31,14 +31,20 @@ An in-depth guide from NHS Digital on how the PERSON_ID field is derived is prov
 
 ![Example of Data Linkage Behaviour](https://bhfdsc.github.io/documentation/assets/images/example_data_linkage.png)
 
+## token_pseudo_id_lookup table
 
+**Path**: dars_nic_391419_j3w9t.token_pseudo_id_lookup
 
-## Current position:
+**Documentation**:
+The token_pseudo_id_lookup table provides indicator columns for the type of pseudonymised identifier.
 
-There are ~ 109M distinct IDs across the datasets that make up the skinny patient table (GDPPR, HES APC/Outpatients/A&E and Deaths). From the UpSet plot below we can see that there are 12M IDs that are unique to HES Outpatients, and similarly 9M and 7M IDs unique to HES APC and HES A&E respectively. To what extent these volumes are driven by MPS_IDs and One-time-use IDs is not currently known, and we cannot calculate this based on the data as it stands in our TRE. For this reason, we advise users to limit their study cohorts to IDs that appear in the GDPPR dataset (where feasible for their analysis). This will ensure that only IDs that are actually linkable will be included.
+This table determines whether the pseudonymised identifier corresponds to a valid NHS number, Master Person Service (MPS) ID, or a one-time-use ID. Please refer to the NHS England Person_ID handbook for further information about these types of Person_ID.
 
-![Patient ID graph](https://bhfdsc.github.io/documentation/assets/images/patient_id_graph.png)
+The table covers all pseudonymised identifiers (e.g., NHS_NUMBER_DEID, PERSON_ID_DEID) that feature in the data sharing agreement.
 
-## Future:
+The pseudo_id column uniquely identifies each row in the table. As at 2024-06-04, the token_pseudo_id_lookup table included ~450 million rows (i.e., distinct pseudo_id).
 
-In future NHS Digital aim to provide flags to indicate which IDs within a PERSON_ID_DEID dataset are NHS_NUMBER, MPS_ID and One-time-use IDs. This will allow us to quantify the impact of MPS_IDs and One-time_use IDs on all datasets that use PERSON_ID_DEID. It would also allow users to exclude these IDs from cohort selection stages of research projects.
+The table is partitioned on the first_char column (the first character of the pseudo_id column) and this column can be used in addition to the pseudo_id column when joining the token_pseudo_id_lookup table to other tables to improve the efficiency of the join by reducing the shuffling required.
+
+The token_pseudo_id_lookup table will be updated each month by the NHS England Data Wrangler team inline with monthly batch provisioning and updates, with any new pseudonymised identifiers inserted into the table, which will be stored in the live (read-only) database (dars_nic_391419_j3w9t) for the data sharing agreement
+
