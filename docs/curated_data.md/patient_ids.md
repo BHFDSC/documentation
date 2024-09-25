@@ -11,20 +11,17 @@ permalink: /docs/curated_data/patient_ids
 There are currently 2 distinct types of Patient IDs provided in our datasets provisioned in the NHS England SDE. These are NHS_NUMBER_DEID and PERSON_ID_DEID. These 2 IDs are used to link various datasets e.g. to link GDPPR (NHS_NUMBER_DEID) to HES APC (PERSON_ID_DEID), however it is important to know that these fields are derived differently.
 
 - **NHS_NUMBER_DEID**:
-  - This is a tokenized version of the Patient NHS Number.
- 
+  - This is a tokenized (de-identified) version of the patient NHS Number. 
 - **PERSON_ID_DEID**:
-  - PERSON_ID is derived from the outputs of the Master Person Service (MPS).
+  - This is a tokenized version of Person_ID, which is comprised of three levels:
+    1) *NHS number*:  From Personal Demographic Service (PDS) records - the collection of all NHS numbers and patients’ demographic information
+    2) *Master Person Service (MPS) ID*:  From the MPS bucket of previously unmatched records that could not be identified as records with an NHS number in PDS. If sufficient demographic information is provided a new MPS ID can be created and added to the MPS bucket.
+    3) *One-time-use ID*: IF neither an NHS number or an MPS ID could be assigned.
+
 
 MPS takes certain demographic information contained in a person’s health and care records and matches it to their unique NHS number to confirm their identity. The collection of all NHS numbers and patients’ demographic information is contained in the Personal Demographics Service (PDS) data set.
 
 Where a perfect match of NHS number and date of birth cannot be found between a record of interest and any of the PDS records, more complex algorithms are used to compare partial demographic information to identify the most likely PDS record corresponding to the query record. These algorithms are referred to as alphanumeric and algorithmic trace, but in HES only the latter is used. In the algorithmic trace step, the single queried record is compared to all records in PDS. The comparisons involve some demographic information (date of birth, name, gender and postcode) and are scored based on similarity. If the similarity is deemed acceptable, the matched record is returned. Otherwise, the algorithm proceeds to look for similarities of the record of interest with some previously unmatched records, stored in the MPS record bucket, a separate data set. If no match is found in the MPS record bucket then a “One-time-use ID” is provided.
-
-Therefore PERSON_ID_DEID is a tokenized ID comprised of 3 different ID types, with the following linkage behaviours:
-
-1. NHS_NUMBER: linkable to all other datasets
-2. MPS_ID: linkable to other datasets with PERSON_ID_DEID
-3. One-time-use ID: not linkable within or across datasets
 
 An in-depth guide from NHS Digital on how the PERSON_ID field is derived is provided <a href="https://github.com/BHFDSC/documentation/blob/main/assets/images/The%20Person_ID%20handbook%20for%20HES%20users%20V1.0.0.pdf" target="_blank">here</a>
 
