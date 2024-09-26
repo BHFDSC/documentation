@@ -48,3 +48,4 @@ The table is partitioned on the first_char column (the first character of the ps
 
 The token_pseudo_id_lookup table will be updated each month by the NHS England Data Wrangler team inline with monthly batch provisioning and updates, with any new pseudonymised identifiers inserted into the table, which will be stored in the live (read-only) database (dars_nic_391419_j3w9t) for the data sharing agreement
 
+For further information about the token_pseudo_id_lookup table click [here](https://bhfdsc.github.io/documentation/assets/images/hds_tb_token_pseudo_id_lookup.pdf). 
