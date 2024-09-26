@@ -8,7 +8,7 @@ permalink: /docs/dataset_overview/table_names_paths
 
 # Table names and paths
 <br>
-**Please note**: all table paths start with dars_nic_391419_j3w9t_collab (eg. dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive)
+**Please note**: all table paths start with 'dars_nic_391419_j3w9t_collab.' (eg. dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive)
 <br>
 <br>
 
