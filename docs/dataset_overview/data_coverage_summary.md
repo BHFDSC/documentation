@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Data Coverage Summary Table
+title: Data coverage summary table
 parent: Dataset Overview
 nav_order: 1
-permalink: /docs/dataset_overview/data_coverage_summary
+permalink: /docs/dataset_overview/data_coverage_summary_table
 ---
 
 # Data Coverage Summary Table 
