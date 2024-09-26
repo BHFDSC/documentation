@@ -8,7 +8,7 @@ permalink: /docs/dataset_overview/table_names_paths
 
 # Table names and paths
 <br>
-**Please note**: all table paths start with  (eg. .gdppr__archive)
+**Please note**: all table paths start with '.' (eg. .gdppr__archive)
 <br>
 <br>
 
