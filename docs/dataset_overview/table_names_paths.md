@@ -12,12 +12,12 @@ permalink: /docs/dataset_overview/table_names_paths
 <br>
 <br>
 
-| Dataset (Full Name) | Table Name | Table Path |
+| Dataset | Table Name | Table Path |
 | --- | --- | --- |
 | GDPPR | gdppr | gdppr_dars_nic_391419_j3w9t_archive |
 | HES APC | hes_apc | hes_apc_all_years_archive |
 | HES APC OTR | hes_apc_otr | hes_apc_otr_all_years_archive |
-| HES APC ACP | hes_apc_acp | dars_nic_391419_j3w9t_collab.hes_apc_acp_all_years_archive |
+| HES APC ACP | hes_apc_acp | hes_apc_acp_all_years_archive |
 | HES APC MAT | hes_apc_mat | hes_apc_mat_all_years_archive |
 | HES AE | hes_ae | hes_ae_all_years_archive |
 | HES AE OTR | hes_ae_otr | hes_ae_all_years_otr_archive |
