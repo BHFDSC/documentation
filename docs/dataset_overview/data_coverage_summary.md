@@ -1,5 +1,12 @@
+---
+layout: default
+title: Deaths
+parent: Dataset Overview
+nav_order: 1
+permalink: /docs/dataset_overview/data_coverage_summary
+---
 
-
+# Data Coverage Summary Table 
 
 <a href="https://github.io/documentation/assets/images/summary_table_data_coverage_TB_AS_03092024_pdf.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
 
