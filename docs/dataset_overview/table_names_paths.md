@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Table names and filepaths
+title: Table names and paths
 parent: Dataset Overview
 nav_order: 2
-permalink: /docs/dataset_overview/table_names_filepaths
+permalink: /docs/dataset_overview/table_names_paths
 ---
 
-# Table names and file paths
+# Table names and paths
 
-Please note: all table file paths start with  (eg. .gdppr__archive)
+Please note: all table paths start with  (eg. .gdppr__archive)
 
 | Dataset (Full Name) | Table Name | Table Path |
 | --- | --- | --- |
