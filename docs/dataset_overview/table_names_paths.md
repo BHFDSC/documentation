@@ -10,6 +10,7 @@ permalink: /docs/dataset_overview/table_names_paths
 <br>
 **Please note**: all table paths start with  (eg. .gdppr__archive)
 <br>
+<br>
 
 | Dataset (Full Name) | Table Name | Table Path |
 | --- | --- | --- |
