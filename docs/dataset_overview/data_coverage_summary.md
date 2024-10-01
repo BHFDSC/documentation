@@ -8,15 +8,13 @@ permalink: /docs/dataset_overview/data_coverage_summary_table
 
 # Data Coverage Summary Table 
 
-<a href="https://github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
+<a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
 
 # Primary Care
 
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
-| GPES Data for Pandemic Planning and Research (GDPPR) | Please see Key notes / links to further information | Ongoing | Monthly | ~2 months | GDPPR only includes individuals with active, current registrations at participating practices (97.5%) who were alive on or born after 1 November 2019. GDPPR also only includes a subset of ~40,000 (out of >900,000) SNOMED-CT codes that were deemed relevant to pandemic planning and research with some time-based cut-offs applied according to the code cluster. Please see the links below:  |
-|  |  |  |  |  | NHS England - GDPPR |
-|  |  |  |  |  | BHF DSC HDS - GDPPR |
+| GPES Data for Pandemic Planning and Research (GDPPR) | Please see Key notes / links to further information | Ongoing | Monthly | ~2 months | GDPPR only includes individuals with active, current registrations at participating practices (97.5%) who were alive on or born after 1 November 2019. GDPPR also only includes a subset of ~40,000 (out of >900,000) SNOMED-CT codes that were deemed relevant to pandemic planning and research with some time-based cut-offs applied according to the code cluster. <a href="https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data" target="_blank">NHS England - GDPPR</a>  <a href="https://bhfdsc.github.io/documentation/docs/data_insights/gdppr" target="_blank">BHF DSC HDS - GDPPR</a> |
 
 
 # Secondary Care
