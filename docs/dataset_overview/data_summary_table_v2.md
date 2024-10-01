@@ -2,7 +2,7 @@
 layout: default
 title: Data summary table v2
 parent: Dataset Overview
-nav_order: 1
+nav_order: 2
 permalink: /docs/dataset_overview/data_summary_table_v2
 ---
 
