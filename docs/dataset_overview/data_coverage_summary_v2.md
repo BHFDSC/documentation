@@ -7,6 +7,8 @@ permalink: /docs/dataset_overview/data_coverage_summary_table_v2
 ---
 
 
-<a href="https://github.io/documentation/assets/images/data_summary_table_20240930.pdf" target="_blank">
+<a href="https://github.io/documentation/assets/images/data_summary_table_20240930.pdf">
   <img src="https://github.io/documentation/assets/images/data_summary_table_20240930.pdf" alt="Data summmary table">
 </a>
+
+
