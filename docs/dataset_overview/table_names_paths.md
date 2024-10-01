@@ -2,7 +2,7 @@
 layout: default
 title: Table names and paths
 parent: Dataset Overview
-nav_order: 2
+nav_order: 4
 permalink: /docs/dataset_overview/table_names_paths
 ---
 
