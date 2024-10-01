@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Data coverage summary table
+title: Data summary table
 parent: Dataset Overview
 nav_order: 1
-permalink: /docs/dataset_overview/data_coverage_summary_table
+permalink: /docs/dataset_overview/data_summary_table
 ---
 
-# Data Coverage Summary Table 
+# Data Summary Table 
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
 
@@ -14,20 +14,20 @@ permalink: /docs/dataset_overview/data_coverage_summary_table
 
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
-| GPES Data for Pandemic Planning and Research (GDPPR) | Please see Key notes / links to further information | Ongoing | Monthly | ~2 months | GDPPR only includes individuals with active, current registrations at participating practices (97.5%) who were alive on or born after 1 November 2019. GDPPR also only includes a subset of ~40,000 (out of >900,000) SNOMED-CT codes that were deemed relevant to pandemic planning and research with some time-based cut-offs applied according to the code cluster. Please see the links below: <br> <a href="https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data" target="_blank">NHS England - GDPPR</a> <br> <a href="https://bhfdsc.github.io/documentation/docs/data_insights/gdppr" target="_blank">BHF DSC HDS - GDPPR</a> |
+| GPES Data for Pandemic Planning and Research (GDPPR) | Please see Key notes / links to further information | Ongoing | Monthly | ~2 months | GDPPR only includes individuals with active, current registrations at participating practices (97.5%) who were alive on or born after 1 November 2019. GDPPR also only includes a subset of ~40,000 (out of >900,000) SNOMED-CT codes that were deemed relevant to pandemic planning and research with some time-based cut-offs applied according to the code cluster. Please see the links below: <br> <a href="https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data" target="_blank">NHS England - GDPPR</a> <br><br> <a href="https://bhfdsc.github.io/documentation/docs/data_insights/gdppr" target="_blank">BHF DSC HDS - GDPPR</a> |
 
 
 # Secondary Care
 
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
-| Hospital Episode Statistics (HES): |  |  |  |  |  |
+| **Hospital Episode Statistics (HES):** |  |  |  |  |  |
 |     - Admitted Patient Care (APC) | 1997-04 | Ongoing | Monthly | ~3 months |  |
 |     - Accident and Emergency (AE) | 2007-04 | Ongoing | Monthly | ~2 months |  |
 |     - Critical Care (CC) | 2008-04 | Ongoing | Monthly | ~3 months | HES CC only includes neo-natal records from 2017-04 |
 |     - Outpatients (OP) | 2003-04 | Ongoing | Monthly | ~3 months |  |
 | Emergency Care Data Set (ECDS) | 2018-10 | Ongoing | Monthly | ~3 months |  |
-| Uncurated low latency: |  |  |  |  |  |
+| **Uncurated low latency:** |  |  |  |  |  |
 |     - Admitted Patient Care (APC) | 2017-01 | Ongoing | Monthly | ~2 months |  |
 |     - Critical Care (CC) | 2017-10 | Ongoing | Monthly | ~3 months |  |
 |     - Outpatients (OP) | 2018-10 | Ongoing | Monthly | ~2 months |  |
@@ -71,9 +71,7 @@ permalink: /docs/dataset_overview/data_coverage_summary_table
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
 | Medicines dispensed in primary care (NHS Business Services Authority [NHSBSA]) | 2018-04 | Ongoing | Monthly | ~1 month |  |
-| Secondary care prescribed medicines (Electronic Prescribing and Medicines Administration [EPMA]) | 2019-01 | 2023-08 | No longer updated | NA | EPMA only captures around ~15% of secondary presecribing (limited to 26 NHS hospital trusts). Data quality varies by NHS hospital trust. A new more comprehensive EPMA collection is planned for provisioning in January 2025. Please see the links below: |
-|  |  |  |  |  | NHS England - EPMA |
-|  |  |  |  |  | NHS England - EPMA (January 2025) |
+| Secondary care prescribed medicines (Electronic Prescribing and Medicines Administration [EPMA]) | 2019-01 | 2023-08 | No longer updated | NA | EPMA only captures around ~15% of secondary presecribing (limited to 26 NHS hospital trusts). Data quality varies by NHS hospital trust. A new more comprehensive EPMA collection is planned for provisioning in January 2025. Please see the links below: <br> <a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/electronic-prescribing-and-administration-epma-data-in-secondary-care" target="_blank">NHS England - EPMA</a> <br><br> <a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/secondary-care-electronic-prescribing-and-medicine-administration-epma-data-collection" target="_blank">NHS England - EPMA (January 2025)</a> |
 
 
 # National Institute for Cardiovascular Outcomes Research (NICOR) National Cardiac Audit Programme (NCAP)
@@ -81,7 +79,7 @@ permalink: /docs/dataset_overview/data_coverage_summary_table
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
 | Myocardial Ischaemia National Audit Project (MINAP) | 2017-01 | 2023-03 | Last updated 2024-01 | NA | Data flows from NICOR to NHS England have ceased. Please see the link below: |
-| National Adult Cardiac Surgery Audit (NACSA) | 2013-01 | 2023-03 | Last updated 2023-08 | NA | NHS England - Onboarding Dashboard |
+| National Adult Cardiac Surgery Audit (NACSA) | 2013-01 | 2023-03 | Last updated 2023-08 | NA | <a href="https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/data-set-additions-and-improvements-report" target="_blank">NHS England - Onboarding Dashboard</a> |
 | National Audit of Cardiac Rhythm Management (NACRM) | 2018-01 | 2023-03 | Last updated 2023-08 | NA | Data may not be complete for a given financial year until several months after the end of the financial year when NHS hospital trusts might submit the data for the full year in bulk. NHFA version 4 and 5 should be combined to maximise date coverage.  |
 | National Audit of Percutaneous Coronary Interventions (NAPCI) | 2017-01 | 2023-03 | Last updated 2023-08 | NA |  |
 | National Congenital Heart Disease Audit (NCHDA) | 2018-01 | 2023-03 | Last updated 2023-08 | NA |  |
@@ -102,8 +100,8 @@ permalink: /docs/dataset_overview/data_coverage_summary_table
 | Dataset | Start Date*  | End Date | Update Frequency | Update Lag | Key notes / links to further information |
 | --- | --- | --- | --- | --- | --- |
 | Improving Access to Psychological Therapies (IAPT) | 2020-09 | Ongoing | Monthly | ~1 month |  |
-| Maternity Services Data Set (MSDS) | 2019-04 | Ongoing | Monthly | ~1 month | MSDS is a maturing dataset with the number of deliveries captured being lower (compared to HES APC Maternity) in the earlier years of the dataset (i.e., 59% in FY2019/20, increasing to 97% in FY2022/23). Please see the link below: |
-|  |  |  |  |  | NHS England - MSDS vs HES APC Maternity |
+| Maternity Services Data Set (MSDS) | 2019-04 | Ongoing | Monthly | ~1 month | MSDS is a maturing dataset with the number of deliveries captured being lower (compared to HES APC Maternity) in the earlier years of the dataset (i.e., 59% in FY2019/20, increasing to 97% in FY2022/23). Please see the link below: <a href="https://digital.nhs.uk/data-and-information/publications/statistical/nhs-maternity-statistics/2022-23/hes-msds-comparison" target="_blank">NHS England - MSDS vs HES APC Maternity</a>  |
+|  |  |  |  |  |
 | Mental Health Services Data Set (MHSDS) | TBC | TBC | TBC | TBC |
 
 
