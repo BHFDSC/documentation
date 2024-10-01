@@ -13,8 +13,7 @@ This table summarises the datasets provisioned in the CVD-COVID-UK/COVID-IMPACT 
 Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for more information about the datasets, including descriptions, links, data dictionaries, overall counts, and data coverage and variable completeness plots, and the option to be able to compare data coverage across datasets.
 
 
-<a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/data_summary_table_png.png" alt="Data summmary table" target="blank">
+<a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" target="blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/data_summary_table_png.png" alt="Data summmary table">
 </a>
-
 
