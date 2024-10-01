@@ -8,7 +8,6 @@ permalink: /docs/dataset_overview/data_summary_table_v3
 
 # Data summary table
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
