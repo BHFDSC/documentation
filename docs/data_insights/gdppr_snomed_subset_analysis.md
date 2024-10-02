@@ -31,7 +31,38 @@ permalink: /docs/data_insights/gdppr/gdppr_snomed_subset_analysis
 - Numerator: GDPPR SNOMED codes
 - Denominator: SNOMED universe
 
-By top-level and semantic tags
+**By top-level and semantic tags**
 
 ![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/GDPPRvSNOMED.png)
 
+## GDPPR vs GDPPR & descendants
+- Numerator: GDPPR SNOMED codes
+- Denominator: GDPPR SNOMED codes and their descendant codes
+
+**By cluster category**
+
+![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/GDPPRvDescendants.png)
+
+<br>
+
+![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/GDPPRvDescendants_cluster.png)
+
+## GDPPR within mappable CTV-3 codes
+- Numerator: GDPPR SNOMED codes mappable from CTV-3
+- Denominator: SNOMED codes mappable from CTV-3
+
+**By CTV-3 chapter**
+
+![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/ctv3_chapter.png)
+
+**By CTV-3 subchapter**
+![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/ctv3_subchapter.png)
+
+
+
+
+
+
+
+
+  
