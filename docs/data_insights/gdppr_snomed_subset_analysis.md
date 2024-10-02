@@ -27,3 +27,11 @@ permalink: /docs/data_insights/gdppr/gdppr_snomed_subset_analysis
 
 ![Coverage between datasets](https://bhfdsc.github.io/documentation/assets/images/coverage_between_datasets.png)
 
+## GDPPR vs SNOMED Universe
+- Numerator: GDPPR SNOMED codes
+- Denominator: SNOMED universe
+
+By top-level and semantic tags
+
+![GDPPR vs. SNOMED](https://bhfdsc.github.io/documentation/assets/images/GDPPRvSNOMED.png)
+
