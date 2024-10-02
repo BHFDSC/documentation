@@ -3,6 +3,7 @@ layout: default
 title: GDPPR
 parent: Data Insights
 nav_order: 1
+has_children: True
 permalink: /docs/data_insights/gdppr
 ---
 
