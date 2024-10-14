@@ -36,9 +36,10 @@ The data comprise prescriptions for medicines dispensed or supplied by community
 > dars_nic_391419_j3w9t_collab.primary_care_meds_dars_nic_391419_j3w9t_archive
 
 
-## Data Summary Notebook in the SDE:
-
-Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\Primary Care Meds Summary-Notebook
+{: .new-title}
+> Data Summary Notebook:
+> 
+> Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\Primary Care Meds Summary-Notebook
 
 
 
