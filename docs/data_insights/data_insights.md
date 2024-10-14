@@ -8,4 +8,4 @@ permalink: /docs/insights
 
 # Data Insights
 
-The data insights aim to help you understand a dataset, including its limitations and how it was compiled, ensuring accurate analysis by avoiding incorrect assumptions.
+The data insights aim to help you understand a dataset, including its limitations and how it was compiled.
