@@ -8,6 +8,7 @@ permalink: /docs/curated_data/ecds_long
 
 # Emergency Care Data Set (ECDS) long format
 <br>
+
 ## Notebook in the SDE:
 Workspace/Shared/hds_team/hds_common_dev/curation/ECDS long-format curation
 
