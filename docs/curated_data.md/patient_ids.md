@@ -33,7 +33,12 @@ An in-depth guide from NHS Digital on how the PERSON_ID field is derived is prov
 
 ## token_pseudo_id_lookup table
 
-**Path**: .token_pseudo_id_lookup
+{: .highlight-title }
+> Table Name
+>
+> &nbsp;
+> 
+> .token_pseudo_id_lookup
 
 **Documentation**:
 The token_pseudo_id_lookup table provides indicator columns for the type of pseudonymised identifier.
