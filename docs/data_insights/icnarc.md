@@ -36,9 +36,10 @@ The ICNARC (Intensive Care National Audit and Research Centre) Case Mix Programm
 > >
 > .icnarc__archive
 
-
-## Data Summary Notebook:
-Workspaces\\DATA_RESOURCES\DATA_SUMMARY\ICNARC Summary-Notebook
+{: .new-title}
+> Data Summary Notebook:
+> 
+> Workspaces\\DATA_RESOURCES\DATA_SUMMARY\ICNARC Summary-Notebook
 
 
 {: .note-title }
