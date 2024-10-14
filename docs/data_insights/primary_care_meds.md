@@ -36,9 +36,10 @@ The data comprise prescriptions for medicines dispensed or supplied by community
 > .primary_care_meds__archive
 
 
-## Data Summary Notebook in the SDE:
-
-Workspaces\\DATA_RESOURCES\DATA_SUMMARY\Primary Care Meds Summary-Notebook
+{: .new-title}
+> Data Summary Notebook:
+> 
+> Workspaces\\DATA_RESOURCES\DATA_SUMMARY\Primary Care Meds Summary-Notebook
 
 
 
