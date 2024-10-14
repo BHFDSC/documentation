@@ -38,7 +38,7 @@ Hospital Episode Statistics (HES) contains records of all admissions, appointmen
 {: .new-title}
 > Data Summmary Notebook:
 > 
-> Workspaces\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
+> Workspace\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
 
 {: .new-title}
 > Data Insight Notebook:
