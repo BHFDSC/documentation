@@ -35,11 +35,15 @@ Hospital Episode Statistics (HES) contains records of all admissions, appointmen
 > >
 > dars_nic_391419_j3w9t_collab.hes_cc_all_years_archive
 
-## Data Summary Notebook:
-Workspaces\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
+{: .new-title}
+> Notebook in the SDE:
+> 
+> Workspaces\Shared\Summary Notebooks\HES\HES - CC All Years Summary Notebook
 
-## Data Insight Notebook:
-Workspace\Shared\DATA_INSIGHT\HES CC to HES APC linkage
+{: .new-title}
+> Notebook in the SDE:
+> 
+> Workspace\Shared\DATA_INSIGHT\HES CC to HES APC linkage
 
 {: .note-title }
 > Need to Know
