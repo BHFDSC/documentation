@@ -10,7 +10,7 @@ permalink: /docs/curated_data/ecds_long
 <br>
 
 {: .new-title}
-Notebook in the SDE:
+**Notebook in the SDE:**
 Workspace/Shared/hds_team/hds_common_dev/curation/ECDS long-format curation
 
 This notebook provides the methodology for creating long format ECDS diagnosis, invesitgation and treatment tables. The long format dataframes which are produced provide the SNOMED-CT codes, qualifiers and descriptions for the diagnosis table, and the SNOMED-CT codes descriptions and dates for the investigation and treatment tables.
