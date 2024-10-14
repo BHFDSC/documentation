@@ -35,8 +35,6 @@ An in-depth guide from NHS Digital on how the PERSON_ID field is derived is prov
 
 {: .highlight-title }
 > Table Name
->
-> &nbsp;
 > 
 > .token_pseudo_id_lookup
 
