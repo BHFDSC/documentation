@@ -14,4 +14,7 @@ The fainter lines indicate complexities in the coverage. For example, GDPPR data
 
 Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for more detailed coverage plots for each of the datasets.
 
-![Dataset Coverage Plot](https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png)
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" alt="Dashboard">
+</a>
