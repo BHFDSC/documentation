@@ -8,4 +8,4 @@ permalink: /docs/dataset_overview/coverage_plot
 
 
 
-![Example of Data Linkage Behaviour](https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_table.png)
+![Dataset Coverage Plot](https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png)
