@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Data summary table v3
+title: Dataset Summary Table
 parent: Dataset Overview
 nav_order: 3
-permalink: /docs/dataset_overview/data_summary_table_v3
+permalink: /docs/dataset_overview/dataset_summary_table
 ---
 
-# Data summary table
+# Dataset summary table
 
 <br>
 <a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
