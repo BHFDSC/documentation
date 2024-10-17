@@ -12,7 +12,7 @@ The dataset coverage plot provides an overview of the date coverage of each of t
 
 Fainter lines preceding the solid lines indicate complexities in the coverage. For example, GDPPR data is available from 1st November 2019 for patients who were alive on or after this date; however some measures are provided for these patients from May 2018 and historical diagnoses are available from before 1990 onwards, though these are not complete. 
 
-Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for more detailed coverage plots for each of the datasets.
+Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for more detailed coverage plots for each of the datasets individually.
 
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" target="_blank">
