@@ -7,6 +7,7 @@ permalink: /docs/dataset_overview/coverage_plot
 ---
 
 # Dataset Coverage Plot
+<br>
 
 The dataset coverage plot provides an overview of the date coverage of each of the datasets provisioned in the CVD-COVID-UK/COVID-IMPACT instance of the NHS England Secure Data Environment (SDE). 
 
