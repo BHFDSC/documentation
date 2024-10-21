@@ -17,7 +17,7 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
 
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" alt="coverage plot" width="1000" height = "800">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" alt="coverage plot" width="1000" height = "500">
 </a>
 
 
