@@ -18,6 +18,24 @@ The output table includes 5 columns:
 -	cod_digits – this column indicates whether the code is the three- or four-digit ICD-10 code
 -	code – the ICD-10 code itself
 
+## Example
+
+| person_id | date_of_death | cod_position | cod_digits | code |
+| --- | --- | --- | --- | --- |
+| A | 20120411 | Underlying | 3 | J18 |
+| A | 20120411 | Underlying | 4 | J189 |
+| A | 20120411 | Contributory_1 | 3  | J18 |
+| A | 20120411 | Contributory_1 | 4 | J189 |
+| A | 20120411 | Contributory_2 | 3 | I10 |
+| A | 20120411 | Contributory_2 | 4 | I101 |
+| B | 20030504 | Underlying | 3 | C34 |
+| B | 20030504 | Underlying | 4 | C349 |
+| B | 20030504 | Contributory_1 | 3 | C34 |
+| B | 20030504 | Contributory_1 | 4 | C349 |
+
+
+
+
 The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_on_date is in the format YYYY_MM_DD.
 
 {: .highlight-title }
@@ -26,6 +44,8 @@ The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_o
 > >
 > hds_curated_assets__deaths_cause_of_death_archived_on_date
 > 
+
+The below code will load the deaths_single table as at October 2024 using PySpark:
 
 {% highlight markdown %}
 ```python
