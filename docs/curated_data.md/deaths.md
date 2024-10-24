@@ -18,9 +18,6 @@ The table is saved to the DSA schema ****. The archived_on_date is in the format
 
 {: .highlight-title }
 > Table Name
->
-> 
-> **deaths_single**
 > >
 > hds_curated_assets__deaths_single_archived_on_date
 >
