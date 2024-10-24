@@ -9,7 +9,7 @@ permalink: /curated_data/deaths/deaths_cause_of_death
 
 # Cause of Death
 
-The deaths_cause_of_death takes the deaths_single table and transforms it to a long format table which includes the categorisation of the causes of death (underlying [from S_UNDERLYING_COD_ICD10] or contributory [from S_COD_CODE_1,…, S_COD_CODE_15]) and the 3-digit (broad category) and 4-digit (specific category) ICD-10 cause of death codes for each individual. Non-alphanumeric characters are removed from the cause of death codes and rows where the code column is null or an empty strong are filtered out, ensuring only valid codes are retained.
+The deaths_cause_of_death takes the deaths_single table and transforms it to a long format table which includes the categorisation of the causes of death (**underlying** [from S_UNDERLYING_COD_ICD10] or **contributory** [from S_COD_CODE_1,…, S_COD_CODE_15]) and the 3-digit (broad category) and 4-digit (specific category) ICD-10 cause of death codes for each individual. Non-alphanumeric characters are removed from the cause of death codes and rows where the code column is null or an empty string are filtered out, ensuring only valid codes are retained.
 
 The output table includes 5 columns:
 -	person_id
