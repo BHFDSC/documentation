@@ -18,9 +18,6 @@ The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_o
 
 {: .highlight-title }
 > Table Name
->
-> 
-> **deaths_single**
 > >
 > hds_curated_assets__deaths_single_archived_on_date
 >
