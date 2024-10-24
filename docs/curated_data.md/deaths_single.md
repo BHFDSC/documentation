@@ -14,7 +14,7 @@ The deaths_single table takes the latest archived version of the Civil Registrat
 The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_on_date is in the format **YYYY_MM_DD**.
 
 {: .highlight-title }
-> Table Names
+> Table Name
 >
 > >
 > hds_curated_assets__deaths_single_archived_on_date
