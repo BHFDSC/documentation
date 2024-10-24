@@ -45,7 +45,7 @@ The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_o
 > hds_curated_assets__deaths_cause_of_death_archived_on_date
 > 
 
-The below code will load the deaths_single table as at October 2024 using PySpark:
+The below code will load the deaths_cause_of_death table as at October 2024 using PySpark:
 
 {% highlight markdown %}
 ```python
