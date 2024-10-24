@@ -14,8 +14,8 @@ The deaths_cause_of_death takes the deaths_single table and transforms it to a l
 The output table includes 5 columns:
 -	person_id
 -	date_of_death
--	cod_position – this column indicates whether the code is underlying (from s_underlying_cod_icd10) or contributory (from s_cod_code_1,…s_cod_code15)
--	cod_digits – this column indicates whether the code is the three- or four-digit ICD-10 code
+-	cod_position – indicates whether the code is underlying (from s_underlying_cod_icd10) or contributory (from s_cod_code_1,…s_cod_code15)
+-	cod_digits – indicates whether the code is the three- or four-digit ICD-10 code
 -	code – the ICD-10 code itself
 
 ## Example
