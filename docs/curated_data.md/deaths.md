@@ -24,3 +24,13 @@ The table is saved to the DSA schema ****. The archived_on_date is in the format
 > >
 > hds_curated_assets__deaths_single_archived_on_date
 >
+
+
+{% highlight markdown %}
+```python
+import pyspark.sql.functions as f
+dsa = f''
+demographics_table = spark.table(f'{dsa}.hds_curated_assets__deaths_single_2024_10_01')
+```
+{% endhighlight %}
+
