@@ -1,11 +1,12 @@
 ---
 layout: default
-title: HES APC Diagnosis
+title: HES APC
 parent: Curated Data
 nav_order: 3
-permalink: /docs/curated_data/hes_apc_diagnosis
+has_children: true
+permalink: /docs/curated_data/hes_apc
 ---
 
-# HES APC Diagnosis
+# HES APC
 Coming soon
 {: .label .label-yellow }
