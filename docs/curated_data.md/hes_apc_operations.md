@@ -4,7 +4,7 @@ title: HES APC - Operations
 parent: HES APC
 grandparent: Curated Data
 nav_order: 2
-permalink: /docs/curated_data/hes_apc/hes_apc_operation
+permalink: /curated_data/hes_apc/hes_apc_operations
 ---
 
 # HES APC Operations
