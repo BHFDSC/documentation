@@ -6,7 +6,7 @@ nav_order: 1
 permalink: /docs/curated_data/ecds_long
 ---
 
-# Emergency Care Data Set (ECDS) long format
+# Emergency Care Data Set (ECDS) long forma
 <br>
 
 {: .new-title}
