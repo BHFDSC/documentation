@@ -1,8 +1,8 @@
 ---
 layout: default
 title: HES APC - Operations
-grandparent: Curated Data
 parent: HES APC
+grandparent: Curated Data
 nav_order: 2
 permalink: /docs/curated_data/hes_apc/hes_apc_operation
 ---
