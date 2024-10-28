@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ECDS long format
+title: ECDS
 parent: Curated Data
 nav_order: 1
-permalink: /docs/curated_data/ecds_long
+permalink: /docs/curated_data/ecds
 ---
 
 # Emergency Care Data Set (ECDS) long format
