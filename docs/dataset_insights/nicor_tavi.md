@@ -1,9 +1,9 @@
 ---
 layout: default
 title: NICOR TAVI
-parent: Data Insights
+parent: Dataset Insights
 nav_order: 6
-permalink: /docs/data_insights/nicor_tavi
+permalink: /docs/dataset_insights/nicor_tavi
 ---
 
 # NICOR TAVI
