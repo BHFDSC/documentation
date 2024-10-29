@@ -1,9 +1,9 @@
 ---
 layout: default
 title: HES CC
-parent: Data Insights
+parent: Dataset Insights
 nav_order: 4
-permalink: /docs/data_insights/hes_cc
+permalink: /docs/dataset_insights/hes_cc
 ---
 
 # HES CC
