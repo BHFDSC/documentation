@@ -26,7 +26,7 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
 - AE: Accident and Emergency
 - APC: Admitted Patient Care
 - CC: Critical Care
-- ECDS: Emergency Care Data Set
+- [ECDS]({% link docs/dataset_insights/ecds.md %}): Emergency Care Data Set
 - EPMA: Electronic Prescribing and Medicines Administration
 - GDPPR: General Practice Extraction Service (GPES) Data for Pandemic Planning and Research
 - HES: Hospital Episode Statistics
