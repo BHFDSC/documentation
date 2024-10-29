@@ -14,14 +14,14 @@ permalink: /docs/dataset_overview/table_names_paths
 
 | Dataset | Table Name | Table Path |
 | --- | --- | --- |
-| GDPPR | gdppr | gdppr__archive |
+| [GDPPR]({% link docs/dataset_insights/gdppr.md %}) | gdppr | gdppr__archive |
 | HES APC | hes_apc | hes_apc_all_years_archive |
 | HES APC OTR | hes_apc_otr | hes_apc_otr_all_years_archive |
 | HES APC ACP | hes_apc_acp | hes_apc_acp_all_years_archive |
 | HES APC MAT | hes_apc_mat | hes_apc_mat_all_years_archive |
 | HES AE | hes_ae | hes_ae_all_years_archive |
 | HES AE OTR | hes_ae_otr | hes_ae_all_years_otr_archive |
-| HES CC | hes_cc | hes_cc_all_years_archive |
+| [HES CC]({% link docs/dataset_insights/hes_cc.md %}) | hes_cc | hes_cc_all_years_archive |
 | HES CC OTR | hes_cc_otr | hes_cc_otr_all_years_archive |
 | HES OP | hes_op | hes_op_all_years_archive |
 | HES OP OTR | hes_op_otr | hes_op_otr_all_years_archive |
@@ -29,16 +29,16 @@ permalink: /docs/dataset_overview/table_names_paths
 | Uncurated Low Latency - APC | lowlat_apc | lowlat_apc_all_years_archive |
 | Uncurated Low Latency - CC | lowlat_cc | lowlat_cc_all_years_archive |
 | Uncurated Low Latency - OP | lowlat_op | lowlat_op_all_years_archive |
-| ECDS | lowlat_ecds | lowlat_ecds_all_years_archive |
+| [ECDS]({% link docs/dataset_insights/ecds.md %}) | lowlat_ecds | lowlat_ecds_all_years_archive |
 | SGSS | sgss | sgss__archive |
 | Pillar 2 Antigen  | covid_antibody_testing_pillar3 | covid_antibody_testing_pillar3__archive |
 | Pillar 3 Antibody | covid_antibody_testing_pillar2 | covid_antibody_testing_pillar3__archive |
 | COVID-19 vaccination status | vaccine_status | vaccine_status__archive |
 | COVID-19 vaccination adverse reactions | vaccine_adverse_reactions | vaccine_adverse_reactions__archive |
 | Civil Registry Deaths | deaths | deaths__archive |
-| ICNARC COVID | icnarc | icnarc__archive |
+| [ICNARC COVID]({% link docs/dataset_insights/icnarc.md %}) | icnarc | icnarc__archive |
 | COVID-19 SARI-Watch (formerly CHESS) | chess | chess__archive |
-| NHS BSA Dispensed Medicines | primary_care_meds | primary_care_meds__archive |
+| [NHS BSA Dispensed Medicines]({% link docs/dataset_insights/primary_care_meds.md %}) | primary_care_meds | primary_care_meds__archive |
 | EPMA - Administration | epma_administration | epma_administration__archive |
 | EPMA - Administration DMD | epma_administration_dmd | epma_administration_dmd__archive |
 | EPMA - Administration Dosage | epma_administration_dosage | epma_administration_dosage__archive |
@@ -54,7 +54,7 @@ permalink: /docs/dataset_overview/table_names_paths
 | NICOR - NHFA | nicor_hf | nicor_hf__archive |
 | NICOR - NHFA v5 | nicor_hf_v5 | nicor_hf_v5__archive |
 | NICOR - PCI | nicor_pci | nicor_pci__archive |
-| NICOR - TAVI | nicor_tavi | nicor_tavi__archive |
+| [NICOR - TAVI]({% link docs/dataset_insights/nicor_tavi.md %}) | nicor_tavi | nicor_tavi__archive |
 | SSNAP | ssnap | ssnap__archive |
 | IAPT - Care Activities | iapt_v2_1_care_activities | iapt_v2_1_care_activities_all_years_archive |
 | IAPT - Care Cluster | iapt_v2_1_care_cluster | iapt_v2_1_care_cluster_all_years_archive |
