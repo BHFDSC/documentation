@@ -4,7 +4,7 @@ title: GDPPR-SNOMED subset analysis
 parent: GDPPR
 grand_parent: Dataset Insights
 nav_order: 1
-permalink: /docs/data_insights/gdppr/gdppr_snomed_subset_analysis
+permalink: /docs/dataest_insights/gdppr/gdppr_snomed_subset_analysis
 ---
 
 # GDPPR-SNOMED Subset Analysis
