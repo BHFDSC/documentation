@@ -9,4 +9,4 @@ permalink: /docs/curated_data/hes_apc
 
 # HES APC
 Coming soon
-{: .label .label-yellow
+{: .label .label-yellow }
