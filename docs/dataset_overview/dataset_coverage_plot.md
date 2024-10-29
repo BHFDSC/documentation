@@ -41,14 +41,14 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
 - NACSA: National Adult Cardiac Surgery Audit
 - NCHDA: National Congenital Heart Disease Audit
 - NHFA: National Heart Failure Audit
-- NHS BSA: Medicines dispensed in primary care (NHS Business Services Authority)
+- [NHS BSA]({% link docs/dataset_insights/primary_care_meds.md %}): Medicines dispensed in primary care (NHS Business Services Authority)
 - NICOR: National Institute for Cardiovascular Outcomes Research
 - OP: Outpatients
 - SARI: Severe Acute Respiratory Infection
 - SGSS: Second Generation Surveillance System
 - SSNAP: Setninel Stroke National Audit Programme
 - SUS: Secondary Uses Service
-- TAVI: Transcatheter Aortic Valve Implantation
+- [TAVI]({% link docs/dataset_insights/nicor_tavi.md %}): Transcatheter Aortic Valve Implantation
 
 
 
