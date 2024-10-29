@@ -28,11 +28,11 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
 - CC: Critical Care
 - [ECDS]({% link docs/dataset_insights/ecds.md %}): Emergency Care Data Set
 - EPMA: Electronic Prescribing and Medicines Administration
-- GDPPR: General Practice Extraction Service (GPES) Data for Pandemic Planning and Research
+- [GDPPR]({% link docs/dataset_insights/gdppr.md %}): General Practice Extraction Service (GPES) Data for Pandemic Planning and Research
 - HES: Hospital Episode Statistics
 - HDU: High Dependency Unit
 - IAPT: Improving Access to Psychological Therapies
-- ICNARC: Intensive Care National Audit and Research Centre
+- [ICNARC]({% link docs/dataset_insights/icnarc.md %}): Intensive Care National Audit and Research Centre
 - ITU: Intensive Care Unit
 - MINAP: Myocardial Ischaemia National Audit Project 
 - MSDS: Maternity Services Data Set
