@@ -3,7 +3,7 @@ layout: default
 title: Medicines Dispensed in Primary Care
 parent: Dataset Insights
 nav_order: 5
-permalink: /docs/data_insights/orimary_care_meds
+permalink: /docs/dataset_insights/orimary_care_meds
 ---
 
 # Medicines dispensed in Primary Care
