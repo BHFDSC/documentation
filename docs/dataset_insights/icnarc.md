@@ -1,9 +1,9 @@
 ---
 layout: default
 title: ICNARC
-parent: Data Insights
+parent: Dataset Insights
 nav_order: 5
-permalink: /docs/data_insights/icnarc
+permalink: /docs/dataset_insights/icnarc
 ---
 
 # ICNARC
