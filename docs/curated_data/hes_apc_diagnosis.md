@@ -29,3 +29,23 @@ The HES APC Diagnosis table is curated from the latest archived version of the H
 | A | 178954263574 | 2021-06-24 | 2021-06-24 | 2021-06-24 | 2021-06-24 | DIAG_4_03 | H533 | 4 | 3 |
 | B | 559478246553 | 2020-10-07 | 2020-10-08 | 2020-10-07 | 2020-10-08 | DIAG_3_01 | T85 | 3 | 1 |
 | B | 559478246553 | 2020-10-07 | 2020-10-08 | 2020-10-07 | 2020-10-08 | DIAG_3_02 | Y84 | 3 | 2 |
+
+
+
+The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_on_date is in the format **YYYY_MM_DD**.
+
+{: .highlight-title }
+> Table Name
+>
+> >
+> hds_curated_assets__hes_apc_diagnosis_archived_on_date
+
+The below code will load the deaths_single table as at October 2024 using PySpark:
+
+{% highlight markdown %}
+```python
+import pyspark.sql.functions as f
+dsa = f'dsa_391419_j3w9t_collab'
+demographics_table = spark.table(f'{dsa}.hds_curated_assets__hes_apc_diagnosis_2024_10_01')
+```
+{% endhighlight %}
