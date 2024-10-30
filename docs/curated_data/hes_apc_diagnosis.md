@@ -12,9 +12,9 @@ permalink: /curated_data/hes_apc/hes_apc_diagnosis
 The HES APC Diagnosis table is curated from the latest archived version of the HES APC table. The output is a long format table with three digit (DIAG_3_01,…, DIAG_3_20)  and four digit (DIAG_4_01,…, DIAG_4_20)  ICD-9 or ICD-10 diagnosis codes. Non-alphanumeric characters and trailing Xs are removed from the diagnosis codes, and rows where codes are null, or an empty string, are removed ensuring only valid codes are retained. The resulting table includes 10 columns: 6 ID columns (person ID, episode key, episode start date, episode end date, admission date and discharge date) and 4 columns capturing the diagnosis code and position (diag_column, code, diag_digits, diag_position).
 
 •	**diag_column**: the name of the original diagnosis column (eg., DIAG_3_01)
-•	**Code**: the actual ICD diagnosis code
-•	**Diag_digits**: indicates whether the ICD code is the three- or four-digit version
-•	**Diag_position**: indicates the position of the diagnosis code (eg., 1-20)
+•	**code**: the actual ICD diagnosis code
+•	**diag_digits**: indicates whether the ICD code is the three- or four-digit version
+•	**diag_position**: indicates the position of the diagnosis code (eg., 1-20)
 
 
 ## Example
