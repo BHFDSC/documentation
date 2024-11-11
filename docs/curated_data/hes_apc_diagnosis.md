@@ -40,7 +40,7 @@ The table is saved to the DSA schema ****. The archived_on_date is in the format
 > >
 > hds_curated_assets__hes_apc_diagnosis_archived_on_date
 
-The below code will load the deaths_single table as at October 2024 using PySpark:
+The below code will load the hes_apc_diagnosis table as at October 2024 using PySpark:
 
 {% highlight markdown %}
 ```python
