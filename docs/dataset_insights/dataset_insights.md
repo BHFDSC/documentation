@@ -8,4 +8,4 @@ permalink: /docs/insights
 
 # Dataset Insights
 
-The dataset insights aim to help you understand a dataset, including its limitations and how it was compiled.
+The dataset insight pages aim to help you understand individual datasets, including their limitations and how they were compiled.
