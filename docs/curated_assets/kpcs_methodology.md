@@ -9,7 +9,7 @@ permalink: /curated_assets/kpcs/methodology
 
 # Methodology
 
-<a href="https://github.com/BHFDSC" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
+<a href="https://github.com/BHFDSC/hds_curated_assets/blob/main/D07-demographics.py" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
 
 
 ---
