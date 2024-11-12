@@ -9,7 +9,7 @@ permalink: /curated_assets/kpcs
 
 # Key Patient Characterisitcs
 
-Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) guide to start using the tables now!
+Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) guide to start using the tables now.
 
 ## Motivation
 
