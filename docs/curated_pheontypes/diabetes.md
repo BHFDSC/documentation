@@ -8,7 +8,6 @@ permalink: /docs/curated_phenotypes/diabetes
 
 # Diabetes
 
-Coming soon
-{: .label .label-yellow }
+https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/
 
 ---
