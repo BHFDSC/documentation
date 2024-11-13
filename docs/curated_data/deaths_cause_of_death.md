@@ -8,6 +8,7 @@ permalink: /curated_data/deaths/deaths_cause_of_death
 ---
 
 # Deaths - Cause of Death
+<a href="https://github.com/BHFDSC/hds_curated_assets/blob/main/D09-deaths.py" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
 
 The *deaths_cause_of_death* table is a long format dataframe compiled from the [deaths_single]({% link docs/curated_data/deaths_single.md %}) table. Curation steps are applied such that the final table includes the categorisation of the causes of death (either **underlying** [from S_UNDERLYING_COD_ICD10] or **contributory** [from S_COD_CODE_1,…, S_COD_CODE_15]), and the 3-digit (broad category) and 4-digit (specific category) ICD-10 cause of death codes for the cause of death recorded for each individual. Non-alphanumeric characters are removed from the cause of death codes, and rows where the code column is null, or an empty string, are filtered out, ensuring only valid codes are retained.
 
