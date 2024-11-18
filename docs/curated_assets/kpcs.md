@@ -53,3 +53,43 @@ The curated assets have the following characteristics of interest:
 |   - Date of Death      |                     |                   | ✔                  |
 | In GDPPR               |                     |                   | ✔                  |
 |   - GDPPR min date     |                     |                   | ✔                  |
+
+
+
+All tables are saved to the DSA schema **dsa_391419_j3w9t_collab**.
+
+The archived_on_date is in the format **YYYY_MM_DD**.
+
+
+{: .highlight-title }
+> Table Names
+>
+> 
+> **Demographics table**
+> >
+> hds_curated_assets__demographics_archived_on_date
+>
+> **Multisource tables**
+> >
+> hds_curated_assets__date_of_birth_multisource_archived_on_date
+> hds_curated_assets__sex_multisource_archived_on_date
+> hds_curated_assets__ethnicity_multisource_archived_on_date
+> hds_curated_assets__lsoa_multisource_archived_on_date
+>
+> **Individual tables**
+> >
+> hds_curated_assets__date_of_birth_individual_archived_on_date
+> hds_curated_assets__sex_individual_archived_on_date
+> hds_curated_assets__ethnicity_individual_archived_on_date
+> hds_curated_assets__lsoa_individual_archived_on_date
+
+
+The example below will load the demographics table as at April 2024 using PySpark:
+
+{% highlight markdown %}
+```python
+import pyspark.sql.functions as f
+dsa = f'dsa_391419_j3w9t_collab'
+demographics_table = spark.table(f'{dsa}.hds_curated_assets__demographics_2024_04_25')
+```
+{% endhighlight %}
