@@ -11,7 +11,7 @@ permalink: /docs/curated_assets/covid_positive
 The Covid Positive table is a consolidated table for positive COVID-19 case records derived from antigen testing, primary and secondary care data (including SGSS, Pillar 2 antigen testing, GDPPR, HES APC (diagnosis) and CHESS.
 
 {: .note }
-The methodology for curating the table is further outlined <a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00091-7/fulltext" target="_blank">here</a>.
+The methodology for curating the table is further outlined <a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00091-7/fulltext" target="_blank">in this paper</a>.
 
 
 
