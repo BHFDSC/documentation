@@ -2,7 +2,7 @@
 layout: default
 title: Covid Positive
 parent: Curated Assets
-nav_order: 5
+nav_order: 3
 permalink: /docs/curated_assets/covid_positive
 ---
 
