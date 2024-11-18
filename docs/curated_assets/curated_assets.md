@@ -12,7 +12,7 @@ A curated asset goes beyond the initial tidying and structuring of a dataset to 
 
 ## Available Versions
 
-The curated assets are run monthly. The available versions are listed below. 
+The curated assets are run at the end of every month, following the NHS Data Wranglers provisioning runs. The available versions are listed below. 
 
 | Month Year       | archived_on_date | Version |
 | :------------ | :-------------- | :----- |
