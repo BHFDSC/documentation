@@ -14,19 +14,21 @@ The methodology for curating the table is further outlined <a href="https://www.
 
 
 
-The table is saved to the DSA schema dsa_391419_j3w9t_collab. The archived_on_date is in the format YYYY_MM_DD.
+
+The table is saved to the DSA schema **dsa_391419_j3w9t_collab**. The archived_on_date is in the format **YYYY_MM_DD**.
 
 {: .highlight-title }
-
-Table Name
-
-hds_curated_assets__covid_positive_archived_on_date
+> Table Name
+>
+> >
+> hds_curated_assets__covid_positive_archived_on_date
 
 The below code will load the hes_apc_diagnosis table as at October 2024 using PySpark:
 
 {% highlight markdown %}
-
+```python
 import pyspark.sql.functions as f
 dsa = f'dsa_391419_j3w9t_collab'
 demographics_table = spark.table(f'{dsa}.hds_curated_assets__covid_positive_2024_10_01')
+```
 {% endhighlight %}
