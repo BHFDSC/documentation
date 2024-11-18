@@ -7,7 +7,7 @@ grand_parent: Curated Assets
 permalink: /curated_assets/kpcs/how_to_use
 ---
 
-# Quick Start
+# How to use
 
 All kpc tables will be curated at the end of every month, following the NHS Data Wranglers provisioning runs. 
 
