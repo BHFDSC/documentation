@@ -5,8 +5,8 @@ nav_order: 1
 permalink: /
 ---
 
-<a href="https://bhfdatasciencecentre.org/">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" style="width: 300px; height: 100px" />
+<a href="https://bhfdatasciencecentre.org/" target = "_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" target =  style="width: 300px; height: 100px" />
 </a>
 
 \***This website is currently under construction\***
