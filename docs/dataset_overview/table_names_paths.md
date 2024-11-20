@@ -76,4 +76,4 @@ permalink: /docs/dataset_overview/table_names_paths
 | MSDS - Hospital Provider Spell | msds_v2_hospital_provider_spell | msds_v2_hospital_provider_spell_all_years_archive |
 | MSDS - Labour Activities | msds_v2_labour_activities | msds_v2_labour_activities_all_years_archive |
 | MSDS - Maternity Care Plan | msds_v2_maternity_care_plan | msds_v2_maternity_care_plan_all_years_archive |
-| MHSDS | mhs{table_name} | mhs{table_name}_dars_nic_391419_j3w9t_archive |
+| MHSDS - Master Patient Index | mhs001mpi | mhs001mpi_dars_nic_391419_j3w9t_archive |
