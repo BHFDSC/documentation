@@ -16,6 +16,8 @@ permalink: /docs/dataset_insights/icnarc
 
 The ICNARC (Intensive Care National Audit and Research Centre) Case Mix Programme is an audit of patient outcomes from adult, general critical care units (intensive care and combined intensive care/high dependency units). Data in the NHS Digital TRE is restricted to admissions for patients critically ill with COVID-19.
 
+For more information see:
+
 <span class="fs-3">
   <a href="https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/data-provision-notices-dpns/icnarc-case-mix-adult-critical-care" class="btn" target="_blank">NHS Digital page</a>
 </span>
