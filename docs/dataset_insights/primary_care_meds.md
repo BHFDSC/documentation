@@ -9,7 +9,7 @@ permalink: /docs/dataset_insights/primary_care_meds
 # Medicines Dispensed in Primary Care
 
 <span class="fs-3">
-  <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness</a>
+  <a href="https://bhf-dsc-hds.shinyapps.io/cvd-covid-tre-dashboard/" class="btn" target="_blank">Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness</a>
 </span>
 
 ## Description
