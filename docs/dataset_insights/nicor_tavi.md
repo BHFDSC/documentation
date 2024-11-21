@@ -16,6 +16,8 @@ permalink: /docs/dataset_insights/nicor_tavi
 
 The UK Transcatheter Aortic Valve Implantation (TAVI) registry has collected data about every TAVI procedure performed in the UK.
 
+For more information see:
+
 <span class="fs-3">
   <a href="https://www.nicor.org.uk/national-cardiac-audit-programme/transcatheter-aortic-valve-implantation-tavi" class="btn" target="_blank">NICOR website</a>
 </span>
