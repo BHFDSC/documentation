@@ -15,6 +15,8 @@ permalink: /docs/dataset_insights/hes_cc
 ## Description
 Hospital Episode Statistics (HES) contains records of all admissions, appointments and attendances at NHS hospitals in England. HES Critical Care (HES CC) is a subset of HES Admitted Patient Care (HES APC) data. An Intensive Care Unit or High Dependency Unit ward in a hospital, known as a critical care unit, provides support, monitoring and treatment for critically ill patients requiring constant support and monitoring to maintain function in at least one organ, and often in multiple organs. Medical equipment is used to take the place of patients' organs during their recovery.
 
+For more information see:
+
 <span class="fs-3">
   <a href="https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics" class="btn" target="_blank">NHS Digital Page</a>
 </span>
