@@ -7,7 +7,7 @@ has_children: true
 permalink: /curated_assets/kpcs
 ---
 
-# Key Patient Characterisitcs
+# Key Patient Characteristics
 
 Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) guide to start using the tables now.
 
