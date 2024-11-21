@@ -20,7 +20,7 @@ Hospital Episode Statistics (HES) contains records of all admissions, appointmen
 </span>
 
 <span class="fs-3">
-  <a href="https://web.www.healthdatagateway.org/dataset/80564a6b-1458-41de-a131-772eb93c0509" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
+  <a href="https://healthdatagateway.org/en/dataset/879" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
 {: .highlight-title }
