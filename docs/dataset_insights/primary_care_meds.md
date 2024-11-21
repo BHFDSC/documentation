@@ -20,7 +20,7 @@ The data comprise prescriptions for medicines dispensed or supplied by community
 </span>
 
 <span class="fs-3">
-  <a href="https://web.www.healthdatagateway.org/dataset/f201b68f-d995-4a70-a9ee-aa3510232777" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
+  <a href="https://healthdatagateway.org/en/dataset/867" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
 {: .highlight-title }
