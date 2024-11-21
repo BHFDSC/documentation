@@ -9,7 +9,7 @@ permalink: /docs/dataset_insights/icnarc
 # ICNARC
 
 <span class="fs-3">
-  <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness</a>
+  <a href="https://bhf-dsc-hds.shinyapps.io/cvd-covid-tre-dashboard/" class="btn" target="_blank">Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness</a>
 </span>
 
 ## Description
@@ -21,7 +21,7 @@ The ICNARC (Intensive Care National Audit and Research Centre) Case Mix Programm
 </span>
 
 <span class="fs-3">
-  <a href="https://web.www.healthdatagateway.org/dataset/0e6aaabb-0efc-4a69-a9a7-aa98888c04bd" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
+  <a href="https://healthdatagateway.org/en/dataset/795" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
 {: .highlight-title }
