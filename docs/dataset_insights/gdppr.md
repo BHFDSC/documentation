@@ -22,7 +22,7 @@ GDPPR = **G**eneral Practice Extraction Service (GPES) **D**ata for **P**andemic
 </span>
 
 <span class="fs-3">
-  <a href="https://web.www.healthdatagateway.org/dataset/696cfc9f-090d-4328-94ac-140760a77c73" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
+  <a href="https://healthdatagateway.org/en/dataset/874" class="btn" target="_blank">Health Data Research Innovation Gateway</a>
 </span>
 
 
