@@ -13,7 +13,9 @@ permalink: /docs/dataset_insights/primary_care_meds
 </span>
 
 ## Description
-The data comprise prescriptions for medicines dispensed or supplied by community pharmacies, appliance contractors and dispensing doctors in England. The data is limited to prescriptions submitted for reimbursement. Prescriptions issued but not dispensed and prescriptions dispensed or supplied but not claimed are not included. More information can be found at the link below:
+The data comprise prescriptions for medicines dispensed or supplied by community pharmacies, appliance contractors and dispensing doctors in England. The data is limited to prescriptions submitted for reimbursement. Prescriptions issued but not dispensed and prescriptions dispensed or supplied but not claimed are not included. 
+
+For more information see:
 
 <span class="fs-3">
   <a href="https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/medicines-dispensed-in-primary-care-nhsbsa-data" class="btn" target="_blank">NHS Digital Page</a>
