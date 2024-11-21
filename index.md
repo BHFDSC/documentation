@@ -11,8 +11,6 @@ permalink: /
 
 \***This website is currently under construction\***
 
-hello
-
 # Welcome 
 
 Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation our work in the NHS England Secure Data Environment (SDE), the SAIL Databank in Wales and the National Safe Haven in Scotland.
