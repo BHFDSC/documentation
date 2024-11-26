@@ -26,11 +26,11 @@ For any enquiries, or if you have any resources you would like to contribute to 
 ## Meet the Team
 <table>
     <tr>
-        <td><img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 120px; height: 120px; object-fit: cover;"/></td>
+        <td><img src="https://bhfdsc.github.io/documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Tom Bolton, Senior Health Data Scientist</td>
         </tr>
   <tr>
-     <td><img src="https://fionnachalmers.github.io/documentation/assets/images/fionna_chalmers.png" alt="Fionna Chalmers" style="width: 120px; height: 120px; object-fit: cover;"/></td>
+     <td><img src="https://bhfdsc.github.io/documentation/assets/images/fionna_chalmers.png" alt="Fionna Chalmers" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Fionna Chalmers, Early Career Health Data Scientist</td>
   </tr>
   <tr>
