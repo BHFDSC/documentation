@@ -27,6 +27,6 @@ The below code will load the deaths_single table as at October 2024 using PySpar
 ```python
 import pyspark.sql.functions as f
 dsa = f'dsa_391419_j3w9t_collab'
-demographics_table = spark.table(f'{dsa}.hds_curated_assets__deaths_single_2024_10_01')
+deaths_single = spark.table(f'{dsa}.hds_curated_assets__deaths_single_2024_10_01')
 ```
 {% endhighlight %}
