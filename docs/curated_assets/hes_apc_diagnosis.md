@@ -48,6 +48,6 @@ The below code will load the hes_apc_diagnosis table as at October 2024 using Py
 ```python
 import pyspark.sql.functions as f
 dsa = f'dsa_391419_j3w9t_collab'
-demographics_table = spark.table(f'{dsa}.hds_curated_assets__hes_apc_diagnosis_2024_10_01')
+hes_apc_diagnosis = spark.table(f'{dsa}.hds_curated_assets__hes_apc_diagnosis_2024_10_01')
 ```
 {% endhighlight %}
