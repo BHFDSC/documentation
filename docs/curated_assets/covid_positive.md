@@ -39,6 +39,6 @@ The below code will load the hes_apc_diagnosis table as at October 2024 using Py
 ```python
 import pyspark.sql.functions as f
 dsa = f'dsa_391419_j3w9t_collab'
-demographics_table = spark.table(f'{dsa}.hds_curated_assets__covid_positive_2024_10_24')
+covid_positive = spark.table(f'{dsa}.hds_curated_assets__covid_positive_2024_10_24')
 ```
 {% endhighlight %}
