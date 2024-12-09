@@ -52,6 +52,6 @@ The below code will load the deaths_cause_of_death table as at October 2024 usin
 ```python
 import pyspark.sql.functions as f
 dsa = f'dsa_391419_j3w9t_collab'
-demographics_table = spark.table(f'{dsa}.hds_curated_assets__deaths_cause_of_death_2024_10_01')
+deaths_cod = spark.table(f'{dsa}.hds_curated_assets__deaths_cause_of_death_2024_10_01')
 ```
 {% endhighlight %}
