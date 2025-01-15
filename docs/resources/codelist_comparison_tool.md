@@ -12,6 +12,10 @@ Research projects that utilise electronic health records often require multiple 
 
 The Codelist Comparison Tool was developed to simplify the comparison of codelists and support the creation and curation of a refined and project-specific codelist. The tool integrates external libraries such as the <a href="https://phenotypes.healthdatagateway.org/" target="_blank">HDR UK Phenotype Library</a>, <a href="https://www.opencodelists.org/" target="_blank">OpenCodelists</a>, and user-generated datasets to enhance research workflows and generate more accurate and tailored codelists. 
 
-To start using the Codelist Comparison Tool please click <a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" target="_blank">here</a>.
+**Click below to start using the Codelist Comparison Tool**
+
+<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/codelist_tool.png" alt="Codelist Tool">
+</a>
 
 For further information about using the Codelist Comparison Tool click here.
