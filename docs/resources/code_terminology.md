@@ -11,4 +11,4 @@ permalink: /docs/resources/code_terminology
 
 <br>
 
-The Code Terminology Resource provides a collection of assets for frequently used terminologies. 
+The Code Terminology Resource provides a collection of assets for frequently used clincial coding terminologies. 
