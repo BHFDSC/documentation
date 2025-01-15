@@ -16,6 +16,7 @@ The curated assets are run at the end of every month, following the NHS Data Wra
 
 | Month Year       | archived_on_date | Version |
 | :------------ | :-------------- | :----- |
+| November 2024 | 2024-12-02                 | Stable
 | October 2024 | 2024-10-24                 | Stable
 | September 2024 | 2024-10-02                  | Stable
 | August 2024 | 2024-09-02                  | Stable
