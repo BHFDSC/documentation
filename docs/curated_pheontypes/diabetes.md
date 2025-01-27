@@ -13,4 +13,4 @@ Part of the ongoing plan for the DDSC is to evaluate how best to define diabetes
 
 To find out more about the development, validation and using the algorithm please click <a href="https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/" target="_blank">here</a>.
 
-<iframe width="736" height="410" src="https://www.youtube.com/watch?v=Md2v5THo5h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="736" height="410" src="https://www.youtube.com/embed/?v=Md2v5THo5h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
