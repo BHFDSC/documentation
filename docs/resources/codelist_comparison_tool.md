@@ -18,7 +18,7 @@ Key features of the tool include:
 - mapping of medical codes to descriptions
 - supporting the comparison to the GDPPR refset
 - mapping codes to the number of people in the NHS England SDE who have those specific codes, offering insights into prevalence
-- allows users to build and export their own codelists for use in project pipelines
+- allowing users to build and export their own codelists for use in project pipelines
 
 **Click below to start using the Codelist Comparison Tool**
 
