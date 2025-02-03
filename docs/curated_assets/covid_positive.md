@@ -10,7 +10,7 @@ permalink: /docs/curated_assets/covid_positive
 
 <a href="https://github.com/BHFDSC/hds_curated_assets/blob/main/curate_covid_positive.py" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
 
-The Covid Positive table is a consolidated table for positive COVID-19 case records derived from antigen testing, primary and secondary care data (including SGSS, Pillar 2 antigen testing, GDPPR, HES APC (diagnosis) and CHESS). Positive COVID-19 records are extracted from each dataset and records with a distinct person ID and non-null dates are retained. The tables from each extraction are then combined to create a unified dataset of all COVID-19 positive records. 
+The ***covid_positive*** table is a consolidated table for positive COVID-19 case records derived from antigen testing, primary and secondary care data (including SGSS, Pillar 2 antigen testing, GDPPR, HES APC (diagnosis) and CHESS). Positive COVID-19 records are extracted from each dataset and records with a distinct person ID and non-null dates are retained. The tables from each extraction are then combined to create a unified dataset of all COVID-19 positive records. 
 
 The output table includes six columns: 
 
