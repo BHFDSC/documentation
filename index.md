@@ -9,11 +9,9 @@ permalink: /
   <img src="https://bhfdsc.github.io/documentation/assets/images/bhf_dsc_logo.png" alt="BHF DSC logo" style="width: 300px; height: 100px" />
 </a>
 
-\***This website is currently under construction\***
-
 # Welcome 
 
-Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation our work in the NHS England Secure Data Environment (SDE), the SAIL Databank in Wales and the National Safe Haven in Scotland.
+Welcome to the BHF Data Science Centre Health Data Science documentation website. This website serves as a central hub for the tools, guides, and resources we produce in relation our work in the NHS England Secure Data Environment (SDE), the SAIL Databank in Wales and the National Safe Haven in Scotland. These pages are continually updated to reflect our work.
 
 For any enquiries, or if you have any resources you would like to contribute to our pages, please email us at: bhfdsc_hds@hdruk.ac.uk
 
