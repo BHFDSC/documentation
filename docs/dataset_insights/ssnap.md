@@ -38,12 +38,12 @@ For more information see:
 
 ## Data Summary Notebook in the SDE:
 
+Workspace/Shared/Summary Notebooks/SSNAP Summary Notebook
 
 {: .note-title }
 > Need to Know
 >
  - Data available from 2018 onwards
- - Records are available for x individuals 
 >
 
 
