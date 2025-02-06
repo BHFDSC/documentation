@@ -3,7 +3,7 @@ layout: default
 title: Collapsing SSNAP records
 parent: SSNAP
 grand_parent: Dataset Insights
-nav_order: 1
+nav_order: 7
 permalink: /docs/dataest_insights/ssnap/ssnap_collapsing_methodology
 ---
 
