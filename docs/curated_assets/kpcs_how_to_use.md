@@ -9,7 +9,7 @@ permalink: /curated_assets/kpcs/how_to_use
 
 # How to use
 
-All kpc tables will be curated at the end of [**every month**]({% link docs/curated_assets/curated_assets.md %}#available-versions), following the NHS Data Wranglers provisioning runs. 
+All kpc tables will be curated [**quarterly**]({% link docs/curated_assets/curated_assets.md %}#available-versions), following the NHS Data Wranglers provisioning runs. 
 
 All tables are saved to the DSA schema **dsa_391419_j3w9t_collab**.
 
