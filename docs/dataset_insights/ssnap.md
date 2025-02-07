@@ -3,6 +3,7 @@ layout: default
 title: SSNAP
 parent: Dataset Insights
 nav_order: 7
+has_children: True
 permalink: /docs/dataset_insights/ssnap
 ---
 
