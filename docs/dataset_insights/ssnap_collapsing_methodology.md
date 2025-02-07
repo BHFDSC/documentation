@@ -21,9 +21,10 @@ permalink: /docs/dataset_insights/ssnap/ssnap_collapsing_methodology
 
 ## Collapsing SSNAP records
 - As part of project CCU085_01, a novel methodology was developed (primarily led by the researcher, along with expertise from the SSNAP team at KCL) to collapse the provisioned SSNAP dataset into a single row per stroke incidence (PERSON_ID:S1FIRSTARRIVALDATETIME partition). 
-- The notebook showcasing each of the five steps in this methodology can be found at the following location in the NHS England SDE: 'Workspace/Shared/DATA_INSIGHT/SSNAP/Collaping SSNAP records'
 
-## Summary of the methodology 
+
+## Summary of the methodology
+The approach developed to collapse the SSNAP data consists of five steps, each of which are described in detail below: 
 - **Step 1**: Reduce SSNAP dataset by taking the latest value for the S7HOSPITALDISCHARGEDATETIME column per PERSON_ID:S1FIRSTARRIVALDATETIME partition
 - **Step 2**: Apply rules to select the most complete row for each stroke incidence (and also rules for priority columns):
     - For a stroke incidence with multiple rows of data, take the row with the latest S7
@@ -36,4 +37,4 @@ permalink: /docs/dataset_insights/ssnap/ssnap_collapsing_methodology
 - **Step 5**: If there are still multiple remaining rows per stroke incidence, select multiple columns to order values within each **PERSON_ID:S1FIRSTARRIVALDATETIME** partition- this provides a stable ordering to choose from.
 
 ## Summary notebook
-A data insight notebook has been developed which provides in-depth code for each of the steps in the methodology. This can be found at this location: **_'Workspace/Shared/DATA_INSIGHT/SSNAP/Collapsing SSNAP records'_** 
+A data insight notebook has been developed which provides in-depth code for each of the steps in the methodology. This can be found at this location within the Databricks enviroment of the NHS England Secure Data Environment (SDE): **_'Workspace/Shared/DATA_INSIGHT/SSNAP/Collapsing SSNAP records'_** 
