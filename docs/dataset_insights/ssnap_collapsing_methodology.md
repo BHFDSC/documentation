@@ -34,3 +34,6 @@ permalink: /docs/dataset_insights/ssnap/ssnap_collapsing_methodology
 - **Step 3**: Select the row with null values recorded for the **TRANSFERTOTEAMCODE and TRANSFERTODATETIME** columns
 - **Step 4**: If there are still multiple rows per stroke incidence, select the row with the most non-null S7 features
 - **Step 5**: If there are still multiple remaining rows per stroke incidence, select multiple columns to order values within each **PERSON_ID:S1FIRSTARRIVALDATETIME** partition- this provides a stable ordering to choose from.
+
+## Summary notebook
+A data insight notebook has been developed which provides in-depth code for each of the steps in the methodology. This can be found at this location: **_'Workspace/Shared/DATA_INSIGHT/SSNAP/Collapsing SSNAP records'_** 
