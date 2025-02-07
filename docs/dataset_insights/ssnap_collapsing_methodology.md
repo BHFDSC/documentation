@@ -4,7 +4,7 @@ title: Collapsing SSNAP records
 parent: SSNAP
 grand_parent: Dataset Insights
 nav_order: 1
-permalink: /docs/dataest_insights/ssnap/ssnap_collapsing_methodology
+permalink: /docs/dataset_insights/ssnap/ssnap_collapsing_methodology
 ---
 
 # Collapsing SSNAP records: a novel approach
@@ -16,7 +16,7 @@ permalink: /docs/dataest_insights/ssnap/ssnap_collapsing_methodology
 - While some multiple rows may be legitimately explained by patient transfers (such as thrombectomy and repatriation), the extent of these occurrences suggests deeper data capture issues. 
 - The data flow from SSNAP to NHS England captures the first 72 hours of a patient's emergency stroke journey, with a 2-3 week maturation period for updates. 
 - Monthly snapshots are generally reliable for patient admission data, but discharge data remains problematically incomplete. Critical discharge metrics like Rankin scores and disability status are often unreliably recorded, particularly for patients with hospital stays exceeding 2-6 weeks. 
-- These data provisioning inconsistencies complicate data analysis and potentially compromise comprehensive stroke care analysis, highlighting the urgent need for robust data cleaning, standardization, and more precise data capture protocols to ensure accurate representation of patient journeys and outcomes.
+- These data provisioning inconsistencies complicate data analysis and potentially compromise comprehensive stroke care analysis, highlighting the urgent need for robust data cleaning, standardization, and more precise data capture protocols to ensure accurate representation of patient journeys and outcomes. 
 
 
 ## Collapsing SSNAP records
