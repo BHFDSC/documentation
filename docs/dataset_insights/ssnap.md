@@ -48,7 +48,10 @@ Workspace/Shared/Summary Notebooks/SSNAP Summary Notebook
 >
 
 
-## Known data quality issues
+## Current data quality issues
 - In June 2021, there is a sharp increase in the number of records and PERSON_ID. The erroneous increase in individuals in June 2021 for SSNAP can be removed by either linking to GDPPR or valid NHS numbers in the token_pseudo_id_lookup.
-- In July 2023, there is a sharp decrease in the number of records and PERSON_ID. This leads to data continuity issues (if you would like a continuous history, it would be recommended to limit to June 2023). 
-- NB: As of the 23rd July 2024 batch update- the drop in data coverage in July 2023 for the SSNAP dataset has been resolved.  
+- Further information on this table can be found at: https://bhfdsc.github.io/documentation/docs/curated_data/patient_ids 
+
+## Resolved data quality issues
+- For the month of  July 2023, the data was not complete – there was a sharp decrease in the number of records and PERSON_ID in this month. This leads to data continuity issues, with projects needing to restrict analysis or follow-up period to June 2023
+- However, as of the July 2024 batch update (archived_on == 2024-07-23) - this issue has been resolved.  
