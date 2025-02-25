@@ -25,16 +25,17 @@ permalink: /docs/dataset_insights/ssnap/ssnap_collapsing_methodology
 
 ## Summary of the methodology
 The approach developed to collapse the SSNAP data consists of five steps, each of which are described in detail below: 
-- **Step 1**: Reduce SSNAP dataset by taking the latest value for the S7HOSPITALDISCHARGEDATETIME column per PERSON_ID:S1FIRSTARRIVALDATETIME partition
-- **Step 2**: Apply rules to select the most complete row for each stroke incidence (and also rules for priority columns):
-    - In addition to these rules in step 1, there are **three priority columns**: **S1ONSETDATETIME, S1THROMBOLYSISDATETIME and S2IAIARTERIALPUNCTUREDATETIME**
+- **Step 1**: Reduce SSNAP dataset by taking the latest value with the S7HOSPITALDISCHARGEDATETIME column per PERSON_ID:S1FIRSTARRIVALDATETIME partition
+- **Step 2**: For cases where multiple rows per stroke incidence remain, apply the following rules to select the **most complete row for each stroke incidence** (and also rules for priority columns):
+    - Initially, select the row with the **most non-null values across selected SSNAP columns**. Based on this selected row, apply the following rules for priority columns.
+    - There are **three priority columns**: **S1ONSETDATETIME, S1THROMBOLYSISDATETIME and S2IAIARTERIALPUNCTUREDATETIME**
     - If **S1THROMBOLYSISDATETIME** is null for the chosen row, but contains a value in another row(s) within the partition, populate the feature with the value (minimum) from the other row(s).
     - If **S2IAIARTERIALPUNCTUREDATETIME** is null for this row, but contains a value in another row(s) within the partition, populate the feature with the value (minimum) from the other row(s).
     - The feature **S1ONSETDATETIME** has an associated feature **S1ONSETTIMETYPE** (with values, in order of priority: **P [precise], BE [best estimate] and NK [not known]**). If there are multiple S1ONSETDATETIME values, select the one based on the row that has the ‘best’ S1ONSETTIMETYPE (see priority order above). If this returns multiple values, select the minimum S1ONSETDATETIME. Populate S1ONSETTIMETYPE with the value from the same row as using for S1ONSETDATETIME.
 - **Step 3**: Select the row with null values recorded for the **TRANSFERTOTEAMCODE and TRANSFERTODATETIME** columns
     - The rationale for this is that patients with null values for these columns have not been further transferred, so this row likely contains the most recent/up-to-date data for the stroke incidence.
-- **Step 4**: If there are still multiple rows per stroke incidence, select the row with the most non-null S7 features
+- **Step 4**: If there are still multiple rows per stroke incidence, select the row with the **most non-null S7 features**.
 - **Step 5**: If there are still multiple remaining rows per stroke incidence, select multiple columns to order values within each **PERSON_ID:S1FIRSTARRIVALDATETIME** partition- this provides a stable ordering to choose from.
 
 ## Summary notebook
-A data insight notebook has been developed which provides in-depth code for each of the steps in the methodology. This can be found at this location within the Databricks enviroment of the NHS England Secure Data Environment (SDE): **_'Workspace/Shared/DATA_INSIGHT/SSNAP/Collapsing SSNAP records'_** 
+A data insight notebook has been developed which provides in-depth code for each of the steps in the methodology. This can be found at this location within the Databricks environment of the NHS England Secure Data Environment (SDE): **_'Workspace/Shared/DATA_INSIGHT/SSNAP/Collapsing SSNAP records'_** 
