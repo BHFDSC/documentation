@@ -20,9 +20,9 @@ Key features of the tool include:
 - mapping codes to the number of people in the NHS England SDE who have those specific codes, offering insights into prevalence
 - allowing users to build and export their own codelists for use in project pipelines
 
-**Click below to start using the Codelist Comparison Tool**
+<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">Codelist Comparison Tool</a>
 
-<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/codelist_tool.png" alt="Codelist Tool">
-</a>
+For an overview of how to use the tool please watch the video below:
+
+<iframe width="736" height="410" src="https://www.youtube.com/embed/607_iqhYIh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
