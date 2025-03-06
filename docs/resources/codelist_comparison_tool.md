@@ -22,7 +22,7 @@ Key features of the tool include:
 - mapping codes to the number of people in the NHS England SDE who have those specific codes, offering insights into prevalence
 - allowing users to build and export their own codelists for use in project pipelines
 
-For an overview of how to use the tool please watch the video below:
+For an overview of how to use the Codelist Comparison Tool please watch the video below:
 
 <iframe width="736" height="410" src="https://www.youtube.com/embed/607_iqhYIh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
