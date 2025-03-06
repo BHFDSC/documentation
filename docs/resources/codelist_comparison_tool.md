@@ -8,7 +8,7 @@ permalink: /docs/resources/codelist_comparison_tool
 
 # View the Codelist Comparison Tool
 
-<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">Codelist Comparison Tool</a>
+<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View the Codelist Comparison Tool</a>
 
 Research projects that utilise electronic health records typically require multiple codelists, across various coding terminologies, to accurately define phenotpyes and generate cohorts. Often this involves gathering established codelists, which can be large and complex, and may not fully align with the focus of a specific project. A carefully constructed and considered codelist is crucial to ensure research outcomes are both accurate and meaningful.
 
