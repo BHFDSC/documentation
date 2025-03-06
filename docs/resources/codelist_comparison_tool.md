@@ -6,7 +6,9 @@ parent: Resources
 permalink: /docs/resources/codelist_comparison_tool
 ---
 
-# Codelist Comparison Tool
+# View the Codelist Comparison Tool
+
+<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">Codelist Comparison Tool</a>
 
 Research projects that utilise electronic health records typically require multiple codelists, across various coding terminologies, to accurately define phenotpyes and generate cohorts. Often this involves gathering established codelists, which can be large and complex, and may not fully align with the focus of a specific project. A carefully constructed and considered codelist is crucial to ensure research outcomes are both accurate and meaningful.
 
@@ -19,8 +21,6 @@ Key features of the tool include:
 - supporting the comparison to the GDPPR refset
 - mapping codes to the number of people in the NHS England SDE who have those specific codes, offering insights into prevalence
 - allowing users to build and export their own codelists for use in project pipelines
-
-<a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">Codelist Comparison Tool</a>
 
 For an overview of how to use the tool please watch the video below:
 
