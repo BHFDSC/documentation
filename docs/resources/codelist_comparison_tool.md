@@ -6,7 +6,7 @@ parent: Resources
 permalink: /docs/resources/codelist_comparison_tool
 ---
 
-# View the Codelist Comparison Tool
+# Codelist Comparison Tool
 
 <a href="https://bhf-dsc-hds.shinyapps.io/codelist_tool/" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View the Codelist Comparison Tool</a>
 
