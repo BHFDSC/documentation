@@ -55,6 +55,10 @@ For any enquiries, or if you have any resources you would like to contribute to 
         <td><img src="https://bhfdsc.github.io/documentation/assets/images/anna_stevenson.png" alt="Anna Stevenson" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Anna Stevenson, Early Career Health Data Scientist</td>
  </tr>
+    <tr>
+        <td><img src="https://bhfdsc.github.io/documentation/assets/images/laura_sherlock.png" alt="Laura Sherlock" style="width: 120px; height: 120px; object-fit: cover;"/></td>
+        <td>Laura Sherlock, Early Career Health Data Scientist</td>
+ </tr>
   <tr>
      <td><img src="https://bhfdsc.github.io/documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Zach Welshman, Health Data Scientist</td>    
