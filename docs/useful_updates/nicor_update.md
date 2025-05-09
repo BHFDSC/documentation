@@ -4,7 +4,7 @@ title: NICOR Update (Slack May 2025)
 parent: Useful Updates
 nav_order: 1
 has_children: false
-permalink: /docs/useful_updates
+permalink: /docs/useful_updates/nicor_april_2025
 ---
 
 # NICOR Data Update April 2025
