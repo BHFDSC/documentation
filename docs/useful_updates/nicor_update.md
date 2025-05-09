@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Nicor Update May 2025
+title: NICOR Update (Slack May 2025)
 parent: Useful Updates
 nav_order: 1
 has_children: false
 permalink: /docs/useful_updates
 ---
 
-# Nicor Update May 2025
+# NICOR Data Update April 2025
 
  
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_n.png" target="_blank">
