@@ -23,7 +23,7 @@ If you find any new data quality issues please send us an email at **bhfdsc_hds@
 \
 **nicor_acs_combined**
 - Missing records: drop in records and individuals in recent batches compared to earlier batch (2023-03-31) ✅ISSUE RESOLVED
-- Missing variables: ethnicity ⚠️Variable still not provisioned but ethnicity you might consider deriving ethnicity using the [**HDS KPC curated asset**]({% link docs/curated_assets/kpcs.md %}
+- Missing variables: ethnicity ⚠️Variable still not provisioned but you can derive ethnicity using the [**HDS KPC curated asset**]({% link docs/curated_assets/kpcs.md %})
 
 **nicor_crm_eps**
 - Potential missing records: drop in records and individuals in the latest batch (2023-08-31) compared to earlier batches ✅ISSUE RESOLVED
