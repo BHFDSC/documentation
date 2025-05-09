@@ -12,7 +12,7 @@ permalink: /docs/useful_updates
 ## TL;DR
 
 🎉 Great news! We finally have a fresh batch of NICOR data — archived as at 2025-04-24.\
-✅ The data quality looks good, and all previously reported issues appear to be resolved.\
+✅ The data quality looks good, and most of the previously reported issues appear to be resolved.\
 🔍 You can now start integrating this batch into your pipeline and check that the quality looks as expected!\
 🚀 Continue reading below to find out more about preiovusly reported issues with NICOR, data quality, coverage, data lag and variables.
 
@@ -20,7 +20,7 @@ permalink: /docs/useful_updates
 \
 **nicor_acs_combined**
 - Missing records: drop in records and individuals in recent batches compared to earlier batch (2023-03-31) ✅ISSUE RESOLVED
-- Missing variables: ethnicity.
+- Missing variables: ethnicity ⚠️Variable still not provisioned but ethnicity can be derived using HDS Resource KPCs
 
 **nicor_crm_eps**
 - Potential missing records: drop in records and individuals in the latest batch (2023-08-31) compared to earlier batches ✅ISSUE RESOLVED
