@@ -23,16 +23,16 @@ permalink: /docs/useful_updates
 - Missing variables: ethnicity.
 
 **nicor_crm_eps**
-- Potential missing records - drop in records and individuals in the latest batch (2023-08-31) compared to earlier batches.
+- Potential missing records: drop in records and individuals in the latest batch (2023-08-31) compared to earlier batches ✅ISSUE RESOLVED
 
 **nicor_hf_v5**
-- Duplicate records included in the 2023-08-31 batch, possibly due to the ordering within multivalue columns.
+- Duplicate records included in the 2023-08-31 batch, possibly due to the ordering within multivalue columns ✅ISSUE RESOLVED
 
 **nicor_minap**
 - Missing variables: DischargeDate, EthnicGroup, Aspirin (on admission), StatinUse, HG_glucose0...24hrs, HG_Admission_K, Previous_MI
 
 **nicor_tavi**
-- In the latest batch of data the 7_01_DATE_AND_TIME_OF_OPERATION is null for all records.
+- In the latest batch of data the 7_01_DATE_AND_TIME_OF_OPERATION is null for all records ✅ISSUE RESOLVED
 - Missing variables: pathology-related.
 
 ## Coverage Over Time by Archive Batch
