@@ -30,7 +30,7 @@ permalink: /docs/useful_updates
 - Duplicate records included in the 2023-08-31 batch, possibly due to the ordering within multivalue columns ✅ISSUE RESOLVED
 
 **nicor_minap**
-- Missing variables: DischargeDate, EthnicGroup, Aspirin (on admission), StatinUse, HG_glucose0...24hrs, HG_Admission_K, Previous_MI
+- Missing variables: DischargeDate, EthnicGroup, Aspirin (on admission), StatinUse, HG_glucose0...24hrs, HG_Admission_K, Previous_MI 🚨All variables still missing
 
 **nicor_tavi**
 - In the latest batch of data the 7_01_DATE_AND_TIME_OF_OPERATION is null for all records ✅ISSUE RESOLVED
@@ -78,3 +78,5 @@ Whilst some tables appear to have complete coverage until almost the end of 2024
 </a>
 
 ## Column Completeness for latest batch (2025-04-24)
+
+Note that some columns show 0% completeness, meaning they are provisioned in the dataset but contain no non-null data.
