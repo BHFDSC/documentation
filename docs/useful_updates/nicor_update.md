@@ -17,7 +17,7 @@ permalink: /docs/useful_updates/nicor_april_2025
 🔍 You can now start integrating this batch into your pipeline and check that the quality looks as expected!\
 🚀 Continue reading below to find out more about preiovusly reported issues with NICOR, data quality, coverage, data lag and variable missingness and completeness.
 
-If you find any new data quality issues please send us an email at bhfdsc_hds@hdruk.ac.uk for one of the team to look into and log.
+If you find any new data quality issues please send us an email at **bhfdsc_hds@hdruk.ac.uk** for one of the team to look into and log.
 
 ## Previously reported issues
 \
