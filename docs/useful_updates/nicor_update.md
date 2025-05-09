@@ -65,3 +65,9 @@ Below you can view the coverage measured in different record counts for each NIC
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_latest_batch.png" target="_blank">
   <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_latest_batch.png" alt="nicor coverage plot latest_batch" width="1000">
 </a>
+
+## Data Lag for latest batch (2025-04-24)
+\
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_lag.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_lag.png" alt="nicor coverage plot lag" width="1000">
+</a>
