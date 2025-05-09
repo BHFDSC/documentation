@@ -11,7 +11,7 @@ permalink: /docs/useful_updates/nicor_april_2025
 
 ## TL;DR
 
-🎉 Great news! We finally have a fresh batch of NICOR data — archived as at 2025-04-24.\
+🎉 Great news! We have a fresh batch of NICOR data — archived as at 2025-04-24.\
 ✅ The data quality looks good, and most of the previously reported coverage issues appear to be resolved.\
 ⚠️ Some previously reported missing varaibles are still missing.\
 🔍 You can now start integrating this batch into your pipeline and check that the quality looks as expected!\
