@@ -75,6 +75,7 @@ While the data is archived as at 2025-04-24, coverage for most tables does not e
 
 Whilst most tables appear to have complete coverage extending well into late 2024 (Quarter 3 or 4), nicor_hf_v5 is the main exception, with coverage only appearing complete up to March 2024. This may reflect the common practice of NHS hospital trusts submitting data in bulk at the end of the financial year, with a delay before it is ingested into the SDE. We expect the next quarterly batch update (scheduled for July 2025) to include data through to March 2025 for nicor_hf_v5.
 \
+\
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_lag.png" target="_blank">
   <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_coverage_lag.png" alt="nicor coverage plot lag" width="1000">
 </a>
