@@ -14,24 +14,24 @@ permalink: /docs/useful_updates
 🎉 Great news! We finally have a fresh batch of NICOR data — archived as at 2025-04-24.\
 ✅ The data quality looks good, and all previously reported issues appear to be resolved.\
 🔍 You can now start integrating this batch into your pipeline and check that the quality looks as expected!\
-🚀 Continue reading below to find out more about preiovusly reported issues with NICOR, data quality, coverage, data lag and variables.\
+🚀 Continue reading below to find out more about preiovusly reported issues with NICOR, data quality, coverage, data lag and variables.
 
 ## Previously reported issues
 
-*nicor_acs_combined*
+**nicor_acs_combined**
 - Missing records: drop in records and individuals in recent batches compared to earlier batch (2023-03-31) ✅ISSUE RESOLVED
 - Missing variables: ethnicity.
 
-*nicor_crm_eps*
+**nicor_crm_eps**
 - Potential missing records - drop in records and individuals in the latest batch (2023-08-31) compared to earlier batches.
 
-*nicor_hf_v5*
+**nicor_hf_v5**
 - Duplicate records included in the 2023-08-31 batch, possibly due to the ordering within multivalue columns.
 
-*nicor_minap*
+**nicor_minap**
 - Missing variables: DischargeDate, EthnicGroup, Aspirin (on admission), StatinUse, HG_glucose0...24hrs, HG_Admission_K, Previous_MI
 
-*nicor_tavi*
+**nicor_tavi**
 - In the latest batch of data the 7_01_DATE_AND_TIME_OF_OPERATION is null for all records.
 - Missing variables: pathology-related.
 
