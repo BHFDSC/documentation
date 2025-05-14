@@ -83,3 +83,43 @@ Whilst most tables appear to have complete coverage extending well into late 202
 ## Column Completeness for latest batch (2025-04-24)
 \
 Note that some columns show 0% completeness, meaning they are provisioned in the dataset but contain no non-null data.
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_acs_combined.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_acs_combined.png" alt="nicor_acs_combined" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_congenital.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_congenital.png" alt="nicor_congenital" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_cpm_pmicd.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_cpm_pmicd.png" alt="nicor_cpm_pmicd" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_crm_eps.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_crm_eps.png" alt="nicor_crm_eps" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_crm_eps.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_crm_eps.png" alt="nicor_crm_eps" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_hf.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_hf.png" alt="nicor_hf" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_hf_v5.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_hf_v5.png" alt="nicor_hf_v5" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_minap.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/minap.png" alt="nicor_minap" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_pci.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/pci.png" alt="nicor_pci" width="1000">
+</a>
+
+<a href="https://bhfdsc.github.io/documentation/assets/images/nicor_tavi.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/tavi.png" alt="nicor_tavi" width="1000">
+</a>
