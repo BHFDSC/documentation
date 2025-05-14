@@ -23,6 +23,10 @@ permalink: /docs/useful_updates/nicor_april_2025
 
 If you find any new data quality issues please send us an email at **bhfdsc_hds@hdruk.ac.uk** for one of the team to look into and log.
 
+### Data Note
+
+The collection of heart failure records has gradually moved over from version 4 (nicor_hf) to 5 (nicor_hf_v5). Please do contact us if you would like support with harmonising and combining these two tables to maximise date coverage for analyses.
+
 ## Previously reported issues
 \
 **nicor_acs_combined**
