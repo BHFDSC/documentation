@@ -88,6 +88,8 @@ Whilst most tables appear to have complete coverage extending well into late 202
 \
 Note that some columns show 0% completeness, meaning they are provisioned in the dataset but contain no non-null data.
 
+Check out the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for an interactive view of data completeness.
+
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_acs_combined.png" target="_blank">
   <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_acs_combined.png" alt="nicor_acs_combined" width="1000">
 </a>
