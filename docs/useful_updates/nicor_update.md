@@ -15,7 +15,7 @@ permalink: /docs/useful_updates/nicor_april_2025
 
 ✅ The data coverage quality looks good, and the previously reported coverage issues (duplicates and missing data) appear to be resolved.\
 
-⚠️🚨 Some previously reported missing varaibles are still missing.\
+⚠️🚨 Previously reported missing varaibles are still missing.\
 
 🔍 You can now start integrating this batch into your pipeline and check that the quality looks as expected!\
 
@@ -40,7 +40,7 @@ If you find any new data quality issues please send us an email at **** for one 
 
 **nicor_tavi**
 - In the latest batch of data the 7_01_DATE_AND_TIME_OF_OPERATION is null for all records ✅ISSUE RESOLVED
-- Missing variables: pathology-related.
+- Missing variables: pathology-related 🚨All variables still missing
 
 ## Coverage Over Time by Archive Batch
 \
