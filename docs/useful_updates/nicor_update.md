@@ -113,13 +113,13 @@ Note that some columns show 0% completeness, meaning they are provisioned in the
 </a>
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_minap.png" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/minap.png" alt="nicor_minap" width="1000">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_minap.png" alt="nicor_minap" width="1000">
 </a>
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_pci.png" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/pci.png" alt="nicor_pci" width="1000">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_pci.png" alt="nicor_pci" width="1000">
 </a>
 
 <a href="https://bhfdsc.github.io/documentation/assets/images/nicor_tavi.png" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/tavi.png" alt="nicor_tavi" width="1000">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/nicor_tavi.png" alt="nicor_tavi" width="1000">
 </a>
