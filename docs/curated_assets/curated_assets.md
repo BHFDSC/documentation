@@ -16,6 +16,7 @@ The curated assets are run quarterly (previously monthly), following the NHS Dat
 
 | Month Year       | archived_on_date | Version |
 | :------------ | :-------------- | :----- |
+| April 2025 | 2025-04-25                 | Stable
 | January 2025 | 2025-02-04                 | Stable
 | November 2024 | 2024-12-02                 | Stable
 | October 2024 | 2024-10-24                 | Stable
