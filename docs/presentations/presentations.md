@@ -13,5 +13,7 @@ permalink: /presentations
 
 - <a href="https://bhfdsc.github.io/documentation/assets/images/Coding Best Practice in the NHSE SDE Cluster.pptx" target="_blank">Coding Best Practice in the NHS England SDE Cluster</a> - tips and advice on how to optimise running code in the NHS England SDE
 
+- <a href="https://bhfdsc.github.io/documentation/assets/images/Onboarding unit_ defining timeframes.pptx" target="_blank">Defining Timeframes</a> - advice on how to define study time periods 
+
 
 
