@@ -48,7 +48,8 @@ The HDR UK Phenotype Library API documentation page can be found <a href="https:
 
 To use the API, the metadata for each phenotype definition needs to be compiled into individual YAML files. Instructions for using the API and example files can be found <a href="https://hdruk.app.box.com/folder/308903999662?s=2vr5j4tq0jerp3edpv0kewiqkr2ofu6j" target="_blank">here</a>. Please include the BHF Data Science Centre and Phenotype Library collection IDs (20 and 18, respectively) in each YAML file. 
 
-We have additionally created scripts for [formatting codelist files]({% link docs/resources/phenotype_library_resources/codelist_formatting.md %}), automating the creation of [YAML files]({% link docs/resources/phenotype_library_resources/creating_yaml_files.md %}), and [batch uploading phenotypes]({% link docs/resources/phenotype_library_resources/batch_uploading_phenotypes.md %}). These may be particularly useful for projects with a large number of phenotypes.  
+We have additionally created scripts for [formatting codelist files]({% link docs/resources/codelist_formatting.md %}), automating the creation of [YAML files]({% link docs/resources/creating_yaml_files.md %}), and [batch uploading phenotypes]({% link docs/resources/batch_upload_phenotypes.md %}). These may be particularly useful for projects with a large number of phenotypes. 
+
 
 ## Additional support
 Additional documentation on the Phenotype Library can be found <a href="https://github.com/SwanseaUniversityMedical/concept-library/blob/master/README.md" target="_blank">here</a>. Any questions or problems that occur during the submission process should be directed to the Phenotype Library, via their <a href="https://conceptlibrary.saildatabank.com/contact-us/" target="_blank">contact page</a>.
