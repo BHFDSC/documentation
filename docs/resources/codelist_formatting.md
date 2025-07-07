@@ -12,11 +12,7 @@ We have produced a script to aid in formatting codelists ready for submission to
 The script can be downloaded here. 
 
 {% highlight markdown %}
-```r
-####################
-###### Set-up ######
-####################
-
+```rscript
 # Libraries
 library(readr)
 library(dplyr)
