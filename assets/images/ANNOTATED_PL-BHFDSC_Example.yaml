@@ -1,0 +1,292 @@
+---
+# [NAME] | "The name or title of this Phenotype."
+# {MANDATORY}
+#
+name: Chronic Kidney Disease
+
+# [Author] | "A set of authors who contributed to this Phenotype."
+# {MANDATORY}
+#
+# NOTE:
+#   -> Should be a string, e.g. `Author. A, Author. B et al` etc
+#
+author: Some BHF Data Science Author
+
+# [Corresponding Author] | "The name of the corresponding author (optional)."
+# {OPTIONAL}
+#
+corresp_author: Ashkan Dashtban
+
+# [Corresponding Email] | "The preferred e-mail address of the corresponding author (optional)."
+# {OPTIONAL}
+#
+corresp_email: a.dashtban@ucl.ac.uk
+
+# [GROUP] | "The group that owns this Phenotype for permissions purposes (optional)."
+# {OPTIONAL}
+#
+# NOTE:
+#  -> The ID of the BHF Data Science centre is `13`
+#
+group: 13
+
+# [Group Access] | "Modify how this Phenotype can be viewed or edited by the associated group."
+# {MANDATORY}
+#
+# NOTE:
+#   -> 1 = Don't allow group members to view/edit drafts of this Phenotype
+#   -> 2 = Allow group members to view drafts of this Phenotype
+#   -> 3 = Allow group members to both view & edit the drafts of this Phenotype
+#
+group_access: 3
+
+# [Group Access] | "Modify how authenticated users can see this Phenotype (note: you will still have to publish if you wish to make this public on the web)"
+# {MANDATORY}
+#
+# NOTE:
+#   -> 1 = Hide from authenticated users until this Phenotype is published
+#   -> 2 = Allow authenticated users to drafts of this Phenotype
+#
+world_access: 1
+
+# [Type] | "The category of patient characteristics this Phenotype is best described by."
+# {OPTIONAL}
+#
+# > See BHF Template reference: https://github.com/SwanseaUniversityMedical/concept-library/blob/Development/CodeListLibrary_project/dynamic_templates/bhf_phenotype.json
+#
+# NOTE:
+#   -> 1 = Biomarker
+#   -> 2 = Disease or syndrome
+#   -> 3 = Drug
+#   -> 4 = Lifestyle risk factor
+#   -> 5 = Musculoskeletal
+#   -> 6 = Surgical procedure
+#   -> 7 = Other
+#
+type: '2'
+
+# [Sex] | "The biological sex this Phenotype is applicable to."
+# {MANDATORY}
+#
+# NOTE:
+#   -> Male   = 1
+#   -> Female = 2
+#   -> Both   = 3
+#
+sex: 3
+
+# [Author] | "If this Phenotype is only applicable within a limited time period, please specify that here (optional)."
+#
+# NOTE:
+#   -> Format: [start date] - [end date]
+#   -> Example: 01/01/1990 - 01/01/2025
+#
+event_date_range: 01/04/2018 - 01/04/2022
+
+# [Tags] | "A list of keywords helping to categorise this content (optional)."
+# {OPTIONAL}
+#
+# > See reference values here: https://phenotypes.healthdatagateway.org/reference-data/#tags
+# 
+# NOTE:
+#   -> `1` here describes the `COVID-19` tag
+#   -> See the reference link to view the available tags
+#
+tags:
+  - 1
+
+# [Collections] | "A list of content collections that this Phenotype belongs to (optional)."
+# {OPTIONAL}
+#
+# > See reference values here: https://phenotypes.healthdatagateway.org/reference-data/#collections
+# 
+# NOTE:
+#   -> `18` here describes the `Phenotype Library` collection
+#   -> `20` here describes the 'BHF Data Science Centre' collection
+#   -> See the reference link to view the available collections
+#
+collections:
+  - 18
+  - 20
+
+# [Data Sources] | "A list identifying data sources referenced, used or required by this Phenotype (optional)."
+# {OPTIONAL}
+#
+# > See reference values here: https://phenotypes.healthdatagateway.org/reference-data/#data_sources
+# 
+# NOTE:
+#   -> `1` here describes the `GPES Data for Pandemic Planning and Research (COVID-19)` data source
+#   -> IDs for other Data Sources can be found in the reference link above
+#
+data_sources:
+  - 1
+
+# [Ontology] | "A set of taggable categories and concepts that best describe this Phenotype (optional)."
+# {OPTIONAL}
+#
+# > See reference values: https://phenotypes.healthdatagateway.org/reference-data/#ontology
+#
+# NOTE:
+#   -> You can match directly to ontological terms by using their ID, accessible via the reference page above,
+#      OR you can use codes associated with an ontological term
+#
+#   -> Please see the following examples on how to do this:
+#
+#     -> If you intend to use IDs directly:
+#       -> ID Example: 699139
+#
+#     -> If you intend to use coding systems, see the coding systems available and the following examples for ref:#
+#       -> SNOMED Example: 'sctid:709044004'
+#       -> ICD9 Example: 'icd9:569.82'
+#       -> ICD10 Example: 'icd10:A01'
+#       -> OPSC4 Example: 'opsc4:A52.2'
+#       -> MeSH Example: 'mesh:P24.2'
+#       -> READ V2 Example: 'readcv2:7907.11'
+#       -> READ V3 Example: 'readcv3:G5730'
+#
+ontology:
+  - 'sctid:709044004'
+
+# [Publications] | "Publication(s) where this Phenotype was defined or has been used (optional)."
+# {OPTIONAL}
+#
+# NOTE:
+#   -> Links/DOIs will be parsed from the input string automatically:
+#     -> Expected Format: '[title/reference, doi/link]'
+#     -> Publication Example: 'Retrospective cohort study, https://doi.org/10.1016/j.kint.2022.05.015'
+#
+publications:
+  - 'A retrospective cohort study predicting and validating impact of the COVID-19 pandemic in individuals with chronic kidney disease, https://doi.org/10.1016/j.kint.2022.05.015'
+
+# [Description] | "An overview of the Phenotype.""
+# {OPTIONAL}
+#
+# > Learn more about using Markdown in YAML templates here: https://quire.getty.edu/docs-v1/fundamentals/
+# > Learn about Markdown and how to format text here: https://www.markdownguide.org/getting-started/
+#
+# NOTE:
+#   -> This field is a markdown field, this will allow you to format your text and modify its appearance when viewed on the website;
+#   -> If you aren't creating this YAML template in VSCode, I would recommend that you use an online Markdown editor and then paste the content
+#      here;
+#   -> There are many online markdown editors but this one seems reasonably good: https://stackedit.io/app
+#
+# IMPORTANT:
+#   -> Markdown fields have to start with a pipe (`|`) as below, e.g. `validation: |`
+#   -> The following lines will be considered to be part of the same block of markdown as long as it's tabbed/indented at least once as seen below
+#
+description: |
+  A retrospective, population-based cohort study developed: We systematically extracted SNOMED CT concepts using the offline NHS Code Browser; Analysis carried out within NHS Digital Secure Data Environment for England (NHSD SDE), and the UCL Data Safe Haven for CPRD GOLD data.
+
+# [Implementation] | "Information on how the Phenotype is applied to data (optional)."
+# {OPTIONAL}
+#
+# NOTE:
+#   -> This is also a markdown field, please see documentation in the [Description] section
+#
+implementation: |
+  ## Inclusion - Exclusion
+    A) having two screenings for estimated glomerular filtration rate (eGFR) within 1 year both below 60mL/min/1.73m2, the last screening was used to determine the stage of CKD. The stages of CKD were defined based on KDIGO definition;
+    B) having a diagnosis record in General Practice as CKD stages 3-5, including dialysis and transplant patinets. Diagnosis codes included Read Codes, ICD-10 codes, and SNOMED CT codes, selected and validated from the NHS Code Browser.
+
+  ## Limitations
+  Not all patients recorded as having CKD stages 3-5 had eGFR tests for validation purposes. Additionally, the study did not account for Acute Kidney Injury or CKD stages 1 and 2.
+
+# [Validation] | "A description of the methods used to validate this Phenotype (optional)."
+# {OPTIONAL}
+#
+# NOTE:
+#   -> This is also a markdown field, please see documentation in the [Description] section
+#
+validation: |
+  ## Cohort selection codes
+  Diagnosis codes included Read Codes, ICD-10 codes, and SNOMED CT codes, selected and validated from the NHS Code Browser.
+
+  ## Some other validation
+  e.g. validated against XYZ study
+
+# [Endorsements] | "Endorsements for this Phenotype (optional)."
+# {OPTIONAL}
+#
+# NOTE:
+#   -> date: The date at which this trial / Phenotype it was endorsed
+#   -> endorsement_organisation: The name of the organisation that endorses this trial / Phenotype 
+#
+endorsements:
+  - date: 01/01/2025
+    endorsement_organisation: BHF Data Science Centre
+  - date: 01/01/2025
+    endorsement_organisation: HDRUK
+
+# [Trials] | "URL of this Phenotype's PhenoFLOW implementation, if applicable (optional). For more information: https://kclhi.org/phenoflow/"
+# {OPTIONAL}
+#
+phenoflowid: https://kclhi.org/phenoflow/workflows/github.com/phenoflow/Abdominal-Pain---bbba5e60-1ce0-11ef-bdee-f10829e63eeb/blob/read-potential-cases-fhir/Abdominal-Pain.cwl
+
+# [Trials] | "Clinical Trials associated with this Phenotype."
+# {OPTIONAL}
+#
+# NOTE:
+#   -> ID: Specifies the trial registration ID number
+#   -> Name: Specifies the name or title of the associated trial
+#   -> Link: Describes some URL that links to this trial or its results
+#   -> Primary: Specifies whether this trial is considered to be a primary trial or not
+#
+trials:
+  - id: 1
+    name: Some Trial
+    link: http://doi.org/some/trial
+    primary: true
+  - id: 1
+    name: Some Other Trial
+    link: http://doi.org/some/other/trial
+    primary: false
+
+# [Concept Information] | "A set of concepts, each of which defines a list of clinical codes, contained within this Phenotype."
+# {OPTIONAL}
+#
+# > See Coding System ID reference here: https://phenotypes.healthdatagateway.org/reference-data/#coding_system
+#
+# NOTE:
+#   -> The following are universal for each Concept included by a phenotype:
+#     -> name: the name of the concept
+#     -> type: specifies how the data should be uploaded; one of `csv` or `existing_concept`
+#
+#   -> If you are using a `csv` type concept:
+#     -> coding_system: the coding system id associated with the codes contained by this concept - see the link above for more info
+#     -> code_column: the column in the CSV file that contains the codes; only applicable if `type` is `csv`
+#     -> description_column: the column in the CSV file that contains the code descriptions; only applicable if `type` is `csv`
+#     -> filepath: the path
+#
+#   -> If you are using a `existing_concept` type concept: (Please note: the ID and version IDs of these can be found via the API or the Website)
+#     -> concept_id: the concept id you would like to append to your Phenotype (e.g. C174)
+#     -> concept_version_id: the concept version id you would like to append to your Phenotype (e.g. for C714 above, that would be 2567)
+#
+concept_information:
+  - name: Chronic Kidney Disease Hospitalisations
+    type: csv
+    coding_system: 4
+    code_column: Concept ID
+    description_column: Clinical Term
+    filepath: ../phenotypes/codelists/CKD_ICD10.csv
+  - name: Chronic Kidney Disease Primary Care
+    type: csv
+    coding_system: 5
+    code_column: Concept ID
+    description_column: Clinical Term
+    filepath: ../phenotypes/codelists/CKD_Read2.csv
+  - name: Chronic Kidney Disease Secondary Care
+    type: csv
+    coding_system: 9
+    code_column: Concept ID
+    description_column: Clinical Term
+    filepath: ../phenotypes/codelists/CKD_SNOMEDCT.csv
+
+# [Template]
+#
+# NOTE:
+#   -> This specifies which Template to use on the website;
+#   -> The ID of the BHF template is `2` and is currently on version `1 
+#
+template:
+  id: 2
+  version_id: 1
