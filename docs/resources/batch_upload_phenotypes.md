@@ -8,12 +8,11 @@ permalink: /resources/phenotype_library_resources/batch_uploading_phenotypes
 ---
 
 # Batch Uploading Phenotypes 
-An example R script of how to upload a single phenotype to the HDR UK Phenotype Library can be downloaded here. Uploads can be tested by using the demo server (see login section of the script) before switching to the production environment.
+You can find an example R script, along with the necessary supporting files, for uploading a single phenotype to the HDR UK Phenotype Library via the API [here](https://hdruk.app.box.com/folder/308904483606). Uploads can be tested by using the demo server (see login section of the script) before switching to the production environment.
 
 Additionally, we have created an R script that automates the upload process of multiple phenotype definitions to the HDR UK Phenotype Library via its API. It reads all .yaml files from a specified folder, signs in to your Phenotype Library account, and submits each phenotype for upload to the library. The script provides confirmation messages after each successful upload.
 
-The script can be copied below or downloaded [here](https://bhfdsc.github.io/documentation/assets/images/batch_upload_phenotypes.R). The relevant R files can be found [here](https://hdruk.app.box.com/folder/308904483606). 
-
+The script can be copied below or downloaded [here](https://bhfdsc.github.io/documentation/assets/images/batch_upload_phenotypes.R). 
 {% highlight markdown %}
 ```r
 # Install the package & load it into our library namespace
