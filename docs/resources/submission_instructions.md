@@ -47,6 +47,7 @@ Phenotype definitions can be submitted using the Phenotype Library interface, or
 More detailed documentation on using the Phenotype Library interface for can be found <a href="https://phenotypes.healthdatagateway.org/documentation/clinical-coded-phenotype-docs" target="_blank">here</a>.
 
 **Submission via the Phenotype Library API** 
+
 The HDR UK Phenotype Library API documentation page can be found <a href="https://phenotypes.healthdatagateway.org/api/v1/" target="_blank">here</a>, and its reference data can be found <a href="https://phenotypes.healthdatagateway.org/reference-data/" target="_blank">here</a>. The Client packages are available in both Python and R. 
 
 To use the API, the metadata for each phenotype definition needs to be compiled into individual YAML files. Instructions for using the API and example files can be found <a href="https://hdruk.app.box.com/folder/308903999662?s=2vr5j4tq0jerp3edpv0kewiqkr2ofu6j" target="_blank">here</a>. Please include the BHF Data Science Centre and Phenotype Library collection IDs (20 and 18, respectively) in each YAML file. 
