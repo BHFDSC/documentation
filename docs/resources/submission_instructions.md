@@ -16,15 +16,15 @@ All phenotype definitions created or used in the research the BHF Data Science C
 ## Submitting to the Phenotype Library
 ### Submission materials
 The following materials are required to submit phenotype definitions to the library:
-* **Code list file**
-* A .csv or .xlsx file containing the clinical terms for each phenotype definition. A separate file is needed for each coding terminology (e.g. SNOMED, ICD-10). 
-* Files must be formatted with two columns: a ‘Code’ column containing the codes and a ‘Description’ column containing the clinical terms. An example code list file can be found here.
-
-*	**Metadata:** a description of the phenotyping definition, including: 
-  * authors
-  * data sources used in its development
-*	associated publications
-*	any restrictions (eg. date or sex) on its use
+- **Code list file**
+    - A .csv or .xlsx file containing the clinical terms for each phenotype definition. A separate file is needed for each coding terminology (e.g. SNOMED, ICD-10).
+    - Files must be formatted with two columns: a ‘Code’ column containing the codes and a ‘Description’ column containing the clinical terms. An example code list file can be found here.
+  
+-	**Metadata:** a description of the phenotyping definition, including:
+    - authors
+    - data sources used in its development
+    - associated publications
+    - any restrictions (eg. date or sex) on its use
   
 An example of a submitted phenotype definition with metadata can be found <a href="https://phenotypes.healthdatagateway.org/HDRUK/phenotypes/PH11/version/22/detail/" target="_blank">here</a>.
 
@@ -37,11 +37,11 @@ Phenotype definitions can be submitted using the Phenotype Library interface, or
 - Click ‘Create’ in the ‘BHF Data Science Centre Phenotype’ section
 - Complete the submission form:
     - Some fields are optional, but providing as much information/metadata as possible is useful
-    - Ensure the ‘Collections’ field is populated with ‘BHF Data Science Centre' and ‘Phenotype Library’
-    - Code lists are uploaded in the ‘Clinical Code List’ section by creating a new concept. 
-- Once you have finalised the form click ‘Create Phenotype’
-- You will be able to view the phenotype definitions you have created in the ‘My collection’ area of your account
-- To publish the phenotype definition click into it from the ‘My collection’ area and click ‘Request publication’ in the top right hand corner. This allows users without a Phenotype Library account to view, interact with, or download (but not edit) the phenotype definition.
+    - Ensure the *Collections* field is populated with *BHF Data Science Centre* and *Phenotype Library*
+    - Code lists are uploaded in the *Clinical Code List* section by creating a new concept. 
+- Once you have finalised the form click *Create Phenotype*
+- You will be able to view the phenotype definitions you have created in the *My collection* area of your account
+- To publish the phenotype definition click into it from the *My collection* area and click *Request publication* in the top right hand corner. This allows users without a Phenotype Library account to view, interact with, or download (but not edit) the phenotype definition.
 - The phenotype definition can be edited after it is published, but you will need to re-request its publication in order for the new version to be visible. Editing after publication will generate a new version ID.
 
 More detailed documentation on using the Phenotype Library interface for can be found <a href="https://phenotypes.healthdatagateway.org/documentation/clinical-coded-phenotype-docs" target="_blank">here</a>.
