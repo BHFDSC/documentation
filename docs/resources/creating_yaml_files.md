@@ -8,6 +8,8 @@ permalink: /resources/phenotype_library_resources/creating_yaml_files
 ---
 
 # Creating YAML files
+To upload phenotypes to the HDR UK Phenotpye Library using the API, the metadata for each phenotype definition needs to be compiled into individual YAML files. An example YAML file (with annotation) can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/ANNOTATED_PL-BHFDSC_Example.yaml). 
+
 We have created a script to automate the conversion of phenotype metadata (stored in an Excel file) into an individual, formatted YAML file for each phenotype. The output files are saved in the 'phenotype_yamls' folder. It is designed for use when preparing phenotypes for upload to the HDR UK Phenotype Library via the API.
 
 The script can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/yaml_formatting.R) and the example metadata file [here](https://bhfdsc.github.io/documentation/assets/images/example_phenotype_metadata_file.xlsx). 
