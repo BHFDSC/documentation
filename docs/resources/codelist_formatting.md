@@ -11,7 +11,7 @@ For upload to the HDR UK Phenotype Library, codelists must be in .csv files with
 
 We have produced a script to aid in formatting codelists ready for submission. The script takes a codelist .csv file (that includes multiple phenotypes and coding terminologies) and splits it into separate .csv files based on the unique combinations of 'name' (phenotype) and 'terminology' (code type). For each combination it creates a .csv file with the naming convention "phenotype_terminology.csv" (eg. myocarditis_ICD10.csv) containing only rows for that group. The output files are saved in the "phenotype_csvs" folder.
 
-The script can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/codelist_csv_split.R). 
+The script can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/codelist_csv_split.R), and the example master codelist file [here](https://bhfdsc.github.io/documentation/assets/images/example_phenotypes.csv)
 
 {% highlight markdown %}
 ```r
