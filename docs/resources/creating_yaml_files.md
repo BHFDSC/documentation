@@ -12,7 +12,7 @@ To upload phenotypes to the HDR UK Phenotpye Library using the API, the metadata
 
 We have created a script to automate the conversion of phenotype metadata (stored in an Excel file) into an individual, formatted YAML file for each phenotype. The output files are saved in the 'phenotype_yamls' folder. 
 
-The script can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/yaml_formatting.R) and the example metadata file [here](https://bhfdsc.github.io/documentation/assets/images/example_phenotype_metadata_file.xlsx). 
+The script can be copied below or downloaded [here](https://bhfdsc.github.io/documentation/assets/images/yaml_formatting.R) and the example metadata file can be downloaded [here](https://bhfdsc.github.io/documentation/assets/images/example_phenotype_metadata_file.xlsx). 
 
 {% highlight markdown %}
 ```r
