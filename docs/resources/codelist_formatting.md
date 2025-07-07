@@ -7,7 +7,7 @@ grand_parent: Resources
 permalink: /resources/phenotype_library_resources/codelist_formatting
 ---
 # Codelist Formatting
-We have produced a script to aid in formatting codelists ready for submission to the HDR UK Phenotype Library. The script takes a codelist .csv file (that includes multiple phenotypes and coding terminologies) and splits it into separate .csv files based on the unique combinations of 'name' (phenotype) and 'terminology' (code type). For each combination it creates a .csv file with the naming convention "phenotype_terminology.csv" containing only rows for that group. The output files are saved in the "Phenotype_CSVs" folder.
+We have produced a script to aid in formatting codelists ready for submission to the HDR UK Phenotype Library. The script takes a codelist .csv file (that includes multiple phenotypes and coding terminologies) and splits it into separate .csv files based on the unique combinations of 'name' (phenotype) and 'terminology' (code type). For each combination it creates a .csv file with the naming convention "phenotype_terminology.csv" (eg. myocarditis_ICD10.csv) containing only rows for that group. The output files are saved in the "phenotype_csvs" folder.
 
 The script can be downloaded here. 
 
