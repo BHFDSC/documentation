@@ -14,7 +14,7 @@ permalink: /resources/phenotype_library_resources/submission_instructions
 The following materials are required to submit phenotype definitions to the library:
 - **Code list file**
     - A .csv or .xlsx file containing the clinical terms for each phenotype definition. A separate file is needed for each coding terminology (e.g. SNOMED, ICD-10).
-    - Files must be formatted with two columns: a ‘Code’ column containing the codes and a ‘Description’ column containing the clinical terms. An example code list file can be found here.
+    - Files must be formatted with two columns: a ‘Code’ column containing the codes and a ‘Description’ column containing the clinical terms. 
   
 -	**Metadata:** a description of the phenotyping definition, including:
     - authors
