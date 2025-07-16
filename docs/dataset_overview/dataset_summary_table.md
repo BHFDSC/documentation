@@ -9,7 +9,7 @@ permalink: /docs/dataset_overview/dataset_summary_table
 # Dataset summary table
 
 <br>
-<a href="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
+<a href="https://bhfdsc.github.io/documentation/assets/images/summary_table_data_coverage_16072025.pdf" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2"  target="_blank">Download Dataset Summary Table</a>
 
 This table summarises the datasets provisioned in the CVD-COVID-UK/COVID-IMPACT instance of the NHS England Secure Data Environment (SDE), including start and end dates and update frequency and lag, as well as key notes and links to further information. 
 
@@ -22,7 +22,7 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
   <title>PDF Display</title>
 </head>
 <body>
-  <embed src="https://bhfdsc.github.io/documentation/assets/images/Dataset_summary_table_20240930.pdf" type="application/pdf" width="100%" height="600px" />
+  <embed src="https://bhfdsc.github.io/documentation/assets/images/summary_table_data_coverage_16072025.pdf" type="application/pdf" width="100%" height="600px" />
 </body>
 </html>
 
