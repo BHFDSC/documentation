@@ -14,4 +14,6 @@ All phenotype definitions created or used in the research the BHF Data Science C
 
 The pages below provide guidance on using the Phenotype Library, and include scripts to aid in preparing and uploading phenotypes via the Phenotype Library API. The video below covers how to upload phenotypes via the Phenotype Library Interface and via the API.
 
+_Please note that where you have reused phenotype definitions that are already available via an open access repository (e.g. the Phenotype Library) you do not need to submit them again and should cite their use (using the relevant ID or DOI)._
+
 <iframe width="736" height="410" src="https://www.youtube.com/embed/XnHYqpz6aas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
