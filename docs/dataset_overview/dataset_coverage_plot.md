@@ -46,7 +46,7 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
 - OP: Outpatients
 - SARI: Severe Acute Respiratory Infection
 - SGSS: Second Generation Surveillance System
-- SSNAP: Setninel Stroke National Audit Programme
+- [SSNAP]({% link docs/dataset_insights/ssnap.md %}) : Setninel Stroke National Audit Programme
 - SUS: Secondary Uses Service
 - [TAVI]({% link docs/dataset_insights/nicor_tavi.md %}): Transcatheter Aortic Valve Implantation
 
