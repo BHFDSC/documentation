@@ -16,8 +16,8 @@ registrations at participating practices (97.5%) who were alive on or born after
 Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">Dataset Summary Dashboard</a> for more detailed coverage plots for each of the datasets individually. 
 
 
-<a href="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" target="_blank">
-  <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot.png" alt="coverage plot" width="1000">
+<a href="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot_Oct2025.png" target="_blank">
+  <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot_Oct2025.png" alt="coverage plot" width="1000">
 </a>
 
 
