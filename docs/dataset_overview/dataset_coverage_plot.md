@@ -20,6 +20,16 @@ Please see the <a href="https://bhfdatasciencecentre.org/dashboard/" target="_bl
   <img src="https://bhfdsc.github.io/documentation/assets/images/dataset_coverage_plot_Oct2025.png" alt="coverage plot" width="1000">
 </a>
 
+## Footnotes
+### HES A&E
+Officially, the HES A&E dataset ended with the 2019/2020 financial year (in March 2020) with the Emergency Care Data Set (ECDS) taking over, but up until the April 2025 data provisioning the HES A&E dataset was being updated for historical continuity. NHS England have confirmed that this will no longer be the case going forward, and instead researchers will now have to make use of ECDS for the most recent data. Although ECDS officially started in in 2018, it is worth noting that the coverage does not look to be complete until April 2020 when it took over from HES A&E. 
+
+### NICOR NHFA footnote
+The collection of the NICOR National Heart Failure Audit (NHFA) records has gradually moved over from version 4 (NHFA v4) to version 5 (NHFA v5). See here for a plot that demonstrates this change. 
+
+Please contact the Health Data Science Team (bhfdsc_hds@hdruk.ac.uk) if you would like support with harmonising and combining these two NHFA versions to maximise date coverage for your analyses, or for advice and considerations on how best to use the HES A&E and ECDS tables.
+
+
 
 ## Abbreviations
 
