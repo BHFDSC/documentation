@@ -12,8 +12,7 @@ permalink: /docs/useful_updates/july_2025_batch
 The **July 2025** batch (archived as at **2025-07-28**) is now available.
 
 Dive into the latest updates via the interactive dataset summary dashboard:
-
-👉: https://bhfdatasciencecentre.org/dashboard/
+👉 https://bhfdatasciencecentre.org/dashboard/
 
 ✅ All curated assets have been refreshed in line with the new data drop.
 Find out more about the curated assets available here:
@@ -25,7 +24,7 @@ We’ve re-run our full suite of monitoring plots and saved them as PNGs for eas
 👉 Head to:
 **Workspace > Shared > Dataset Summary Dashboard > 2025_07_28**
 You’ll find the plots organised into these folders:
-📁: **batch_checks:** Shows cumulative record counts by archive to check that each new archive includes more data than the last
+📁 **batch_checks:** Shows cumulative record counts by archive to check that each new archive includes more data than the last
 📁 **coverage_by_archive:** Compares time trends in coverage across the current and four previous archives to spot any sudden changes
 📁 **coverage_by_records:** Tracks total, per-person, and unique person counts over time using the most recent archive only
 📁 **lag:** Displays recent monthly record counts (with smoothing) to help detect data lags or delays in recent archives (visually looking at the core plots, full coverage is now available up to March/April 2025)
