@@ -20,7 +20,7 @@ Quick Start: Access the latest demographics table as at **.hds_curated_assets__d
 
 👀**Want to check data coverage or trends of your datasets inside the SDE?**  
 We’ve re-run our full suite of monitoring plots and saved them as PNGs for easy viewing.  
-👉 Head to:
+👉 Head to:  
 **Workspace > Shared > Dataset Summary Dashboard > 2025_07_28**
 You’ll find the plots organised into these folders:  
 📁 **batch_checks:** Shows cumulative record counts by archive to check that each new archive includes more data than the last  
