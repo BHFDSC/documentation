@@ -2,7 +2,7 @@
 layout: default
 title: July 2025
 parent: batch_updates
-grand_parent: Useful Updates
+grand_parent: useful_updates
 nav_order: 1
 permalink: /docs/useful_updates/batch_updates/july_2025
 ---
