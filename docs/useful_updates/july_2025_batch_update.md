@@ -12,6 +12,7 @@ permalink: /docs/useful_updates/july_2025_batch
 The **July 2025** batch (archived as at **2025-07-28**) is now available.
 
 Dive into the latest updates via the interactive dataset summary dashboard:
+
 👉: https://bhfdatasciencecentre.org/dashboard/
 
 ✅ All curated assets have been refreshed in line with the new data drop.
