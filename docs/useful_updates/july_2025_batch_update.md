@@ -15,10 +15,10 @@ Dive into the latest updates via the interactive dataset summary dashboard
 
 ✅ All curated assets have been refreshed in line with the new data drop.
 Find out more about the curated assets available here:  
-👉 https://bhfdsc.github.io/documentation/curated_assets
+👉 https://bhfdsc.github.io/documentation/curated_assets 
 Quick Start: Access the latest demographics table as at **.hds_curated_assets__demographics_2025_07_28**
 
-👀**Want to check data coverage or trends of your datasets inside the SDE?**
+👀**Want to check data coverage or trends of your datasets inside the SDE?**  
 We’ve re-run our full suite of monitoring plots and saved them as PNGs for easy viewing.  
 👉 Head to:
 **Workspace > Shared > Dataset Summary Dashboard > 2025_07_28**
