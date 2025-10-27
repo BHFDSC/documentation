@@ -10,12 +10,10 @@ permalink: /docs/useful_updates/batch_updates/july_2025
 
 The **July 2025** batch (archived as at **2025-07-28**) is now available.
 
-Dive into the latest updates via the interactive dataset summary dashboard  
-👉https://bhfdatasciencecentre.org/dashboard/
+Dive into the latest updates via the interactive <a href="https://bhfdatasciencecentre.org/dashboard/" target="_blank">dataset summary dashboard</a>
 
 ✅ All curated assets have been refreshed in line with the new data drop.
-Find out more about the curated assets available here:  
-👉 https://bhfdsc.github.io/documentation/curated_assets  
+Find out more about the curated assets available <a href="https://bhfdsc.github.io/documentation/curated_assets" target="_blank">here</a>   
 Quick Start: Access the latest demographics table as at **.hds_curated_assets__demographics_2025_07_28**
 
 👀**Want to check data coverage or trends of your datasets inside the SDE?**  
