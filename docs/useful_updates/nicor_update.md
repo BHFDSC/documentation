@@ -2,7 +2,7 @@
 layout: default
 title: NICOR Update (Slack May 2025)
 parent: Useful Updates
-nav_order: 1
+nav_order: 2
 has_children: false
 permalink: /docs/useful_updates/nicor_april_2025
 ---
