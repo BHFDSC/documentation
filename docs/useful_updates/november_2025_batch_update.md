@@ -1,3 +1,4 @@
+---
 layout: default
 title: November 2025
 parent: Batch updates
