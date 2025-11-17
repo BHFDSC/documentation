@@ -16,7 +16,7 @@ Find out more about the curated assets available to you <a href="https://bhfdsc.
 
 Quick Start: Access the latest demographics table as at **dsa_391419_j3w9t.dsa_391419_j3w9t_collab.hds_curated_assets__demographics_2025_11_04**
 
-👀🔍 **Check your data quality**
+👀🔍 **Check your data quality** 
 We now have 195 datasets available :exploding_head: which is fab, but it also means the HDS team can’t fully quality check every dataset for every project. We still need you to check the batches you’re using in your own pipelines. Please don’t assume the latest batch is always ready to go for all datasets and if you are updating the data in your pipeline please take some time to check this data refresh being fed into your pipeline.
 
 We’ve put together a notebook to hopefully make data quality checking quicker for you. In the NHS England SDE head to: 
