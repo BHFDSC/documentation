@@ -17,16 +17,18 @@ Find out more about the curated assets available to you <a href="https://bhfdsc.
 Quick Start: Access the latest demographics table as at **dsa_391419_j3w9t.dsa_391419_j3w9t_collab.hds_curated_assets__demographics_2025_11_04**
 
 👀🔍 **Check your data quality** 
+
 We now have 195 datasets available :exploding_head: which is fab, but it also means the HDS team can’t fully quality check every dataset for every project. We still need you to check the batches you’re using in your own pipelines. Please don’t assume the latest batch is always ready to go for all datasets and if you are updating the data in your pipeline please take some time to check this data refresh being fed into your pipeline.
 
 We’ve put together a notebook to hopefully make data quality checking quicker for you. In the NHS England SDE head to: 
+
 👉 **Workspace > Shared > Data Checks > check_my_data**
 
 You can open this notebook in the above location or clone it into your own project space and use it to run some quick checks on the datasets you depend on.
 Things to look out for in your checks might include: 
-- 📊 Are there more records in this batch than the last one (any unexpected drops)? 
-- 🗺️ Does the dataset have similar coverage over time as the batch before? 
-- ⏳ What’s the lag between the archived date and the most recent event date? 
+- 📊 Are there more records in this batch than the last one (any unexpected drops)?
+- 🗺️ Does the dataset have similar coverage over time as the batch before?
+- ⏳ What’s the lag between the archived date and the most recent event date?
 - 🔎 Are any of your key columns suddenly much more missing? 
 We’re putting together some short documentation on how to check your data, but in the meantime please use the check_my_data notebook as a starting point and shout if you spot anything unusual!👋
 
