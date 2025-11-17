@@ -3,7 +3,7 @@ layout: default
 title: April 2025
 parent: Batch updates
 grand_parent: Useful Updates
-nav_order: 2
+nav_order: 3
 permalink: /docs/useful_updates/batch_updates/april_2025
 ---
 # April 2025 batch update
