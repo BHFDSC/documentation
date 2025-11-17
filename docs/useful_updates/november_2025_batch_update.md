@@ -10,7 +10,7 @@ permalink: /docs/useful_updates/batch_updates/november_2025
 
 The **November 2025** batch (archived as at **2025-11-04**) is now available.
 
-✅ **All curated assets have been refreshed** in line with the new data drop and are available as at 2025_11_04
+✅ **All curated assets have been refreshed** in line with the new data drop and are available as at **2025_11_04**
 
 Find out more about the curated assets available to you <a href="https://bhfdsc.github.io/documentation/curated_assets" target="_blank">here</a>.
 
@@ -24,11 +24,11 @@ We’ve put together a notebook to hopefully make data quality checking quicker 
 
 You can open this notebook in the above location or clone it into your own project space and use it to run some quick checks on the datasets you depend on.
 Things to look out for in your checks might include:
--📊 Are there more records in this batch than the last one (any unexpected drops)?
--🗺️ Does the dataset have similar coverage over time as the batch before?
--⏳ What’s the lag between the archived date and the most recent event date?
--🔎 Are any of your key columns suddenly much more missing?
-We’re putting together some short documentation on how to check your data, but in the meantime please use the check_my_data notebook as a starting point and shout if you spot anything unusual! :wave:
+- 📊 Are there more records in this batch than the last one (any unexpected drops)? 
+- 🗺️ Does the dataset have similar coverage over time as the batch before? 
+- ⏳ What’s the lag between the archived date and the most recent event date? 
+- 🔎 Are any of your key columns suddenly much more missing? 
+We’re putting together some short documentation on how to check your data, but in the meantime please use the check_my_data notebook as a starting point and shout if you spot anything unusual!👋
 
 📌 Data Reminders:
 - 📉 **HES A&E:** Remember that in the most recent batches of data, the date coverage of the HES A&E dataset now ends in March 2020. Read more about this <a href="https://bhfdsc.github.io/documentation/docs/useful_updates/hes_ae_update_2025" target="_blank">here</a>.
