@@ -28,7 +28,7 @@ You’ll find the plots organised into these folders:
 Each folder contains individual PNGs for quick review (no need to run any code).
 
 📌 **Additional notes:**  
-- 📉 **HES A&E:** You’ll notice a drop in HES A&E records in the last two archived_on batches - see <a href="https://bhfdsc.github.io/documentation/useful_updates/hes_ae_update_2025" target="_blank">here</a>  for more detail on this change.  
+- 📉 **HES A&E:** You’ll notice a drop in HES A&E records in the last two archived_on batches - see <a href="https://bhfdsc.github.io/documentation/docs/useful_updates/batch_updates/hes_ae_update_2025" target="_blank">here</a>  for more detail on this change.  
 - 🛠️ **NICOR datasets** haven’t updated in the July batch. Just to recap:  
 -- These datasets are now updated **annually** and will be **provisioned manually going forward**  
 -- Just a reminder: the **April refresh resolved some major coverage issues** (e.g. duplicates and missing data) but there is a 13% drop in records as at the April batch of NACSA (this is being caused by records pre 2018 being missing in the latest batch - see **coverage_by_archive** plots for more detail)
