@@ -11,7 +11,9 @@ permalink: /docs/useful_updates/batch_updates/november_2025
 The **November 2025** batch (archived as at **2025-11-04**) is now available.
 
 ✅ **All curated assets have been refreshed** in line with the new data drop and are available as at 2025_11_04
+
 Find out more about the curated assets available to you <a href="https://bhfdsc.github.io/documentation/curated_assets" target="_blank">here</a>.
+
 Quick Start: Access the latest demographics table as at **dsa_391419_j3w9t.dsa_391419_j3w9t_collab.hds_curated_assets__demographics_2025_11_04**
 
 👀🔍 **Check your data quality**
