@@ -29,7 +29,7 @@ For any enquiries, or if you have any resources you would like to contribute to 
         </tr>
   <tr>
      <td><img src="https://bhfdsc.github.io/documentation/assets/images/fionna_chalmers.png" alt="Fionna Chalmers" style="width: 120px; height: 120px; object-fit: cover;"/></td>
-        <td>Fionna Chalmers, Early Career Health Data Scientist</td>
+        <td>Fionna Chalmers, Health Data Scientist</td>
   </tr>
   <tr>
         <td><img src="https://bhfdsc.github.io/documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 120px; height: 120px; object-fit: cover;"/></td>
@@ -57,7 +57,7 @@ For any enquiries, or if you have any resources you would like to contribute to 
  </tr>
     <tr>
         <td><img src="https://bhfdsc.github.io/documentation/assets/images/anna_stevenson.png" alt="Anna Stevenson" style="width: 120px; height: 120px; object-fit: cover;"/></td>
-        <td>Anna Stevenson, Early Career Health Data Scientist</td>
+        <td>Anna Stevenson, Health Data Scientist</td>
  </tr>
   <tr>
      <td><img src="https://bhfdsc.github.io/documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 120px; height: 120px; object-fit: cover;"/></td>
