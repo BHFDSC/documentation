@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standard Pipeline
-nav_order: 2
+nav_order: 5
 parent: Resources
 permalink: /docs/resources/standard_pipeline
 ---
