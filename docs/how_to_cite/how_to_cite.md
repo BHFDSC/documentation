@@ -6,7 +6,7 @@ has_children: true
 permalink: /how_to_cite
 ---
 
-# How to cite
+# How to Cite
 
 If you use our tools, pipelines, or documentation in your work, please include an appropriate citation in your methods or acknowledgements.  
 You can adapt the example text below to fit your specific use case (e.g. description of use, access date).
