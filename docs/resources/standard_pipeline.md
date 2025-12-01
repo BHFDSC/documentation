@@ -11,3 +11,6 @@ permalink: /docs/resources/standard_pipeline
 We're aware that while projects will differ greatly in their research question and insights, they will often require similar tables, variables and thus code. This means that much of the time spent building a curation pipeline for a project, which can be months, could be avoided by repurposing an existing pipeline.
 
 We have therefore constructed a pipeline for a fictional research project, but one that maximises the coding intersection with real projects we currently see in the NHSE SDE. More content on this will be uploaded but please do reach out about this if you are a newer user of the NHSE SDE, or generally interested to learn more.
+
+
+<a href="https://github.com/BHFDSC/standard-pipeline.git" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">View code on GitHub</a>
