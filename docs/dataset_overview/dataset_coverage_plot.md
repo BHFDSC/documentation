@@ -30,6 +30,9 @@ The collection of the NICOR National Heart Failure Audit (NHFA) records has grad
 
 Please contact the Health Data Science Team (bhfdsc_hds@hdruk.ac.uk) if you would like support with harmonising and combining these two NHFA versions to maximise date coverage for your analyses, or for advice and considerations on how best to use the HES A&E and ECDS tables.
 
+#### **Other NICOR datasets**
+Please note that some of the NICOR datasets may have extended coverage in earlier batches. 
+
 
 
 ## Abbreviations
