@@ -32,16 +32,8 @@ For any enquiries, or if you have any resources you would like to contribute to 
         <td>Fionna Chalmers, Health Data Scientist</td>
   </tr>
   <tr>
-        <td><img src="https://bhfdsc.github.io/documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 120px; height: 120px; object-fit: cover;"/></td>
-        <td>Jamie Farrell, Early Career Health Data Scientist</td>
- </tr>
-  <tr>
         <td><img src="https://bhfdsc.github.io/documentation/assets/images/jadene_lewis.png" alt="Jadene Lewis" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Jadene Lewis, Early Career Health Data Scientist</td>
- </tr>
-  <tr>
-        <td><img src="https://bhfdsc.github.io/documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 120px; height: 120px; object-fit: cover;"/></td>
-        <td>Mehrdad Mizani, Health Data Scientist</td>
  </tr>
   <tr>
    <td><img src="https://bhfdsc.github.io/documentation/assets/images/lars_murdock.png" alt="Lars Murdock" style="width: 120px; height: 120px; object-fit: cover;"/></td>
@@ -63,4 +55,16 @@ For any enquiries, or if you have any resources you would like to contribute to 
      <td><img src="https://bhfdsc.github.io/documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 120px; height: 120px; object-fit: cover;"/></td>
         <td>Zach Welshman, Health Data Scientist</td>    
   </tr>
+</table>
+
+### Alumni
+<table>
+    <tr>
+        <td><img src="https://bhfdsc.github.io/documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 120px; height: 120px; object-fit: cover;"/></td>
+        <td>Jamie Farrell, Early Career Health Data Scientist</td>
+ </tr>
+  <tr>
+          <td><img src="https://bhfdsc.github.io/documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 120px; height: 120px; object-fit: cover;"/></td>
+        <td>Mehrdad Mizani, Health Data Scientist</td>
+ </tr>
 </table>
