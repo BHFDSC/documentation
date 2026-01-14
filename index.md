@@ -57,7 +57,7 @@ For any enquiries, or if you have any resources you would like to contribute to 
   </tr>
 </table>
 
-### Alumni
+## Alumni
 <table>
     <tr>
         <td><img src="https://bhfdsc.github.io/documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 120px; height: 120px; object-fit: cover;"/></td>
