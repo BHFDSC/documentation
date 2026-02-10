@@ -18,6 +18,21 @@ The resulting table includes 10 columns: 6 identifier columns (person ID, episod
 -	**code_digits**: indicates whether the procedure code is the three- or four-digit version
 -	**position**: indicates the position of the procedure within the episode (eg., 1–n, corresponding to opertn_01, opertn_02, …)
 
+## Example
+
+| epikey | person_id | position | procedure_date | code | code_digits | epistart | epiend | admidate | disdate |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 178954263574 | A | 1 | 2009-03-11 | R18 | 3 | 2009-03-11 | 2009-03-13 | 2009-03-11 | 2009-03-13 |
+| 178954263574 | A | 1 | 2009-03-11 | R182 | 4 | 2009-03-11 | 2009-03-13 | 2009-03-11 | 2009-03-13 |
+| 178954263574 | A | 2 | 2009-03-11 | Y81 | 3 | 2009-03-11 | 2009-03-13 | 2009-03-11 | 2009-03-13 |
+| 178954263574 | A | 2 | 2009-03-11 | Y811 | 4 | 2009-03-11 | 2009-03-13 | 2009-03-11 | 2009-03-13 |
+| 178954263574 | A | 3 | 2009-03-13 | Y84 | 3 | 2009-03-13 | 2009-03-15 | 2009-03-13 | 2009-03-15 |
+| 178954263574 | A | 3 | 2009-03-13 | Y841 | 4 | 2009-03-13 | 2009-03-15 | 2009-03-13 | 2009-03-15 |
+| 559478246553 | B | 1 | 09/12/2000 | X29 | 3 | 2000-12-09 | 2000-12-09 | 2000-12-09 | 2000-12-09 |
+| 559478246553 | B | 1 | 09/12/2000 | X298 | 4 | 2000-12-09 | 2000-12-09 | 2000-12-09 | 2000-12-09 |
+
+
+
 
 The table is saved to the DSA schema ****. The archived_on_date is in the format **YYYY_MM_DD**.
 
