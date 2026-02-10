@@ -16,4 +16,4 @@ Part of the ongoing plan for the DDSC is to evaluate how best to define diabetes
 
 To find out more about the development, validation and using the algorithm please watch the video below.
 
-<iframe width="736" height="410" src="https://www.youtube.com/embed/Md2v5THo5h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="736" height="410" src="https://www.youtube.com/embed/g7vx8MiRIXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
