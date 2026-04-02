@@ -1,0 +1,114 @@
+# BHF Data Science Centre – Health Data Science Documentation
+
+> Documentation for the BHF Data Science Centre (HDR UK) Health Data Science team.
+> Covers NHS England Secure Data Environment (SDE) datasets, curated data assets,
+> curated phenotypes, and supporting resources for cardiovascular and population
+> health research using linked NHS administrative data.
+
+The repository is used by researchers and analysts working within the
+CVD-COVID-UK/COVID-IMPACT instance of the NHS England SDE. It provides
+guidance on available datasets, their limitations and compilation methods,
+curated assets that are refreshed quarterly, curated phenotypes, and tooling
+resources (codelists, lookup/mapping tables, phenotype library workflows).
+
+## Dataset Overview
+
+High-level inventory of all provisioned datasets in the NHS England SDE, with
+coverage plots, table names/paths, and a summary table (PDF).
+
+- [Dataset Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_overview/dataset_overview.md): Introduction to provisioned datasets in the CVD-COVID-UK/COVID-IMPACT SDE instance
+- [Dataset Summary Table](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_overview/dataset_summary_table.md): Start/end dates, update frequency, lag, and key notes for all datasets
+- [Dataset Coverage Plot](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_overview/dataset_coverage_plot.md): Date coverage visualisation across datasets with footnotes on complexities
+- [Table Names and Paths](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_overview/table_names_paths.md): Full list of dataset table names and `.*` paths
+
+## Dataset Insights
+
+In-depth documentation for individual datasets: limitations, compilation
+methods, coding systems used, and data quality considerations.
+
+- [GDPPR](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/gdppr.md): General Practice Extraction Service data; ~61m patients; SNOMED-CT coded; code cluster coverage explained
+- [GDPPR SNOMED Subset Analysis](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/gdppr_snomed_subset_analysis.md): Analysis of GDPPR SNOMED coverage vs full SNOMED universe (3.7% of codes)
+- [Emergency Care Data Set (ECDS)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/ecds.md): SNOMED-CT coded emergency department data; complete from April 2020
+- [HES Critical Care (HES CC)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/hes_cc.md): ICU/HDU episode data; CCPERTYPE variable governs row structure
+- [ICNARC](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/icnarc.md): Intensive care national audit data for critically ill COVID-19 patients
+- [NICOR TAVI](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/nicor_tavi.md): Transcatheter Aortic Valve Implantation registry; 24,685 individuals from 2018
+- [Medicines Dispensed in Primary Care](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/primary_care_meds.md): Community pharmacy dispensing; SNOMED-CT DM+D and BNF coded; from April 2018
+- [SSNAP](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/ssnap.md): Sentinel Stroke National Audit Programme; near real-time stroke care data from 2018
+- [SSNAP Collapsing Methodology](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/dataset_insights/ssnap_collapsing_methodology.md): Five-step method to collapse multiple rows per stroke incidence to one row per person
+
+## Curated Data
+
+Cleaned, tidied, and reformatted versions of raw datasets designed to simplify
+downstream curation or analysis. Includes long-format procedure/diagnosis tables.
+
+- [Curated Data Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_data/curated_data.md): Definition and goals of curated data; null removal, format standardisation, table restructuring
+- [Patient IDs](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_data/patient_ids.md): NHS_NUMBER_DEID vs PERSON_ID_DEID; MPS derivation; token_pseudo_id_lookup table
+- [HES APC (Curated Data)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_data/hes_apc.md): Parent page for HES APC curated data children
+- [HES APC Operations](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_data/hes_apc_operations.md): Long-format OPCS-4 procedure coding for HES APC; EPISTART and OPERTN_DATE fields
+- [ECDS (Curated Data)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_data/ecds.md): Long-format ECDS diagnosis, investigation, and treatment tables; SNOMED-CT coded
+
+## Curated Assets
+
+Processed datasets combining multiple sources to extract specific variables of
+interest. Refreshed quarterly; stored in `` schema.
+Loaded via PySpark using archived date suffix (`YYYY_MM_DD`).
+
+- [Curated Assets Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/curated_assets.md): What curated assets are, versioning approach, and quarterly refresh cycle
+- [Key Patient Characteristics (KPC)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/kpcs.md): Standardised demographics (DOB, sex, ethnicity, LSOA); multisource and individual tables
+- [KPC – How to Use](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/kpcs_how_to_use.md): Table naming conventions and PySpark loading examples for demographics and KPC tables
+- [KPC – Methodology](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/kpcs_methodology.md): Selection algorithm across GDPPR, HES APC/OP/AE, SSNAP, Vaccine Status; tie-handling; ethnicity mapping
+- [HES APC (Curated Asset)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/hes_apc.md): Parent page for HES APC curated asset children
+- [HES APC Diagnosis](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/hes_apc_diagnosis.md): Long-format diagnosis table; ICD-9/ICD-10 codes per episode; 10-column structure
+- [HES APC Procedures](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/hes_apc_procedures.md): Long-format OPCS-4 procedure table; three- and four-digit codes per episode
+- [Deaths](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/deaths.md): Parent page for deaths curated asset children
+- [Deaths – Single](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/deaths_single.md): One record per person from Civil Registration of Deaths; null person_id rows removed
+- [Deaths – Cause of Death](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/deaths_cause_of_death.md): Long-format ICD-10 cause of death; underlying and contributory causes; cleaned codes
+- [Covid Positive](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/covid_positive.md): Consolidated COVID-19 positive records from antigen testing, GDPPR, and secondary care
+- [LSOA Lookups](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_assets/LSOA_lookups.md): LSOA lookup asset (content coming soon)
+
+## Curated Phenotypes
+
+Advanced curated assets combining data, curated assets, and algorithms to
+define clinical phenotypes.
+
+- [Curated Phenotypes Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_pheontypes/curated_phenotypes.md): Definition; example of diabetes cohort derivation from BMI, HbA1c, and algorithm
+- [Diabetes Phenotyping Algorithm](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_pheontypes/diabetes.md): DDSC algorithm (BHF DSC × Diabetes UK × HDR UK); cohort definition, diagnosis date, diabetes type
+- [Charlson Comorbidity Index](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/curated_pheontypes/charlson.md): Charlson comorbidity score (content coming soon)
+
+## Resources
+
+Tools and reference materials supporting researchers working with NHS electronic
+health records in the SDE.
+
+- [Resources Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/resources.md): Overview of tools developed to support EHR research in the NHS England SDE
+- [Dataset Summary Dashboard](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/dataset_summary_dashboard.md): Interactive dashboard for data dictionaries, coverage, and completeness across SDE/SAIL/Scottish TRE
+- [Codelist Comparison Tool](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/codelist_comparison_tool.md): Web app for comparing codelists; integrates HDR UK Phenotype Library and OpenCodelists
+- [Standard Pipeline](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/standard_pipeline.md): Reusable curation pipeline on GitHub for projects with common table/variable/coding requirements
+- [Code Terminology](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/code_terminology.md): Parent page for clinical coding terminology assets
+- [Lookup Tables](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/lookup_tables.md): Lookup files for READ V2, CTV3, SNOMED-CT, ICD-10, OPCS-4, BNF; Box-hosted with R compilation code
+- [Mapping Tables](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/mapping_tables.md): One-directional terminology mapping files (READ V2→SNOMED, CTV3→SNOMED, ICD-9→ICD-10, etc.)
+- [Other Resources](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/other_resources.md): R packages: Rdiagnosislist (SNOMED-CT in R) and clinconcept (concept dictionaries)
+- [Phenotype Library Resources](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/phenotype_library_resources.md): HDR UK Phenotype Library overview; BHF DSC submission policy; API guidance
+- [Codelist Formatting](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/codelist_formatting.md): R script to split master CSV into per-phenotype per-terminology files for library submission
+- [Creating YAML Files](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/creating_yaml_files.md): R script to generate phenotype YAML metadata files from Excel input for API upload
+- [Batch Upload Phenotypes](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/batch_upload_phenotypes.md): R script using ConceptLibraryClient to batch-upload YAML phenotype definitions via API
+- [Submission Instructions](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/resources/submission_instructions.md): Step-by-step guide for submitting phenotype definitions via the library interface or API
+
+## Useful Updates
+
+Release notes and dataset change notices for quarterly provisioning batches.
+
+- [Batch Updates Overview](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/batch_updates.md): Quarterly provisioning update index; links to Dataset Summary Dashboard for interactive exploration
+- [HES A&E Update](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/hes_ae_update.md): HES A&E ended March 2020; transition to ECDS; guidance on combining datasets
+- [April 2025 Batch Update](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/april_2025_batch_update.md): Refreshed NICOR dataset; duplicate/missing data resolved; curated assets updated
+- [NICOR Update (April 2025)](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/nicor_update.md): Detailed data quality and coverage notes for April 2025 NICOR batch
+- [July 2025 Batch Update](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/july_2025_batch_update.md): All curated assets refreshed; monitoring plots available; HES A&E and NICOR notes
+- [November 2025 Batch Update](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/useful_updates/november_2025_batch_update.md): 195 datasets; check_my_data notebook for quality checking; HES A&E and NICOR update status
+
+## Presentations
+
+- [Presentations](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/presentations/presentations.md): PDF/PPTX slides on pseudonymised patient IDs, coding best practices, and defining study time periods in the SDE
+
+## How to Cite
+
+- [How to Cite](https://raw.githubusercontent.com/BHFDSC/documentation/main/docs/how_to_cite/how_to_cite.md): Citation templates for documentation, Codelist Comparison Tool, Dataset Summary Dashboard, curated assets, and standard pipeline
